@@ -33,7 +33,7 @@ class TextractHandler:
                 wordData.append(block.get('Text'))
 
         # open processedData.json
-        with open(os.path.join('azure_document_intelligence','processedData.json'), "r", encoding="utf8") as f:
+        with open(os.path.join('aws_textract','processedData.json'), "r", encoding="utf8") as f:
             processedData = json.load(f)
         
         processedData[str(document)][str(exemplar)] = {
