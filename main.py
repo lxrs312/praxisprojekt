@@ -4,6 +4,7 @@ from azure_document_intelligence import DocumentIntelligenceHandler
 from aws_textract import TextractHandler
 from google_cloud_document_ai import GoogleCloudDocumentAI
 from timehandler import TimeHandler
+from normalizer import OCRTextNormalizer
 
 # Beispielablauf
 def azure():
