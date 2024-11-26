@@ -20,6 +20,8 @@ def levenshtein_distance(s1, s2):
         previous_row = current_row
     return previous_row[-1]
 
+
+
 class Result:
     def __init__(self, word_matches_machine, word_matches_handwritten, letter_matches_machine, letter_matches_handwritten, 
                  word_count_machine, word_count_handwritten, letter_overall_machine, letter_overall_handwritten):
@@ -95,47 +97,59 @@ class Evaluator:
         letter_matches_handwritten = 0
         letter_overall_handwritten = sum(len(word) for word in self.handwritten_list)
         word_count_handwritten = len(self.handwritten_list)
-        
+
+        # copy lists for iteration
+        machine_list = self.machine_list.copy()
+        handwritten_list = self.handwritten_list.copy()
+
         # iterate through each recognized word
         # iteriere direkt über recognized_words
         index = 0
         while index < len(recognized_words):
             word = recognized_words[index]
-            if word in self.machine_list:
+            if word in machine_list:
                 word_matches_machine += 1
                 letter_matches_machine += len(word)
                 recognized_words.pop(index)  # lösche das Wort aus recognized_words
-                self.machine_list.remove(word)
-            elif word in self.handwritten_list:
+                machine_list.remove(word)
+            elif word in handwritten_list:
                 word_matches_handwritten += 1
                 letter_matches_handwritten += len(word)
                 recognized_words.pop(index)
-                self.handwritten_list.remove(word)
+                handwritten_list.remove(word)
             else:
                 index += 1  
 
-
-        for remaining in self.handwritten_list:
+        for remaining in handwritten_list:
             start_idx, end_idx, distance = self.check_remaining(remaining, recognized_words)
             if start_idx != -1 and end_idx != -1:
                 matched_snippet = ''.join(recognized_words[start_idx:end_idx + 1])
-                print(remaining, matched_snippet, distance)
+                
+                start_idx_2, end_idx_2, distance_2 = self.check_remaining(matched_snippet, handwritten_list)
+                matched_snippet_2 = ''.join(handwritten_list[start_idx_2:end_idx_2 + 1])
 
                 # updates
-                letter_matches_handwritten += len(matched_snippet) - distance
+                letter_matches_handwritten += len(remaining) - distance
 
                 # entfernen der verwendeten schnipsel
                 del recognized_words[start_idx:end_idx + 1]
         
         # check die remaining wörter in machine/handwritten list und levensthein 
-        for remaining in self.machine_list:
+        for remaining in machine_list:
             start_idx, end_idx, distance = self.check_remaining(remaining, recognized_words)
             if start_idx != -1 and end_idx != -1:
                 matched_snippet = ''.join(recognized_words[start_idx:end_idx + 1])
-                print(remaining, matched_snippet)
+
+                # Check if distance is high enough for another check
+                if not distance < len(remaining) // 3:
+                    start_idx_2, end_idx_2, distance_2 = self.check_remaining(matched_snippet, machine_list)
+                    matched_snippet_2 = ''.join(machine_list[start_idx_2:end_idx_2 + 1])
+
+                    if distance_2 < distance:
+                        print(matched_snippet_2)
 
                 # updates
-                letter_matches_machine += len(matched_snippet) - distance
+                letter_matches_machine += len(remaining) - distance
 
                 # entfernen der verwendeten schnipsel
                 del recognized_words[start_idx:end_idx + 1]
@@ -159,6 +173,8 @@ class Evaluator:
         best_indices = (-1, -1)
         map = {}
 
+        threshold = len(remaining_word) // 2
+
         for start_idx in range(len(remaining_recognized_list)):
             current_concat = ""
             previous_distance = float('inf')
@@ -166,7 +182,7 @@ class Evaluator:
             for end_idx in range(start_idx, len(remaining_recognized_list)):
                 current_concat += remaining_recognized_list[end_idx]
                 distance = levenshtein_distance(remaining_word, current_concat)
-                
+
                 map[current_concat] = distance
 
                 if distance > previous_distance:
@@ -178,6 +194,8 @@ class Evaluator:
                     min_distance = distance
                     best_indices = (start_idx, end_idx)
 
+        if min_distance > threshold:
+            return (-1, -1, -1)
 
         return (*best_indices, min_distance)
 

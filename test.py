@@ -1,7 +1,8 @@
 import json, os
+import matplotlib.pyplot as plt
 
-from misc.classes.evaluator import Evaluator
-from misc.classes.normalizer import OCRTextNormalizer
+from misc.evaluator import Evaluator
+from misc.normalizer import OCRTextNormalizer
 
 with open(os.path.join('input_data.json'), "r", encoding="utf8") as f:
     input_data = json.load(f)
@@ -11,14 +12,84 @@ with open(os.path.join('aws_textract', 'processedData.json'), "r", encoding="utf
 
 aws_words = aws_data['1']['1']['wordData']
 
+with open(os.path.join('azure_document_intelligence', 'processedData.json'), "r", encoding="utf8") as f:
+    azure_data = json.load(f)
+
+azure_words = azure_data['1']['1']['wordData']
+
 normalizer = OCRTextNormalizer()
-normalized = normalizer.normalize(aws_words)
+normalized_aws = normalizer.normalize(aws_words)
+normalized_azure = normalizer.normalize(azure_words)
 
 machine_list = normalizer.normalize(input_data['1']['maschinelle_woerter'])
 
 handwritten_list = normalizer.normalize(input_data['1']['exemplare']['1']['handgeschriebene_woerter'])
 
 evaluator = Evaluator(machine_list, handwritten_list)
-result = evaluator.run(normalized)
+result = evaluator.run(normalized_aws)
+result2 = evaluator.run(normalized_azure)
 
 print(result.as_dict())
+print(result2.as_dict())
+
+word_prob_machine = result.word_matches_machine/result.word_count_machine
+word_prob_handwritten = result.word_matches_handwritten/result.word_count_handwritten
+
+letter_prob_machine = result.letter_matches_machine/result.letter_overall_machine
+letter_prob_handwritten = result.letter_matches_handwritten/result.letter_overall_handwritten
+
+word_prob_machine_azure = result2.word_matches_machine/result2.word_count_machine
+word_prob_handwritten_azure = result2.word_matches_handwritten/result2.word_count_handwritten
+
+letter_prob_machine_azure = result2.letter_matches_machine/result2.letter_overall_machine
+letter_prob_handwritten_azure = result2.letter_matches_handwritten/result2.letter_overall_handwritten
+
+# labels und daten
+labels = ['Maschine', 'Handgeschrieben']
+word_probs_aws = [word_prob_machine, word_prob_handwritten]
+letter_probs_aws = [letter_prob_machine, letter_prob_handwritten]
+word_probs_azure = [word_prob_machine_azure, word_prob_handwritten_azure]
+letter_probs_azure = [letter_prob_machine_azure, letter_prob_handwritten_azure]
+
+# dark theme aktivieren
+plt.style.use('dark_background')
+
+# subplot setup
+fig, ax = plt.subplots(2, 2, figsize=(12, 10), sharey=True)
+
+# aws wort kategorien
+ax[0, 0].bar(labels, word_probs_aws, color=['deepskyblue', 'gold'])
+ax[0, 0].set_title('AWS - Wort')
+ax[0, 0].set_ylabel('Wahrscheinlichkeit')
+ax[0, 0].set_ylim(0, 1)
+
+# azure wort kategorien
+ax[0, 1].bar(labels, word_probs_azure, color=['deepskyblue', 'gold'])
+ax[0, 1].set_title('Azure - Wort')
+
+# aws buchstaben kategorien
+ax[1, 0].bar(labels, letter_probs_aws, color=['deepskyblue', 'gold'])
+ax[1, 0].set_title('AWS - Buchstaben')
+ax[1, 0].set_ylabel('Wahrscheinlichkeit')
+ax[1, 0].set_ylim(0, 1)
+
+# azure buchstaben kategorien
+ax[1, 1].bar(labels, letter_probs_azure, color=['deepskyblue', 'gold'])
+ax[1, 1].set_title('Azure - Buchstaben')
+
+# wahrscheinlichkeiten als text hinzufügen
+for i, prob in enumerate(word_probs_aws):
+    ax[0, 0].text(i, prob + 0.03, f'{prob:.2f}', ha='center', va='bottom', color='white')
+for i, prob in enumerate(word_probs_azure):
+    ax[0, 1].text(i, prob + 0.03, f'{prob:.2f}', ha='center', va='bottom', color='white')
+for i, prob in enumerate(letter_probs_aws):
+    ax[1, 0].text(i, prob + 0.03, f'{prob:.2f}', ha='center', va='bottom', color='white')
+for i, prob in enumerate(letter_probs_azure):
+    ax[1, 1].text(i, prob + 0.03, f'{prob:.2f}', ha='center', va='bottom', color='white')
+
+# allgemeine layout-anpassung
+fig.suptitle('Wahrscheinlichkeiten nach Kategorie (AWS vs. Azure)', fontsize=16)
+plt.tight_layout()
+
+# anzeigen
+plt.show()
