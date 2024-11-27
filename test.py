@@ -1,5 +1,7 @@
-import json, os
+import json, os, sys
 import matplotlib.pyplot as plt
+
+from pprint import pprint
 
 from misc.evaluator import Evaluator
 from misc.normalizer import OCRTextNormalizer
@@ -29,8 +31,8 @@ evaluator = Evaluator(machine_list, handwritten_list)
 result = evaluator.run(normalized_aws)
 result2 = evaluator.run(normalized_azure)
 
-print(result.as_dict())
-print(result2.as_dict())
+#pprint(result.as_dict())
+#pprint(result2.as_dict())
 
 word_prob_machine = result.word_matches_machine/result.word_count_machine
 word_prob_handwritten = result.word_matches_handwritten/result.word_count_handwritten

@@ -22,7 +22,7 @@ class OCRTextNormalizer:
         for pattern, replacement in self.replacements.items():
             normalized_text = re.sub(pattern, replacement, normalized_text)
         
-        # Entferne Punkte die vor Leerzeichen stehen
+        # # Entferne Punkte die vor Leerzeichen stehen
         normalized_text = re.sub(r"\.\s", " ", normalized_text)
         # Entferne Punkte nach Leerzeichen
         normalized_text = re.sub(r"\s\.", " ", normalized_text)
