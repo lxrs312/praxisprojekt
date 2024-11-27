@@ -118,13 +118,16 @@ class Evaluator:
                 recognized_words.pop(index)
                 handwritten_list.remove(word)
             else:
-                index += 1  
+                index += 1
+
+        print('Machine-List:', machine_list)
+        print('Handwritten-List:', handwritten_list)
 
         for remaining in handwritten_list:
             start_idx, end_idx, distance = self.check_remaining(remaining, recognized_words)
             if start_idx != -1 and end_idx != -1:
                 matched_snippet = ''.join(recognized_words[start_idx:end_idx + 1])
-                
+
                 start_idx_2, end_idx_2, distance_2 = self.check_remaining(matched_snippet, handwritten_list)
                 matched_snippet_2 = ''.join(handwritten_list[start_idx_2:end_idx_2 + 1])
 
@@ -133,12 +136,14 @@ class Evaluator:
 
                 # entfernen der verwendeten schnipsel
                 del recognized_words[start_idx:end_idx + 1]
-        
+
         # check die remaining wörter in machine/handwritten list und levensthein 
         for remaining in machine_list:
             start_idx, end_idx, distance = self.check_remaining(remaining, recognized_words)
             if start_idx != -1 and end_idx != -1:
                 matched_snippet = ''.join(recognized_words[start_idx:end_idx + 1])
+
+                print(matched_snippet, distance)
 
                 # Check if distance is high enough for another check
                 if not distance < len(remaining) // 3:
@@ -146,18 +151,18 @@ class Evaluator:
                     matched_snippet_2 = ''.join(machine_list[start_idx_2:end_idx_2 + 1])
 
                     if distance_2 < distance:
-                        print(matched_snippet_2)
+                        print(matched_snippet_2, distance_2)
 
                 # updates
                 letter_matches_machine += len(remaining) - distance
 
                 # entfernen der verwendeten schnipsel
                 del recognized_words[start_idx:end_idx + 1]
-        
+
         return Result(word_matches_machine, word_matches_handwritten, letter_matches_machine, letter_matches_handwritten,
-                      word_count_machine, word_count_handwritten, letter_overall_machine, letter_overall_handwritten)
-            
-    
+                        word_count_machine, word_count_handwritten, letter_overall_machine, letter_overall_handwritten)
+
+
     def check_remaining(self, remaining_word: str, remaining_recognized_list: list[str]):
         """
         Rekonstruiert ein wort und gibt die minimaldistanz sowie die indices des besten matches zurück.
@@ -170,6 +175,7 @@ class Evaluator:
             tuple: (start_idx, end_idx, min_distance)
         """
         min_distance = float('inf')
+        min_spacing = 0
         best_indices = (-1, -1)
         map = {}
 
@@ -178,6 +184,7 @@ class Evaluator:
         for start_idx in range(len(remaining_recognized_list)):
             current_concat = ""
             previous_distance = float('inf')
+            spacing_counter = 0
 
             for end_idx in range(start_idx, len(remaining_recognized_list)):
                 current_concat += remaining_recognized_list[end_idx]
@@ -191,12 +198,15 @@ class Evaluator:
                 previous_distance = distance
 
                 if distance < min_distance:
+                    min_spacing = spacing_counter
                     min_distance = distance
                     best_indices = (start_idx, end_idx)
+
+                spacing_counter += 1
+
+        min_distance = min_distance + min_spacing
 
         if min_distance > threshold:
             return (-1, -1, -1)
 
         return (*best_indices, min_distance)
-
-    
