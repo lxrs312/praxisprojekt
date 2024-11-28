@@ -33,14 +33,14 @@ class Evaluator:
         Returns:
             Result: objekt mit details zu wörter-matches, buchstaben-matches, rekonstruktionen und splits.
         """
-        def process_list(target_list, word_reconstruction, word_splitting, letter_matches, confidence_tuples):
+        def process_list(target_list, word_rebuilding, word_splitting, letter_matches, confidence_tuples):
             """
             verarbeitet eine liste (machine oder handwritten), gleicht wörter ab, 
             versucht rekonstruktionen oder splits und aktualisiert buchstaben-matches.
 
             Args:
                 target_list (list): die liste, die verarbeitet wird.
-                word_reconstruction (dict): speichert rekonstruktionen für nicht exakte matches.
+                word_rebuilding (dict): speichert rekonstruktionen für nicht exakte matches.
                 word_splitting (dict): speichert informationen über wörter, die aufgeteilt wurden.
                 letter_matches (int): zähler für erfolgreich gematchte buchstaben.
                 confidence_tuples (list): tuple aus 1, confidence
@@ -72,36 +72,55 @@ class Evaluator:
                     if distance_2 != -1 and distance_2 < distance:
                         distance = distance_2
                         
+                        # Wort rekonstruieren
                         word = target_list[start_idx_2:end_idx_2 + 1]
                         if matched_snippet in word_splitting:
                             word_splitting[matched_snippet].append(word)
                         else:
                             word_splitting[matched_snippet] = [word]
 
+                        # Buchstaben addieren
                         letter_matches += len(matched_snippet) - distance
+                        
+                        # Confidence-Werte appenden
                         
                         # Löschen aus Target-List und Recognized-Words
                         del target_list[start_idx_2:end_idx_2 + 1]
                         for j in range(len(recognized_words)):
                             if recognized_words[j].get('word') == matched_snippet:
+                                confidence = recognized_words[j].get('confidence')
                                 recognized_words.pop(j)
                                 break
+                        
+                        for _ in range(end_idx_2-start_idx_2+1):
+                            confidence_tuples.append((0, confidence))
                                 
                         i += end_idx_2 - start_idx_2 - 1
                         continue
 
                 # kein Splitting nötig, verarbeite regulär
                 if matched_snippet not in word_splitting:
+                    # Wort rekonstruieren und Confidence zusammenrechnen
                     matched_snippet = ""
+                    confidence = 0
                     for k in range(start_idx, end_idx + 1):
                         matched_snippet += recognized_words[k]['word']
+                        confidence += recognized_words[k]['confidence']
+                    
+                    confidence_norm = confidence / (end_idx - start_idx + 1)
                         
-                    if target_list[i] in word_reconstruction:
-                        word_reconstruction[target_list[i]].append(matched_snippet)
+                    # Zusammensetzung speichern
+                    if target_list[i] in word_rebuilding:
+                        word_rebuilding[target_list[i]].append(matched_snippet)
                     else:
-                        word_reconstruction[target_list[i]] = [matched_snippet]
+                        word_rebuilding[target_list[i]] = [matched_snippet]
+                    
+                    # Buchstaben addieren
                     letter_matches += len(target_list[i]) - distance
-
+                    
+                    # Confidence-Werte appenden
+                    confidence_tuples.append((0, confidence_norm))
+                    
                     # Löschen des erkannten Wortes aus Recognized-Words und pop() des gematchten aus target-list
                     del recognized_words[start_idx:end_idx + 1]
                     target_list.pop(i)
@@ -109,18 +128,18 @@ class Evaluator:
             return letter_matches, confidence_tuples
 
         # Init Variablen
-        letter_overall_machine = sum(len(word) for word in self.machine_list)
-        letter_overall_handwritten = sum(len(word) for word in self.handwritten_list)
+        letter_count_machine = sum(len(word) for word in self.machine_list)
+        letter_count_handwritten = sum(len(word) for word in self.handwritten_list)
 
         word_matches_machine = 0
         letter_matches_machine = 0
-        word_reconstruction_machine = {}
+        word_rebuilding_machine = {}
         word_splitting_machine = {}
         machine_tuples = []
 
         word_matches_handwritten = 0
         letter_matches_handwritten = 0
-        word_reconstruction_handwritten = {}
+        word_rebuilding_handwritten = {}
         word_splitting_handwritten = {}
         handwritten_tuples = []
 
@@ -154,7 +173,7 @@ class Evaluator:
         # für alle nicht 100% korrekt erkannten wörter
         letter_matches_handwritten, handwritten_tuples = process_list(
             handwritten_list,
-            word_reconstruction_handwritten,
+            word_rebuilding_handwritten,
             word_splitting_handwritten,
             letter_matches_handwritten,
             handwritten_tuples
@@ -162,7 +181,7 @@ class Evaluator:
 
         letter_matches_machine, machine_tuples = process_list(
             machine_list,
-            word_reconstruction_machine,
+            word_rebuilding_machine,
             word_splitting_machine,
             letter_matches_machine,
             machine_tuples
@@ -176,13 +195,15 @@ class Evaluator:
             "letter_matches_handwritten": letter_matches_handwritten,
             "word_count_machine": len(self.machine_list),
             "word_count_handwritten": len(self.handwritten_list),
-            "letter_overall_machine": letter_overall_machine,
-            "letter_overall_handwritten": letter_overall_handwritten,
-            "word_reconstruction_machine": word_reconstruction_machine,
+            "letter_count_machine": letter_count_machine,
+            "letter_count_handwritten": letter_count_handwritten,
+            "word_rebuilding_machine": word_rebuilding_machine,
             "word_splitting_machine": word_splitting_machine,
-            "word_reconstruction_handwritten": word_reconstruction_handwritten,
+            "word_rebuilding_handwritten": word_rebuilding_handwritten,
             "word_splitting_handwritten": word_splitting_handwritten,
-            "recognized_words": recognized_words
+            "remaining_words": recognized_words,
+            "machine_tuples": machine_tuples,
+            "handwritten_tuples": handwritten_tuples
         }
 
         return Result(result_data)

@@ -29,20 +29,23 @@ evaluator = Evaluator(machine_list, handwritten_list)
 result = evaluator.run(aws_words)
 result2 = evaluator.run(azure_words)
 
+print(result.word_correct_machine)
+print(result.letter_correct_machine)
+
 pprint(result.as_dict())
 pprint(result2.as_dict())
 
 word_prob_machine = result.word_matches_machine/result.word_count_machine
 word_prob_handwritten = result.word_matches_handwritten/result.word_count_handwritten
 
-letter_prob_machine = result.letter_matches_machine/result.letter_overall_machine
-letter_prob_handwritten = result.letter_matches_handwritten/result.letter_overall_handwritten
+letter_prob_machine = result.letter_matches_machine/result.letter_count_machine
+letter_prob_handwritten = result.letter_matches_handwritten/result.letter_count_handwritten
 
 word_prob_machine_azure = result2.word_matches_machine/result2.word_count_machine
 word_prob_handwritten_azure = result2.word_matches_handwritten/result2.word_count_handwritten
 
-letter_prob_machine_azure = result2.letter_matches_machine/result2.letter_overall_machine
-letter_prob_handwritten_azure = result2.letter_matches_handwritten/result2.letter_overall_handwritten
+letter_prob_machine_azure = result2.letter_matches_machine/result2.letter_count_machine
+letter_prob_handwritten_azure = result2.letter_matches_handwritten/result2.letter_count_handwritten
 
 # labels und daten
 labels = ['Maschine', 'Handgeschrieben']

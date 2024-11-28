@@ -15,22 +15,22 @@ from misc.normalizer import OCRTextNormalizer
 
 class GoogleCloudDocumentAI:
     def __init__(self, auth_file_path: str, project_id: str, processor_id: str):
-        # self.__client = documentai.DocumentProcessorServiceClient(
-        #     client_options=ClientOptions(
-        #         api_endpoint=f"{LOCATION}-documentai.googleapis.com",
-        #         credentials_file=auth_file_path
-        #     )
-        # )
+        self.__client = documentai.DocumentProcessorServiceClient(
+            client_options=ClientOptions(
+                api_endpoint=f"{LOCATION}-documentai.googleapis.com",
+                credentials_file=auth_file_path
+            )
+        )
         
-        # self.__name = self.__client.processor_version_path(
-        #     project_id, LOCATION, processor_id, PROCESSOR_VERSION
-        # )
+        self.__name = self.__client.processor_version_path(
+            project_id, LOCATION, processor_id, PROCESSOR_VERSION
+        )
         
-        # self.__process_options = documentai.ProcessOptions(
-        #     ocr_config=documentai.OcrConfig(
-        #         enable_native_pdf_parsing=True,
-        #     )
-        # )
+        self.__process_options = documentai.ProcessOptions(
+            ocr_config=documentai.OcrConfig(
+                enable_native_pdf_parsing=True,
+            )
+        )
         
         self.__data = None
         
