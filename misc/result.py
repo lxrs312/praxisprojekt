@@ -42,12 +42,23 @@ class Result:
     @property
     def precision_machine(self):
         tp = self.word_matches_machine
-        fp = self.word_count_machine - tp
+        
+        # Berechnung False Positive:
+        # Anzahl der vorgegebenen Worte - Anzahl der erkannten Worte
+        # + (Anzahl der vom OCR erkannten Worte - Anzahl der vorgegebenen Worte) -> falls OCR zuviele Worte erkannt hat
+        # Summe aus falsche erkannten Wörtern UND zusätzlich erkannten Wörtern
+        # ist das richtig???
+        
+        fp = self.word_count_machine - tp + (self.word_count_ocr_machine - self.word_count_machine)
         return tp / (tp + fp) if (tp + fp) != 0 else 0
 
     @property
     def recall_machine(self):
         tp = self.word_matches_machine
+        
+        # Berechnung False Negative:
+        # Anzahl der vorgegebenen Wörter - der Anzahl der richtig erkannten -> falsch erkannte Wörter bleiben übrig
+        
         fn = self.word_count_machine - tp
         return tp / (tp + fn) if (tp + fn) != 0 else 0
 
@@ -60,12 +71,23 @@ class Result:
     @property
     def precision_handwritten(self):
         tp = self.word_matches_handwritten
-        fp = self.word_count_handwritten - tp
+        
+        # Berechnung False Positive:
+        # Anzahl der vorgegebenen Worte - Anzahl der erkannten Worte
+        # + (Anzahl der vom OCR erkannten Worte - Anzahl der vorgegebenen Worte) -> falls OCR zuviele Worte erkannt hat
+        # Summe aus falsche erkannten Wörtern UND zusätzlich erkannten Wörtern
+        # ist das richtig???
+        
+        fp = self.word_count_handwritten - tp + (self.word_count_ocr_handwritten - self.word_count_handwritten)
         return tp / (tp + fp) if (tp + fp) != 0 else 0
 
     @property
     def recall_handwritten(self):
         tp = self.word_matches_handwritten
+        
+        # Berechnung False Negative:
+        # Anzahl der vorgegebenen Wörter - der Anzahl der richtig erkannten -> falsch erkannte Wörter bleiben übrig
+        
         fn = self.word_count_handwritten - tp
         return tp / (tp + fn) if (tp + fn) != 0 else 0
 

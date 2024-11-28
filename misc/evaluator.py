@@ -33,7 +33,7 @@ class Evaluator:
         Returns:
             Result: objekt mit details zu wörter-matches, buchstaben-matches, rekonstruktionen und splits.
         """
-        def process_list(target_list, word_rebuilding, word_splitting, letter_matches, confidence_tuples):
+        def process_list(target_list, word_rebuilding, word_splitting, letter_matches, confidence_tuples, word_count_ocr):
             """
             verarbeitet eine liste (machine oder handwritten), gleicht wörter ab, 
             versucht rekonstruktionen oder splits und aktualisiert buchstaben-matches.
@@ -44,6 +44,7 @@ class Evaluator:
                 word_splitting (dict): speichert informationen über wörter, die aufgeteilt wurden.
                 letter_matches (int): zähler für erfolgreich gematchte buchstaben.
                 confidence_tuples (list): tuple aus 1, confidence
+                word_count_ocr (int): zähler wie viele wörter das ocr insgesamt erkannt hat
 
             Returns:
                 int: aktualisierte buchstaben-matches.
@@ -56,6 +57,7 @@ class Evaluator:
                     i += 1
                     continue
 
+                # das gematchte snippet zusammensetzen
                 matched_snippet = ""
                 for k in range(start_idx, end_idx + 1):
                     matched_snippet += recognized_words[k]['word']
@@ -68,6 +70,10 @@ class Evaluator:
                     start_idx_2, end_idx_2, distance_2 = self.check_remaining(
                         matched_snippet, target_list, use_spacing=True
                     )
+                    
+                    # Hier passiert folgendes:
+                    # das OCR-Tool erkennt ein einziges Wort, vorgegeben waren aber mehrere, also:
+                    # OCR-erkannt: 'daraufbefindlichen', eigentliche Wörter 'darauf', 'befindlichen'
 
                     if distance_2 != -1 and distance_2 < distance:
                         distance = distance_2
@@ -82,34 +88,43 @@ class Evaluator:
                         # Buchstaben addieren
                         letter_matches += len(matched_snippet) - distance
                         
-                        # Confidence-Werte appenden
-                        
                         # Löschen aus Target-List und Recognized-Words
                         del target_list[start_idx_2:end_idx_2 + 1]
                         for j in range(len(recognized_words)):
                             if recognized_words[j].get('word') == matched_snippet:
+                                # Confidence aus dem Loop holen, schont Ressourcen..
                                 confidence = recognized_words[j].get('confidence')
                                 recognized_words.pop(j)
                                 break
                         
+                        # Confidence appenden (für jedes der vorgegeben Wörter "Schnipsel" den einen Wert des vom OCR
+                        # erkannten Wortes)
                         for _ in range(end_idx_2-start_idx_2+1):
                             confidence_tuples.append((0, confidence))
+                        
+                        # Wörter-Count einen hoch
+                        word_count_ocr+=1
                                 
                         i += end_idx_2 - start_idx_2 - 1
                         continue
 
-                # kein Splitting nötig, verarbeite regulär
+                # Hier passiert folgendes:
+                # das OCR-Tool erkennt mehrere Wörter, vorgegeben war aber eins, also:
+                # OCR-erkannt: '01', '03', '2023', eigentliches Wort war aber '01.03.2023'
                 if matched_snippet not in word_splitting:
                     # Wort rekonstruieren und Confidence zusammenrechnen
                     matched_snippet = ""
                     confidence = 0
                     for k in range(start_idx, end_idx + 1):
+                        # Schnipsel zusammensetzen, Confidence addieren, und Wörter-Count vom OCR hochzählen
                         matched_snippet += recognized_words[k]['word']
                         confidence += recognized_words[k]['confidence']
+                        word_count_ocr+=1
                     
+                    # hier wird die confidence durch die anzahl der wortschnipsel geteilt, quasi als "durchschnitt"
                     confidence_norm = confidence / (end_idx - start_idx + 1)
                         
-                    # Zusammensetzung speichern
+                    # Zusammensetzung speichern, falls schon vorhanden als liste
                     if target_list[i] in word_rebuilding:
                         word_rebuilding[target_list[i]].append(matched_snippet)
                     else:
@@ -125,18 +140,20 @@ class Evaluator:
                     del recognized_words[start_idx:end_idx + 1]
                     target_list.pop(i)
 
-            return letter_matches, confidence_tuples
+            return letter_matches, confidence_tuples, word_count_ocr
 
         # Init Variablen
         letter_count_machine = sum(len(word) for word in self.machine_list)
         letter_count_handwritten = sum(len(word) for word in self.handwritten_list)
 
+        # init maschinen variablen
         word_matches_machine = 0
         letter_matches_machine = 0
         word_rebuilding_machine = {}
         word_splitting_machine = {}
         machine_tuples = []
 
+        # init handwritten variablen
         word_matches_handwritten = 0
         letter_matches_handwritten = 0
         word_rebuilding_handwritten = {}
@@ -169,23 +186,52 @@ class Evaluator:
             else:
                 index += 1
         
+        # Zählen der vom OCR erkannten Worte
+        # müssen dann addiert = len(recognized_words) sein
+        # Für die Berechnung von False Positives
+        word_count_ocr_machine = word_matches_machine
+        word_count_ocr_handwritten= word_matches_handwritten
 
         # für alle nicht 100% korrekt erkannten wörter
-        letter_matches_handwritten, handwritten_tuples = process_list(
+        letter_matches_handwritten, handwritten_tuples, word_count_ocr_handwritten = process_list(
             handwritten_list,
             word_rebuilding_handwritten,
             word_splitting_handwritten,
             letter_matches_handwritten,
-            handwritten_tuples
+            handwritten_tuples,
+            word_count_ocr_handwritten
         )
 
-        letter_matches_machine, machine_tuples = process_list(
+        letter_matches_machine, machine_tuples, word_count_ocr_machine = process_list(
             machine_list,
             word_rebuilding_machine,
             word_splitting_machine,
             letter_matches_machine,
-            machine_tuples
+            machine_tuples,
+            word_count_ocr_machine
         )
+        
+        # falls jetzt noch etwas in den recognized_words ist -> zusätzlich erkanntes wort
+        # konnte nicht zugeordnet werden.
+        if recognized_words:
+            if handwritten_list and not machine_list:
+                word_count_ocr_handwritten += len(recognized_words)
+            
+            if machine_list and not handwritten_list:
+                word_count_ocr_machine += len(recognized_words)
+                
+            # falls hier noch was in recognized_words ist, dann ist es wahrscheinlich handgeschriebener text.
+            if not machine_list and not handwritten_list:
+                print("hier")
+                word_count_ocr_handwritten += len(recognized_words)
+            
+            # schwierig? abwechselnde zuordnung zu handwritten und machine..
+            if machine_list and handwritten_list:
+                for i in range(len(recognized_words)):
+                    if not i % 2:
+                        word_count_ocr_handwritten += 1
+                    else:
+                        word_count_ocr_machine += 1
 
         # Result-Daten zusammenfassen
         result_data = {
@@ -203,7 +249,9 @@ class Evaluator:
             "word_splitting_handwritten": word_splitting_handwritten,
             "remaining_words": recognized_words,
             "machine_tuples": machine_tuples,
-            "handwritten_tuples": handwritten_tuples
+            "handwritten_tuples": handwritten_tuples,
+            "word_count_ocr_handwritten": word_count_ocr_handwritten,
+            "word_count_ocr_machine": word_count_ocr_machine
         }
 
         return Result(result_data)
