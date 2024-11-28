@@ -1,16 +1,20 @@
-import os
-import json
+import os, json, sys
 
 from azure.core.credentials import AzureKeyCredential
 from azure.ai.documentintelligence import DocumentIntelligenceClient
 from azure.ai.documentintelligence.models import DocumentAnalysisFeature, AnalyzeResult
 
+sys.path.append('../praxisprojekt')
+
+from misc.normalizer import OCRTextNormalizer
+
 class DocumentIntelligenceHandler:
     def __init__(self, endpoint, key):
-        self.__client = DocumentIntelligenceClient(endpoint=endpoint, credential=AzureKeyCredential(key))
+        #self.__client = DocumentIntelligenceClient(endpoint=endpoint, credential=AzureKeyCredential(key))
         self.__data = None
+        self.__normalizer = OCRTextNormalizer()
 
-    def analyzeDocument(self, pathToPdf: str):
+    def analyze_document(self, pathToPdf: str):
         """starts analyzing the document
 
         Args:
@@ -30,7 +34,7 @@ class DocumentIntelligenceHandler:
     
         self.__data = result.pages[0].as_dict()
     
-    def saveData(self, document: int, exemplar: int, processingTime, pingBefore, pingAfter):
+    def save_data(self, document: int, exemplar: int, processingTime, pingBefore, pingAfter):
         
         # firstly save raw data into raw_data directory
         with open(os.path.join('azure_document_intelligence', 'raw_data', str(document), f"{exemplar}.json"), "w", encoding="utf8") as f:
@@ -38,8 +42,12 @@ class DocumentIntelligenceHandler:
 
         # extract only relevant words for words.json
         wordData = []
-        for word in self.__data.get('words'):
-            wordData.append(word.get('content'))
+        for word_obj in self.__data.get('words'):
+            normalized_words = self.__normalizer.normalize(word_obj.get('content'))
+                
+            for word in normalized_words:
+                if word:
+                    wordData.append({'word': word, 'confidence': word_obj.get('confidence')})
 
         # open processedData.json
         with open(os.path.join('azure_document_intelligence','processedData.json'), "r", encoding="utf8") as f:
@@ -55,4 +63,3 @@ class DocumentIntelligenceHandler:
         # save processedData.json
         with open(os.path.join('azure_document_intelligence','processedData.json'), "w", encoding="utf8") as f:
              json.dump(processedData, f, ensure_ascii=False, indent=4)
-        

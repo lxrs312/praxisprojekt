@@ -1,7 +1,4 @@
-# hier werden ganz böse dinge geschehen...
-from collections import defaultdict
-import os
-import json
+from misc.result import Result
 
 @staticmethod
 def levenshtein_distance(s1, s2):
@@ -20,209 +17,178 @@ def levenshtein_distance(s1, s2):
         previous_row = current_row
     return previous_row[-1]
 
-
-
-class Result:
-    def __init__(self, word_matches_machine, word_matches_handwritten, letter_matches_machine, letter_matches_handwritten, 
-                 word_count_machine, word_count_handwritten, letter_overall_machine, letter_overall_handwritten,
-                 word_reconstruction_machine, word_splitting_machine, word_reconstruction_handwritten, word_splitting_handwritten):
-        self.__word_matches_machine = word_matches_machine
-        self.__word_count_machine = word_count_machine
-        self.__word_matches_handwritten = word_matches_handwritten
-        self.__word_count_handwritten = word_count_handwritten
-        self.__word_reconstruction_machine = word_reconstruction_machine
-        self.__word_splitting_machine = word_splitting_machine
-
-        self.__letter_matches_machine = letter_matches_machine
-        self.__letter_overall_machine = letter_overall_machine
-        self.__letter_matches_handwritten = letter_matches_handwritten
-        self.__letter_overall_handwritten = letter_overall_handwritten
-        self.__word_reconstruction_handwritten = word_reconstruction_handwritten
-        self.__word_splitting_handwritten = word_splitting_handwritten
-        
-
-    @property
-    def word_matches_machine(self):
-        return self.__word_matches_machine
-
-    @property
-    def word_matches_handwritten(self):
-        return self.__word_matches_handwritten
-
-    @property
-    def letter_matches_machine(self):
-        return self.__letter_matches_machine
-
-    @property
-    def letter_matches_handwritten(self):
-        return self.__letter_matches_handwritten
-
-    @property
-    def word_count_machine(self):
-        return self.__word_count_machine
-
-    @property
-    def word_count_handwritten(self):
-        return self.__word_count_handwritten
-
-    @property
-    def letter_overall_machine(self):
-        return self.__letter_overall_machine
-
-    @property
-    def letter_overall_handwritten(self):
-        return self.__letter_overall_handwritten
-    
-    @property
-    def word_reconstruction_machine(self):
-        return self.__word_reconstruction_machine
-    
-    @property
-    def word_splitting_machine(self):
-        return self.__word_splitting_machine
-    
-    @property
-    def word_reconstruction_handwritten(self):
-        return self.__word_reconstruction_handwritten
-
-    @property
-    def word_splitting_handwritten(self):
-        return self.__word_splitting_handwritten
-
-    def as_dict(self):
-        return {
-            "word_matches_machine": self.word_matches_machine,
-            "word_matches_handwritten": self.word_matches_handwritten,
-            "letter_matches_machine": self.letter_matches_machine,
-            "letter_matches_handwritten": self.letter_matches_handwritten,
-            "word_count_machine": self.word_count_machine,
-            "word_count_handwritten": self.word_count_handwritten,
-            "letter_overall_machine": self.letter_overall_machine,
-            "letter_overall_handwritten": self.letter_overall_handwritten,
-            "word_reconstruction_machine": self.word_reconstruction_machine,
-            "word_splitting_machine": self.word_splitting_machine,
-            "word_reconstruction_handwritten": self.word_reconstruction_handwritten,
-            "word_splitting_handwritten": self.word_splitting_handwritten
-        }
-
-
 class Evaluator:
     def __init__(self, machine_list, handwritten_list):
         self.machine_list = machine_list
         self.handwritten_list = handwritten_list
 
-    def run(self, recognized_words: list[str]):
-        # init variablen für machine-list
+    def run(self, recognized_words: list[dict]):
+        """
+        vergleicht erkannte wörter mit maschinen- und handgeschriebenen listen,
+        zählt übereinstimmungen und rekonstruiert wörter aus unvollständigen matches.
+        
+        Args:
+            recognized_words (list[str]): liste erkannter wörter, die verarbeitet werden sollen.
+
+        Returns:
+            Result: objekt mit details zu wörter-matches, buchstaben-matches, rekonstruktionen und splits.
+        """
+        def process_list(target_list, word_reconstruction, word_splitting, letter_matches, confidence_tuples):
+            """
+            verarbeitet eine liste (machine oder handwritten), gleicht wörter ab, 
+            versucht rekonstruktionen oder splits und aktualisiert buchstaben-matches.
+
+            Args:
+                target_list (list): die liste, die verarbeitet wird.
+                word_reconstruction (dict): speichert rekonstruktionen für nicht exakte matches.
+                word_splitting (dict): speichert informationen über wörter, die aufgeteilt wurden.
+                letter_matches (int): zähler für erfolgreich gematchte buchstaben.
+                confidence_tuples (list): tuple aus 1, confidence
+
+            Returns:
+                int: aktualisierte buchstaben-matches.
+            """
+            i = 0
+            while i < len(target_list):
+                start_idx, end_idx, distance = self.check_remaining(target_list[i], recognized_words)
+
+                if start_idx == -1 or end_idx == -1:
+                    i += 1
+                    continue
+
+                matched_snippet = ""
+                for k in range(start_idx, end_idx + 1):
+                    matched_snippet += recognized_words[k]['word']
+
+                if target_list == ['Schneider', 'Klinger', '01.03.2023']:
+                    print("letsgo")
+
+                # prüfe, ob ein zweiter Check nötig ist
+                if distance > len(target_list[i]) // 3:
+                    start_idx_2, end_idx_2, distance_2 = self.check_remaining(
+                        matched_snippet, target_list, use_spacing=True
+                    )
+
+                    if distance_2 != -1 and distance_2 < distance:
+                        distance = distance_2
+                        
+                        word = target_list[start_idx_2:end_idx_2 + 1]
+                        if matched_snippet in word_splitting:
+                            word_splitting[matched_snippet].append(word)
+                        else:
+                            word_splitting[matched_snippet] = [word]
+
+                        letter_matches += len(matched_snippet) - distance
+                        
+                        # Löschen aus Target-List und Recognized-Words
+                        del target_list[start_idx_2:end_idx_2 + 1]
+                        for j in range(len(recognized_words)):
+                            if recognized_words[j].get('word') == matched_snippet:
+                                recognized_words.pop(j)
+                                break
+                                
+                        i += end_idx_2 - start_idx_2 - 1
+                        continue
+
+                # kein Splitting nötig, verarbeite regulär
+                if matched_snippet not in word_splitting:
+                    matched_snippet = ""
+                    for k in range(start_idx, end_idx + 1):
+                        matched_snippet += recognized_words[k]['word']
+                        
+                    if target_list[i] in word_reconstruction:
+                        word_reconstruction[target_list[i]].append(matched_snippet)
+                    else:
+                        word_reconstruction[target_list[i]] = [matched_snippet]
+                    letter_matches += len(target_list[i]) - distance
+
+                    # Löschen des erkannten Wortes aus Recognized-Words und pop() des gematchten aus target-list
+                    del recognized_words[start_idx:end_idx + 1]
+                    target_list.pop(i)
+
+            return letter_matches, confidence_tuples
+
+        # Init Variablen
+        letter_overall_machine = sum(len(word) for word in self.machine_list)
+        letter_overall_handwritten = sum(len(word) for word in self.handwritten_list)
+
         word_matches_machine = 0
         letter_matches_machine = 0
-        letter_overall_machine = sum(len(word) for word in self.machine_list)
-        word_count_machine = len(self.machine_list)
         word_reconstruction_machine = {}
         word_splitting_machine = {}
-     
-        # init variablen für letter-list   
+        machine_tuples = []
+
         word_matches_handwritten = 0
         letter_matches_handwritten = 0
-        letter_overall_handwritten = sum(len(word) for word in self.handwritten_list)
-        word_count_handwritten = len(self.handwritten_list)
         word_reconstruction_handwritten = {}
         word_splitting_handwritten = {}
+        handwritten_tuples = []
 
-        # copy lists for iteration
         machine_list = self.machine_list.copy()
         handwritten_list = self.handwritten_list.copy()
 
-        # iterate through each recognized word
-        # iteriere direkt über recognized_words
+        # Iteration über recog words
         index = 0
         while index < len(recognized_words):
-            word = recognized_words[index]
+            word = recognized_words[index]['word']
             if word in machine_list:
                 word_matches_machine += 1
                 letter_matches_machine += len(word)
-                recognized_words.pop(index)  # lösche das Wort aus recognized_words
+                machine_tuples.append((1, recognized_words[index]['confidence']))
+                
+                # remove from lists
+                recognized_words.pop(index)
                 machine_list.remove(word)
             elif word in handwritten_list:
                 word_matches_handwritten += 1
                 letter_matches_handwritten += len(word)
+                handwritten_tuples.append((1, recognized_words[index]['confidence']))
+                
+                # remove from lists
                 recognized_words.pop(index)
                 handwritten_list.remove(word)
             else:
                 index += 1
         
-        i = 0
-        while i < len(handwritten_list):
-            start_idx, end_idx, distance = self.check_remaining(handwritten_list[i], recognized_words)
-            
-            if start_idx == -1 or end_idx == -1:
-                i += 1
-                continue
 
-            matched_snippet = ''.join(recognized_words[start_idx:end_idx + 1])
-            
-            # prüfe, ob ein zweiter check nötig ist
-            if distance > len(handwritten_list[i]) // 3:
-                start_idx_2, end_idx_2, distance_2 = self.check_remaining(
-                    matched_snippet, handwritten_list, use_spacing=True
-                )
-                
-                if distance_2 != -1 and distance_2 < distance:
-                    distance = distance_2
-                    word_splitting_handwritten[matched_snippet] = handwritten_list[start_idx_2:end_idx_2 + 1]
-                    
-                    letter_matches_handwritten += len(handwritten_list[i]) - distance
-                    del handwritten_list[start_idx_2:end_idx_2 + 1]
-                    recognized_words.remove(matched_snippet)
-                    i += end_idx_2 - start_idx_2 - 1
-                    continue
+        # für alle nicht 100% korrekt erkannten wörter
+        letter_matches_handwritten, handwritten_tuples = process_list(
+            handwritten_list,
+            word_reconstruction_handwritten,
+            word_splitting_handwritten,
+            letter_matches_handwritten,
+            handwritten_tuples
+        )
 
-            # kein splitting nötig, verarbeite regulär
-            if matched_snippet not in word_splitting_handwritten:
-                word_reconstruction_handwritten[handwritten_list[i]] = recognized_words[start_idx:end_idx + 1]
-                del recognized_words[start_idx:end_idx + 1]
-                letter_matches_handwritten += len(handwritten_list[i]) - distance
-            i += 1
+        letter_matches_machine, machine_tuples = process_list(
+            machine_list,
+            word_reconstruction_machine,
+            word_splitting_machine,
+            letter_matches_machine,
+            machine_tuples
+        )
 
-        i = 0
-        while i < len(machine_list):
-            start_idx, end_idx, distance = self.check_remaining(machine_list[i], recognized_words)
-            
-            if start_idx == -1 or end_idx == -1:
-                i += 1
-                continue
+        # Result-Daten zusammenfassen
+        result_data = {
+            "word_matches_machine": word_matches_machine,
+            "word_matches_handwritten": word_matches_handwritten,
+            "letter_matches_machine": letter_matches_machine,
+            "letter_matches_handwritten": letter_matches_handwritten,
+            "word_count_machine": len(self.machine_list),
+            "word_count_handwritten": len(self.handwritten_list),
+            "letter_overall_machine": letter_overall_machine,
+            "letter_overall_handwritten": letter_overall_handwritten,
+            "word_reconstruction_machine": word_reconstruction_machine,
+            "word_splitting_machine": word_splitting_machine,
+            "word_reconstruction_handwritten": word_reconstruction_handwritten,
+            "word_splitting_handwritten": word_splitting_handwritten,
+            "recognized_words": recognized_words
+        }
 
-            matched_snippet = ''.join(recognized_words[start_idx:end_idx + 1])
-            
-            # prüfe, ob ein zweiter check nötig ist
-            if distance > len(machine_list[i]) // 3:
-                start_idx_2, end_idx_2, distance_2 = self.check_remaining(
-                    matched_snippet, machine_list, use_spacing=True
-                )
-                
-                if distance_2 != -1 and distance_2 < distance:
-                    distance = distance_2
-                    word_splitting_machine[matched_snippet] = machine_list[start_idx_2:end_idx_2 + 1]
-                    
-                    letter_matches_machine += len(machine_list[i]) - distance
-                    del machine_list[start_idx_2:end_idx_2 + 1]
-                    recognized_words.remove(matched_snippet)
-                    i += end_idx_2 - start_idx_2 - 1
-                    continue
+        return Result(result_data)
 
-            # kein splitting nötig, verarbeite regulär
-            if matched_snippet not in word_splitting_machine:
-                word_reconstruction_machine[machine_list[i]] = recognized_words[start_idx:end_idx + 1]
-                del recognized_words[start_idx:end_idx + 1]
-                letter_matches_machine += len(machine_list[i]) - distance
-            i += 1
-                
-        print(recognized_words)
 
-        return Result(word_matches_machine, word_matches_handwritten, letter_matches_machine, letter_matches_handwritten,
-                        word_count_machine, word_count_handwritten, letter_overall_machine, letter_overall_handwritten,
-                        word_reconstruction_machine, word_splitting_machine, word_reconstruction_handwritten, word_splitting_handwritten)
-
-    def check_remaining(self, remaining_word: str, remaining_recognized_list: list[str], use_spacing=False):
+    def check_remaining(self, remaining_word: str, remaining_recognized_list: list[dict], use_spacing=False):
         """
         Rekonstruiert ein wort und gibt die minimaldistanz sowie die indices des besten matches zurück.
 
@@ -246,7 +212,10 @@ class Evaluator:
             spacing_counter = 0
 
             for end_idx in range(start_idx, len(remaining_recognized_list)):
-                current_concat += remaining_recognized_list[end_idx]
+                if isinstance(remaining_recognized_list[end_idx], dict):
+                    current_concat += remaining_recognized_list[end_idx]['word']
+                else:
+                    current_concat += remaining_recognized_list[end_idx]
                 distance = levenshtein_distance(remaining_word, current_concat)
 
                 map[current_concat] = distance

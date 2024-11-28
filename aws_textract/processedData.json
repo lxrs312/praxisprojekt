@@ -2,160 +2,610 @@
     "1": {
         "1": {
             "wordData": [
-                "Grundstück",
-                "Nutzungsvertrag",
-                "gemäß",
-                "Anlage",
-                "zu",
-                "§45a",
-                "Telekommunikationsgesetz",
-                "(TKG)",
-                "zwischen",
-                "Gemeinde",
-                "Musterhausen",
-                "Am",
-                "Musterberg",
-                "42",
-                "01234",
-                "Musterstadt",
-                "als",
-                "Eigentümer",
-                "/",
-                "Eigentümerin",
-                "und",
-                "der",
-                "Terrasignal",
-                "GmbH",
-                "vertreten",
-                "durch",
-                "die",
-                "Terrasignal",
-                "Ausbauproduktion",
-                "GmbH",
-                "Musterstraße",
-                "312",
-                "01111",
-                "Musterleben",
-                "Der",
-                "Eigentümer",
-                "/",
-                "Die",
-                "Eigentümerin",
-                "ist",
-                "damit",
-                "einverstanden,",
-                "dass",
-                "der",
-                "Netzbetreiber",
-                "auf",
-                "seinem",
-                "/",
-                "ihrem",
-                "Grundstück",
-                "Name,",
-                "Vorname:",
-                "Schneider,",
-                "Hanna",
-                "Straße,",
-                "Hausnummer:",
-                "HanptstraBe",
-                "23",
-                "Postleitzahl,",
-                "Ort:",
-                "10115",
-                "Berlin",
-                "sowie",
-                "an",
-                "und",
-                "in",
-                "den",
-                "daraufbefindlichen",
-                "Gebäuden",
-                "und",
-                "Vorrichtungen",
-                "anbringt,",
-                "die",
-                "erforderlich",
-                "sind,",
-                "um",
-                "Zugänge",
-                "zu",
-                "seinem",
-                "öffentlichen",
-                "Telekommunikationsnetz",
-                "auf",
-                "dem",
-                "betreffendem",
-                "oder",
-                "einem",
-                "benachbarten",
-                "Grundstück",
-                "und",
-                "in",
-                "den",
-                "daraufbefindlichen",
-                "Gebäuden",
-                "einzurichten,",
-                "zu",
-                "prüfen",
-                "und",
-                "instand",
-                "zu",
-                "halten.",
-                "Dieses",
-                "Recht",
-                "erstreckt",
-                "sich",
-                "auch",
-                "auf",
-                "vorinstallierte",
-                "Hausverkabelungen.",
-                "Die",
-                "Inanspruchnahme",
-                "des",
-                "Grundstücks",
-                "durch",
-                "Vorrichtungen",
-                "darf",
-                "nur",
-                "zu",
-                "einer",
-                "notwendigen",
-                "und",
-                "zumutbaren",
-                "Belastung",
-                "führen.",
-                "Der",
-                "Grundstückseigentümer/die",
-                "Terrasignal",
-                "GmbH",
-                "Grundstückseigentümerin",
-                "vertreten",
-                "durch",
-                "die",
-                "Terrasignal",
-                "Ausbauproduktion",
-                "GmbH",
-                "Sdmer",
-                "dos",
-                "Kinger",
-                "Berlin,",
-                "on",
-                "03.2023",
-                "Berlin,",
-                "OA.",
-                "03.2023",
-                "(Ort/Datum)",
-                "(Ort/Datum)",
-                "Stand",
-                "Juli",
-                "2003",
-                "Auftragsnummer:",
-                "21092022"
+                {
+                    "word": "Grundstück",
+                    "confidence": 97.5943832397461
+                },
+                {
+                    "word": "Nutzungsvertrag",
+                    "confidence": 98.7796401977539
+                },
+                {
+                    "word": "gemäß",
+                    "confidence": 97.10391998291016
+                },
+                {
+                    "word": "Anlage",
+                    "confidence": 99.83639526367188
+                },
+                {
+                    "word": "zu",
+                    "confidence": 99.60387420654297
+                },
+                {
+                    "word": "§45a",
+                    "confidence": 66.63011932373047
+                },
+                {
+                    "word": "Telekommunikationsgesetz",
+                    "confidence": 92.39059448242188
+                },
+                {
+                    "word": "TKG",
+                    "confidence": 99.67435455322266
+                },
+                {
+                    "word": "zwischen",
+                    "confidence": 99.18692779541016
+                },
+                {
+                    "word": "Gemeinde",
+                    "confidence": 98.93595123291016
+                },
+                {
+                    "word": "Musterhausen",
+                    "confidence": 99.70206451416016
+                },
+                {
+                    "word": "Am",
+                    "confidence": 99.95447540283203
+                },
+                {
+                    "word": "Musterberg",
+                    "confidence": 99.4153823852539
+                },
+                {
+                    "word": "42",
+                    "confidence": 99.90184020996094
+                },
+                {
+                    "word": "01234",
+                    "confidence": 99.9329833984375
+                },
+                {
+                    "word": "Musterstadt",
+                    "confidence": 97.5638198852539
+                },
+                {
+                    "word": "als",
+                    "confidence": 99.90522766113281
+                },
+                {
+                    "word": "Eigentümer",
+                    "confidence": 86.81105041503906
+                },
+                {
+                    "word": "Eigentümerin",
+                    "confidence": 89.90657043457031
+                },
+                {
+                    "word": "und",
+                    "confidence": 99.85574340820312
+                },
+                {
+                    "word": "der",
+                    "confidence": 99.88356018066406
+                },
+                {
+                    "word": "Terrasignal",
+                    "confidence": 99.69581604003906
+                },
+                {
+                    "word": "GmbH",
+                    "confidence": 99.76917266845703
+                },
+                {
+                    "word": "vertreten",
+                    "confidence": 98.53382873535156
+                },
+                {
+                    "word": "durch",
+                    "confidence": 99.93010711669922
+                },
+                {
+                    "word": "die",
+                    "confidence": 99.8371353149414
+                },
+                {
+                    "word": "Terrasignal",
+                    "confidence": 99.7183837890625
+                },
+                {
+                    "word": "Ausbauproduktion",
+                    "confidence": 98.0907974243164
+                },
+                {
+                    "word": "GmbH",
+                    "confidence": 99.77660369873047
+                },
+                {
+                    "word": "Musterstraße",
+                    "confidence": 95.86967468261719
+                },
+                {
+                    "word": "312",
+                    "confidence": 99.97647094726562
+                },
+                {
+                    "word": "01111",
+                    "confidence": 99.91231536865234
+                },
+                {
+                    "word": "Musterleben",
+                    "confidence": 98.67945861816406
+                },
+                {
+                    "word": "Der",
+                    "confidence": 99.89990234375
+                },
+                {
+                    "word": "Eigentümer",
+                    "confidence": 89.61141967773438
+                },
+                {
+                    "word": "Die",
+                    "confidence": 99.88424682617188
+                },
+                {
+                    "word": "Eigentümerin",
+                    "confidence": 93.44461059570312
+                },
+                {
+                    "word": "ist",
+                    "confidence": 99.77597045898438
+                },
+                {
+                    "word": "damit",
+                    "confidence": 99.60726165771484
+                },
+                {
+                    "word": "einverstanden",
+                    "confidence": 96.24569702148438
+                },
+                {
+                    "word": "dass",
+                    "confidence": 99.89300537109375
+                },
+                {
+                    "word": "der",
+                    "confidence": 99.88484191894531
+                },
+                {
+                    "word": "Netzbetreiber",
+                    "confidence": 96.5755844116211
+                },
+                {
+                    "word": "auf",
+                    "confidence": 99.80720520019531
+                },
+                {
+                    "word": "seinem",
+                    "confidence": 99.11331176757812
+                },
+                {
+                    "word": "ihrem",
+                    "confidence": 99.2708969116211
+                },
+                {
+                    "word": "Grundstück",
+                    "confidence": 97.69786834716797
+                },
+                {
+                    "word": "Name",
+                    "confidence": 99.62767791748047
+                },
+                {
+                    "word": "Vorname",
+                    "confidence": 99.2010498046875
+                },
+                {
+                    "word": "Schneider",
+                    "confidence": 39.43218231201172
+                },
+                {
+                    "word": "Hanna",
+                    "confidence": 98.09254455566406
+                },
+                {
+                    "word": "Straße",
+                    "confidence": 97.8594741821289
+                },
+                {
+                    "word": "Hausnummer",
+                    "confidence": 94.07957458496094
+                },
+                {
+                    "word": "HanptstraBe",
+                    "confidence": 74.28963470458984
+                },
+                {
+                    "word": "23",
+                    "confidence": 99.97541046142578
+                },
+                {
+                    "word": "Postleitzahl",
+                    "confidence": 93.75322723388672
+                },
+                {
+                    "word": "Ort",
+                    "confidence": 98.88091278076172
+                },
+                {
+                    "word": "10115",
+                    "confidence": 98.57467651367188
+                },
+                {
+                    "word": "Berlin",
+                    "confidence": 99.75202941894531
+                },
+                {
+                    "word": "sowie",
+                    "confidence": 99.58297729492188
+                },
+                {
+                    "word": "an",
+                    "confidence": 99.97137451171875
+                },
+                {
+                    "word": "und",
+                    "confidence": 99.87556457519531
+                },
+                {
+                    "word": "in",
+                    "confidence": 99.96330261230469
+                },
+                {
+                    "word": "den",
+                    "confidence": 99.89298248291016
+                },
+                {
+                    "word": "daraufbefindlichen",
+                    "confidence": 83.21884155273438
+                },
+                {
+                    "word": "Gebäuden",
+                    "confidence": 98.4909439086914
+                },
+                {
+                    "word": "und",
+                    "confidence": 99.8961181640625
+                },
+                {
+                    "word": "Vorrichtungen",
+                    "confidence": 96.76371765136719
+                },
+                {
+                    "word": "anbringt",
+                    "confidence": 98.58478546142578
+                },
+                {
+                    "word": "die",
+                    "confidence": 99.8278579711914
+                },
+                {
+                    "word": "erforderlich",
+                    "confidence": 98.40106201171875
+                },
+                {
+                    "word": "sind",
+                    "confidence": 99.7611312866211
+                },
+                {
+                    "word": "um",
+                    "confidence": 99.71930694580078
+                },
+                {
+                    "word": "Zugänge",
+                    "confidence": 98.13753509521484
+                },
+                {
+                    "word": "zu",
+                    "confidence": 99.6339111328125
+                },
+                {
+                    "word": "seinem",
+                    "confidence": 99.48332214355469
+                },
+                {
+                    "word": "öffentlichen",
+                    "confidence": 95.40739440917969
+                },
+                {
+                    "word": "Telekommunikationsnetz",
+                    "confidence": 88.30987548828125
+                },
+                {
+                    "word": "auf",
+                    "confidence": 99.80413055419922
+                },
+                {
+                    "word": "dem",
+                    "confidence": 99.86537170410156
+                },
+                {
+                    "word": "betreffendem",
+                    "confidence": 98.36454010009766
+                },
+                {
+                    "word": "oder",
+                    "confidence": 99.90399169921875
+                },
+                {
+                    "word": "einem",
+                    "confidence": 99.56924438476562
+                },
+                {
+                    "word": "benachbarten",
+                    "confidence": 96.50731658935547
+                },
+                {
+                    "word": "Grundstück",
+                    "confidence": 97.5358657836914
+                },
+                {
+                    "word": "und",
+                    "confidence": 99.84104919433594
+                },
+                {
+                    "word": "in",
+                    "confidence": 99.97432708740234
+                },
+                {
+                    "word": "den",
+                    "confidence": 99.88489532470703
+                },
+                {
+                    "word": "daraufbefindlichen",
+                    "confidence": 93.3469009399414
+                },
+                {
+                    "word": "Gebäuden",
+                    "confidence": 98.56720733642578
+                },
+                {
+                    "word": "einzurichten",
+                    "confidence": 91.5933609008789
+                },
+                {
+                    "word": "zu",
+                    "confidence": 99.57620239257812
+                },
+                {
+                    "word": "prüfen",
+                    "confidence": 97.80176544189453
+                },
+                {
+                    "word": "und",
+                    "confidence": 99.87603759765625
+                },
+                {
+                    "word": "instand",
+                    "confidence": 99.89759826660156
+                },
+                {
+                    "word": "zu",
+                    "confidence": 99.63394165039062
+                },
+                {
+                    "word": "halten",
+                    "confidence": 96.29108428955078
+                },
+                {
+                    "word": "Dieses",
+                    "confidence": 99.7713851928711
+                },
+                {
+                    "word": "Recht",
+                    "confidence": 99.87356567382812
+                },
+                {
+                    "word": "erstreckt",
+                    "confidence": 97.96757507324219
+                },
+                {
+                    "word": "sich",
+                    "confidence": 99.8656997680664
+                },
+                {
+                    "word": "auch",
+                    "confidence": 99.95415496826172
+                },
+                {
+                    "word": "auf",
+                    "confidence": 99.85774230957031
+                },
+                {
+                    "word": "vorinstallierte",
+                    "confidence": 93.73652648925781
+                },
+                {
+                    "word": "Hausverkabelungen",
+                    "confidence": 91.52582550048828
+                },
+                {
+                    "word": "Die",
+                    "confidence": 99.82633209228516
+                },
+                {
+                    "word": "Inanspruchnahme",
+                    "confidence": 98.72990417480469
+                },
+                {
+                    "word": "des",
+                    "confidence": 99.89110565185547
+                },
+                {
+                    "word": "Grundstücks",
+                    "confidence": 97.47049713134766
+                },
+                {
+                    "word": "durch",
+                    "confidence": 99.8824691772461
+                },
+                {
+                    "word": "Vorrichtungen",
+                    "confidence": 97.70602416992188
+                },
+                {
+                    "word": "darf",
+                    "confidence": 99.88101959228516
+                },
+                {
+                    "word": "nur",
+                    "confidence": 99.77371978759766
+                },
+                {
+                    "word": "zu",
+                    "confidence": 99.60283660888672
+                },
+                {
+                    "word": "einer",
+                    "confidence": 99.91606903076172
+                },
+                {
+                    "word": "notwendigen",
+                    "confidence": 98.2059097290039
+                },
+                {
+                    "word": "und",
+                    "confidence": 99.87973022460938
+                },
+                {
+                    "word": "zumutbaren",
+                    "confidence": 97.83770751953125
+                },
+                {
+                    "word": "Belastung",
+                    "confidence": 97.78194427490234
+                },
+                {
+                    "word": "führen",
+                    "confidence": 91.879638671875
+                },
+                {
+                    "word": "Der",
+                    "confidence": 99.88623809814453
+                },
+                {
+                    "word": "Grundstückseigentümer",
+                    "confidence": 78.01874542236328
+                },
+                {
+                    "word": "die",
+                    "confidence": 78.01874542236328
+                },
+                {
+                    "word": "Terrasignal",
+                    "confidence": 99.74092864990234
+                },
+                {
+                    "word": "GmbH",
+                    "confidence": 99.72093963623047
+                },
+                {
+                    "word": "Grundstückseigentümerin",
+                    "confidence": 82.70809936523438
+                },
+                {
+                    "word": "vertreten",
+                    "confidence": 99.24752044677734
+                },
+                {
+                    "word": "durch",
+                    "confidence": 99.87667083740234
+                },
+                {
+                    "word": "die",
+                    "confidence": 99.81881713867188
+                },
+                {
+                    "word": "Terrasignal",
+                    "confidence": 99.59166717529297
+                },
+                {
+                    "word": "Ausbauproduktion",
+                    "confidence": 98.69454193115234
+                },
+                {
+                    "word": "GmbH",
+                    "confidence": 99.73320770263672
+                },
+                {
+                    "word": "Sdmer",
+                    "confidence": 23.46195411682129
+                },
+                {
+                    "word": "dos",
+                    "confidence": 50.051544189453125
+                },
+                {
+                    "word": "Kinger",
+                    "confidence": 64.8824691772461
+                },
+                {
+                    "word": "Berlin",
+                    "confidence": 81.62936401367188
+                },
+                {
+                    "word": "on",
+                    "confidence": 55.469398498535156
+                },
+                {
+                    "word": "03.2023",
+                    "confidence": 95.18367767333984
+                },
+                {
+                    "word": "Berlin",
+                    "confidence": 84.66331481933594
+                },
+                {
+                    "word": "OA",
+                    "confidence": 48.26610565185547
+                },
+                {
+                    "word": "03.2023",
+                    "confidence": 70.40576934814453
+                },
+                {
+                    "word": "Ort",
+                    "confidence": 99.19685363769531
+                },
+                {
+                    "word": "Datum",
+                    "confidence": 99.19685363769531
+                },
+                {
+                    "word": "Ort",
+                    "confidence": 99.02916717529297
+                },
+                {
+                    "word": "Datum",
+                    "confidence": 99.02916717529297
+                },
+                {
+                    "word": "Stand",
+                    "confidence": 99.64959716796875
+                },
+                {
+                    "word": "Juli",
+                    "confidence": 99.31104278564453
+                },
+                {
+                    "word": "2003",
+                    "confidence": 98.40730285644531
+                },
+                {
+                    "word": "Auftragsnummer",
+                    "confidence": 95.18087005615234
+                },
+                {
+                    "word": "21092022",
+                    "confidence": 99.7623062133789
+                }
             ],
-            "processingTime": 4.718595504760742,
-            "pingBefore": 12.04,
-            "pingAfter": 12.44
+            "processingTime": 1,
+            "pingBefore": 1,
+            "pingAfter": 1
         },
         "2": {},
         "3": {},

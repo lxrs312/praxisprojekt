@@ -31,7 +31,7 @@ class OCRTextNormalizer:
         normalized_text = re.sub(self.whitespace_pattern, " ", normalized_text)
 
         # Trimme führende/trailing Whitespaces
-        return normalized_text.strip().split(' ')
+        return normalized_text.strip().split(" ")
 
 
 

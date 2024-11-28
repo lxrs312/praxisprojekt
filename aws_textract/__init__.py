@@ -1,6 +1,10 @@
+import os, json, sys
+
 import boto3
-import json
-import os
+
+sys.path.append('../praxisprojekt')
+
+from misc.normalizer import OCRTextNormalizer
 
 REGION = "eu-central-1"
 
@@ -8,8 +12,9 @@ class TextractHandler:
     def __init__(self, aws_access_key_id: str, aws_secret_access_key: str):
         self.__client = boto3.client('textract', region_name=REGION, aws_access_key_id=aws_access_key_id, aws_secret_access_key=aws_secret_access_key)
         self.__data = None
+        self.__normalizer = OCRTextNormalizer()
 
-    def analyzeDocument(self, path_to_pdf: str):
+    def analyze_document(self, path_to_pdf: str):
         """analyzes a document using aws textract"""
         with open(path_to_pdf, "rb") as document:
             response = self.__client.analyze_document(
@@ -20,7 +25,7 @@ class TextractHandler:
         # speichere rohdaten
         self.__data = response
         
-    def saveData(self, document: int, exemplar: int, processingTime, pingBefore, pingAfter):
+    def save_data(self, document: int, exemplar: int, processingTime, pingBefore, pingAfter):
 
         # firstly save raw data into raw_data directory
         with open(os.path.join('aws_textract', 'raw_data', str(document), f"{exemplar}.json"), "w", encoding="utf8") as f:
@@ -30,7 +35,11 @@ class TextractHandler:
         wordData = []
         for block in self.__data.get('Blocks'):
             if block.get('BlockType') == "WORD":
-                wordData.append(block.get('Text'))
+                normalized_words = self.__normalizer.normalize(block.get('Text'))
+                
+                for word in normalized_words:
+                    if word:
+                        wordData.append({'word': word, 'confidence': block.get('Confidence')})
 
         # open processedData.json
         with open(os.path.join('aws_textract','processedData.json'), "r", encoding="utf8") as f:

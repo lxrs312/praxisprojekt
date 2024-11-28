@@ -20,19 +20,17 @@ with open(os.path.join('azure_document_intelligence', 'processedData.json'), "r"
 azure_words = azure_data['1']['1']['wordData']
 
 normalizer = OCRTextNormalizer()
-normalized_aws = normalizer.normalize(aws_words)
-normalized_azure = normalizer.normalize(azure_words)
 
 machine_list = normalizer.normalize(input_data['1']['maschinelle_woerter'])
 
 handwritten_list = normalizer.normalize(input_data['1']['exemplare']['1']['handgeschriebene_woerter'])
 
 evaluator = Evaluator(machine_list, handwritten_list)
-result = evaluator.run(normalized_aws)
-result2 = evaluator.run(normalized_azure)
+result = evaluator.run(aws_words)
+result2 = evaluator.run(azure_words)
 
-#pprint(result.as_dict())
-#pprint(result2.as_dict())
+pprint(result.as_dict())
+pprint(result2.as_dict())
 
 word_prob_machine = result.word_matches_machine/result.word_count_machine
 word_prob_handwritten = result.word_matches_handwritten/result.word_count_handwritten

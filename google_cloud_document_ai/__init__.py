@@ -1,5 +1,5 @@
 
-import json, os
+import os, json, sys
 
 from google.api_core.client_options import ClientOptions
 from google.cloud import documentai
@@ -9,26 +9,32 @@ LOCATION = "eu"
 MIME_TYPE = "application/pdf"
 PROCESSOR_VERSION = "rc"
 
+sys.path.append('../praxisprojekt')
+
+from misc.normalizer import OCRTextNormalizer
+
 class GoogleCloudDocumentAI:
     def __init__(self, auth_file_path: str, project_id: str, processor_id: str):
-        self.__client = documentai.DocumentProcessorServiceClient(
-            client_options=ClientOptions(
-                api_endpoint=f"{LOCATION}-documentai.googleapis.com",
-                credentials_file=auth_file_path
-            )
-        )
+        # self.__client = documentai.DocumentProcessorServiceClient(
+        #     client_options=ClientOptions(
+        #         api_endpoint=f"{LOCATION}-documentai.googleapis.com",
+        #         credentials_file=auth_file_path
+        #     )
+        # )
         
-        self.__name = self.__client.processor_version_path(
-            project_id, LOCATION, processor_id, PROCESSOR_VERSION
-        )
+        # self.__name = self.__client.processor_version_path(
+        #     project_id, LOCATION, processor_id, PROCESSOR_VERSION
+        # )
         
-        self.__process_options = documentai.ProcessOptions(
-            ocr_config=documentai.OcrConfig(
-                enable_native_pdf_parsing=True,
-            )
-        )
+        # self.__process_options = documentai.ProcessOptions(
+        #     ocr_config=documentai.OcrConfig(
+        #         enable_native_pdf_parsing=True,
+        #     )
+        # )
         
         self.__data = None
+        
+        self.__normalizer = OCRTextNormalizer()
 
     def analyze_document(self, path_to_pdf: str):
         """analyzes a document using document ai"""
@@ -46,6 +52,7 @@ class GoogleCloudDocumentAI:
         
         # speichere rohdaten
         self.__data = result
+
         
     def save_data(self, document: int, exemplar: int, processingTime, pingBefore, pingAfter):
 
@@ -58,9 +65,31 @@ class GoogleCloudDocumentAI:
         # firstly save raw data into raw_data directory
         with open(os.path.join('google_cloud_document_ai', 'raw_data', str(document), f"{exemplar}.json"), "w", encoding="utf8") as f:
             json.dump(data_dict, f, ensure_ascii=False, indent=4)
+        
+        wordData = []
 
         # extract only relevant words for words.json
-        wordData = data_dict["text"].split('\n')
+        for page in data_dict.get("pages", []):
+            for token in page.get("tokens", []):
+                layout = token.get("layout", {})
+                confidence = layout.get("confidence", None)
+                text_anchor = layout.get("textAnchor", {})
+                text_segments = text_anchor.get("textSegments", [])
+                
+                # wörter mit start- und endindex finden
+                for segment in text_segments:
+                    start_index = int(segment.get("startIndex", 0))
+                    end_index = int(segment.get("endIndex", 0))
+                    
+                    # wort extrahieren
+                    word = data_dict.get("text", "")[start_index:end_index].strip()
+                    
+                    normalized_words = self.__normalizer.normalize(word)
+                    
+                    for normalized_word in normalized_words:
+                        # hinzufügen, wenn confidence vorhanden
+                        if normalized_word and confidence is not None:
+                            wordData.append({'word': normalized_word, 'confidence': confidence})
 
         # open processedData.json
         with open(os.path.join('google_cloud_document_ai','processedData.json'), "r", encoding="utf8") as f:
@@ -76,3 +105,4 @@ class GoogleCloudDocumentAI:
         # save processedData.json
         with open(os.path.join('google_cloud_document_ai','processedData.json'), "w", encoding="utf8") as f:
              json.dump(processedData, f, ensure_ascii=False, indent=4)
+
