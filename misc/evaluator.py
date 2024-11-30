@@ -62,9 +62,6 @@ class Evaluator:
                 for k in range(start_idx, end_idx + 1):
                     matched_snippet += recognized_words[k]['word']
 
-                if target_list == ['Schneider', 'Klinger', '01.03.2023']:
-                    print("letsgo")
-
                 # prüfe, ob ein zweiter Check nötig ist
                 if distance > len(target_list[i]) // 3:
                     start_idx_2, end_idx_2, distance_2 = self.check_remaining(

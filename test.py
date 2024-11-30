@@ -19,6 +19,9 @@ with open(os.path.join('azure_document_intelligence', 'processedData.json'), "r"
 
 azure_words = azure_data['1']['1']['wordData']
 
+with open(os.path.join('output.json'), "r", encoding="utf8") as f:
+    output_data = json.load(f)
+
 normalizer = OCRTextNormalizer()
 
 machine_list = normalizer.normalize(input_data['1']['maschinelle_woerter'])
