@@ -28,7 +28,7 @@ class TextractHandler:
     def save_data(self, document: int, exemplar: int, processingTime, pingBefore, pingAfter):
 
         # firstly save raw data into raw_data directory
-        with open(os.path.join('aws_textract', 'raw_data', str(document), f"{exemplar}.json"), "w", encoding="utf8") as f:
+        with open(os.path.join('data', 'aws_textract', 'raw_data', str(document), f"{exemplar}.json"), "w", encoding="utf8") as f:
             json.dump(self.__data, f, ensure_ascii=False, indent=4)
 
         # extract only relevant words for words.json
@@ -42,8 +42,15 @@ class TextractHandler:
                         wordData.append({'word': word, 'confidence': block.get('Confidence')})
 
         # open processedData.json
-        with open(os.path.join('aws_textract','processedData.json'), "r", encoding="utf8") as f:
-            processedData = json.load(f)
+        processed_data_path = os.path.join('data', 'aws_textract','processedData.json')
+        if os.path.exists(processed_data_path):
+            with open(processed_data_path, "r", encoding="utf8") as f:
+                processedData = json.load(f)
+        else:
+            processedData = {}
+        
+        if not processedData.get(str(document)):
+            processedData[str(document)] = {}
         
         processedData[str(document)][str(exemplar)] = {
             "wordData": wordData,
@@ -53,5 +60,5 @@ class TextractHandler:
         }
         
         # save processedData.json
-        with open(os.path.join('aws_textract','processedData.json'), "w", encoding="utf8") as f:
+        with open(processed_data_path, "w", encoding="utf8") as f:
              json.dump(processedData, f, ensure_ascii=False, indent=4)

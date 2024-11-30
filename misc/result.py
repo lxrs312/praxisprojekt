@@ -1,3 +1,5 @@
+import json, os
+
 class Result:
     def __init__(self, data: dict):
         self.__data = data
@@ -96,3 +98,19 @@ class Result:
         precision = self.precision_handwritten
         recall = self.recall_handwritten
         return 2 * (precision * recall) / (precision + recall) if (precision + recall) != 0 else 0
+
+
+    def save(self, path: str, document: int, exemplar: int):
+        if os.path.exists(path):
+            with open(path, "r", encoding="utf8") as file:
+                data = json.load(file)
+        else:
+            data = {}
+        
+        if not data.get(str(document)):
+            data[str(document)] = {}
+
+        data[str(document)][str(exemplar)] = self.as_dict()
+
+        with open(path, "w", encoding="utf8") as file:
+            json.dump(data, file, ensure_ascii=False, indent=4)

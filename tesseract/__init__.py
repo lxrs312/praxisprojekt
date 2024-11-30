@@ -12,7 +12,7 @@ class TesseractHandler:
         pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
         self.__data = None
 
-    def analyzeDocument(self, path_to_pdf: str):
+    def analyze_document(self, path_to_pdf: str):
         """
         analysiert ein dokument mit pytesseract.
         akzeptiert pdf- oder bilddaten als bytes.
@@ -27,11 +27,11 @@ class TesseractHandler:
             page_data = pytesseract.image_to_data(page_image, output_type=Output.DICT, lang="deu")
             self.__data.append(page_data)
 
-    def saveData(self, document: int, exemplar: int, processingTime, pingBefore, pingAfter):
+    def save_data(self, document: int, exemplar: int, processingTime, pingBefore, pingAfter):
         """speichert rohdaten und extrahierte wörter"""
         # speichere rohdaten
         
-        with open(os.path.join('tesseract', 'raw_data', str(document), f"{exemplar}.json"), "w", encoding="utf8") as f:
+        with open(os.path.join('data', 'tesseract', 'raw_data', str(document), f"{exemplar}.json"), "w", encoding="utf8") as f:
             json.dump(self.__data, f, ensure_ascii=False, indent=4)
 
         # extrahiere relevante wörter
@@ -42,14 +42,14 @@ class TesseractHandler:
                     word_data.append(page_data['text'][i])
 
         # aktualisiere processedData.json
-        processed_data_path = os.path.join('tesseract', 'processedData.json')
+        processed_data_path = os.path.join('data', 'tesseract', 'processedData.json')
         if os.path.exists(processed_data_path):
             with open(processed_data_path, "r", encoding="utf8") as f:
                 processed_data = json.load(f)
         else:
             processed_data = {}
 
-        if str(document) not in processed_data:
+        if not processed_data.get(str(document)):
             processed_data[str(document)] = {}
 
         processed_data[str(document)][str(exemplar)] = {

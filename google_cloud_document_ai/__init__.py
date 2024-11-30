@@ -63,7 +63,7 @@ class GoogleCloudDocumentAI:
         data_dict['pages'][0]['image'] = "saving-data.."
 
         # firstly save raw data into raw_data directory
-        with open(os.path.join('google_cloud_document_ai', 'raw_data', str(document), f"{exemplar}.json"), "w", encoding="utf8") as f:
+        with open(os.path.join('data', 'google_cloud_document_ai', 'raw_data', str(document), f"{exemplar}.json"), "w", encoding="utf8") as f:
             json.dump(data_dict, f, ensure_ascii=False, indent=4)
         
         wordData = []
@@ -92,8 +92,15 @@ class GoogleCloudDocumentAI:
                             wordData.append({'word': normalized_word, 'confidence': confidence})
 
         # open processedData.json
-        with open(os.path.join('google_cloud_document_ai','processedData.json'), "r", encoding="utf8") as f:
-            processedData = json.load(f)
+        processed_data_path = os.path.join('data', 'google_cloud_document_ai','processedData.json')
+        if os.path.exists(processed_data_path):
+            with open(processed_data_path, "r", encoding="utf8") as f:
+                processedData = json.load(f)
+        else:
+            processedData = {}
+        
+        if not processedData.get(str(document)):
+            processedData[str(document)] = {}
         
         processedData[str(document)][str(exemplar)] = {
             "wordData": wordData,
@@ -103,6 +110,7 @@ class GoogleCloudDocumentAI:
         }
         
         # save processedData.json
-        with open(os.path.join('google_cloud_document_ai','processedData.json'), "w", encoding="utf8") as f:
+        with open(processed_data_path, "w", encoding="utf8") as f:
              json.dump(processedData, f, ensure_ascii=False, indent=4)
+
 

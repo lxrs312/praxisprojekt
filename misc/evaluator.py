@@ -43,7 +43,7 @@ class Evaluator:
                 word_rebuilding (dict): speichert rekonstruktionen für nicht exakte matches.
                 word_splitting (dict): speichert informationen über wörter, die aufgeteilt wurden.
                 letter_matches (int): zähler für erfolgreich gematchte buchstaben.
-                confidence_tuples (list): tuple aus 1, confidence
+                confidence_tuples (list): tuple aus 0, confidence
                 word_count_ocr (int): zähler wie viele wörter das ocr insgesamt erkannt hat
 
             Returns:
@@ -219,7 +219,6 @@ class Evaluator:
                 
             # falls hier noch was in recognized_words ist, dann ist es wahrscheinlich handgeschriebener text.
             if not machine_list and not handwritten_list:
-                print("hier")
                 word_count_ocr_handwritten += len(recognized_words)
             
             # schwierig? abwechselnde zuordnung zu handwritten und machine..
@@ -254,13 +253,15 @@ class Evaluator:
         return Result(result_data)
 
 
-    def check_remaining(self, remaining_word: str, remaining_recognized_list: list[dict], use_spacing=False):
+    def check_remaining(self, word: str, word_list: list[dict], use_spacing=False):
         """
         Rekonstruiert ein wort und gibt die minimaldistanz sowie die indices des besten matches zurück.
 
         Args:
-            remaining_word (str): Das zu rekonstruierende wort.
-            remaining_recognized_list (list[str]): Liste der übrigen wortschnipsel.
+            word (str): Das zu rekonstruierende wort.
+            word_list (list[str]): Liste der vermeintlichen wortschnipsel.
+            use_spacing (bool): verwendet falls das erkannte wort aus mehreren schnipseln besteht (zur 
+                                Distanz werden dann zusätzliche Leerzeichen addiert)
 
         Returns:
             tuple: (start_idx, end_idx, min_distance)
@@ -270,19 +271,19 @@ class Evaluator:
         best_indices = (-1, -1)
         map = {}
 
-        threshold = len(remaining_word) // 1.5
+        threshold = len(word) // 1.5
 
-        for start_idx in range(len(remaining_recognized_list)):
+        for start_idx in range(len(word_list)):
             current_concat = ""
             previous_distance = float('inf')
             spacing_counter = 0
 
-            for end_idx in range(start_idx, len(remaining_recognized_list)):
-                if isinstance(remaining_recognized_list[end_idx], dict):
-                    current_concat += remaining_recognized_list[end_idx]['word']
+            for end_idx in range(start_idx, len(word_list)):
+                if isinstance(word_list[end_idx], dict):
+                    current_concat += word_list[end_idx]['word']
                 else:
-                    current_concat += remaining_recognized_list[end_idx]
-                distance = levenshtein_distance(remaining_word, current_concat)
+                    current_concat += word_list[end_idx]
+                distance = levenshtein_distance(word, current_concat)
 
                 map[current_concat] = distance
 

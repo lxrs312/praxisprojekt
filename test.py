@@ -9,18 +9,15 @@ from misc.normalizer import OCRTextNormalizer
 with open(os.path.join('input_data.json'), "r", encoding="utf8") as f:
     input_data = json.load(f)
 
-with open(os.path.join('aws_textract', 'processedData.json'), "r", encoding="utf8") as f:
+with open(os.path.join('data', 'aws_textract', 'processedData.json'), "r", encoding="utf8") as f:
     aws_data = json.load(f)
 
 aws_words = aws_data['1']['1']['wordData']
 
-with open(os.path.join('azure_document_intelligence', 'processedData.json'), "r", encoding="utf8") as f:
+with open(os.path.join('data', 'azure_document_intelligence', 'processedData.json'), "r", encoding="utf8") as f:
     azure_data = json.load(f)
 
 azure_words = azure_data['1']['1']['wordData']
-
-with open(os.path.join('output.json'), "r", encoding="utf8") as f:
-    output_data = json.load(f)
 
 normalizer = OCRTextNormalizer()
 
@@ -28,15 +25,20 @@ machine_list = normalizer.normalize(input_data['1']['maschinelle_woerter'])
 
 handwritten_list = normalizer.normalize(input_data['1']['exemplare']['1']['handgeschriebene_woerter'])
 
+print(len(aws_words))
 evaluator = Evaluator(machine_list, handwritten_list)
 result = evaluator.run(aws_words)
 result2 = evaluator.run(azure_words)
 
-print(result.word_correct_machine)
-print(result.letter_correct_machine)
+path = os.path.join('data', 'aws_textract', 'evaluatedData.json')
 
-pprint(result.as_dict())
-pprint(result2.as_dict())
+result.save(path, 1, 1)
+sys.exit()
+# print(result.word_correct_machine)
+# print(result.letter_correct_machine)
+
+# pprint(result.as_dict())
+# pprint(result2.as_dict())
 
 word_prob_machine = result.word_matches_machine/result.word_count_machine
 word_prob_handwritten = result.word_matches_handwritten/result.word_count_handwritten
