@@ -9,10 +9,11 @@ import io
 from misc.normalizer import OCRTextNormalizer
 from misc.filehandler import FileHandler
 
-class TesseractHandler:
-    def __init__(self, tesseract_cmd: str = None):
+class TesseractHandler(FileHandler):
+    def __init__(self, data_path: str, logger):
+        super().__init__(logger, data_path)
         pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-        self.__data = None
+        self.__normalizer = OCRTextNormalizer()
 
     def analyze_document(self, path_to_pdf: str):
         """
@@ -24,50 +25,33 @@ class TesseractHandler:
             pdf_bytes = f.read()
 
         images = convert_from_bytes(pdf_bytes)
-        self.__data = []
+        word_list = []
         for page_image in images:
             page_data = pytesseract.image_to_data(page_image, output_type=Output.DICT, lang="deu")
-            self.__data.append(page_data)
+            word_list.append(page_data)
+        
+        self._data = word_list
 
     def save_data(self, document: int, exemplar: int, processingTime, pingBefore, pingAfter):
         """speichert rohdaten und extrahierte wörter"""
         # speichere rohdaten
-        
-        with open(os.path.join('data', 'tesseract', 'raw_data', str(document), f"{exemplar}.json"), "w", encoding="utf8") as f:
-            json.dump(self.__data, f, ensure_ascii=False, indent=4)
 
-        # extrahiere relevante wörter
-        word_data = []
-        for page_data in self.__data:
+        wordData = []
+        for page_data in self._data:
             for i, block_type in enumerate(page_data.get('block_num', [])):
                 if page_data['text'][i].strip():
-                    word_data.append(page_data['text'][i])
+                    normalized_words = self.__normalizer.normalize(page_data['text'][i])
+                    
+                    for word in normalized_words:
+                        if word:
+                            wordData.append({'word': word, 'confidence': page_data['conf'][i]})
 
-        # aktualisiere processedData.json
-        processed_data_path = os.path.join('data', 'tesseract', 'processedData.json')
-        if os.path.exists(processed_data_path):
-            with open(processed_data_path, "r", encoding="utf8") as f:
-                processed_data = json.load(f)
-        else:
-            processed_data = {}
-
-        if not processed_data.get(str(document)):
-            processed_data[str(document)] = {}
-
-        processed_data[str(document)][str(exemplar)] = {
-            "wordData": word_data,
-            "processingTime": processingTime,
-            "pingBefore": pingBefore,
-            "pingAfter": pingAfter
-        }
-
-        with open(processed_data_path, "w", encoding="utf8") as f:
-            json.dump(processed_data, f, ensure_ascii=False, indent=4)
-
-if __name__ == '__main__':
-    client = TesseractHandler()
-    client.analyzeDocument('pdfs/test.pdf')
-    client.saveData(1, 1, 30, 30, 30)
-    
-    
+        self.handle_data(
+            processed_word_data=wordData,
+            document=document,
+            exemplar=exemplar,
+            processingTime=processingTime,
+            pingBefore=pingBefore,
+            pingAfter=pingAfter
+        )
     
