@@ -6,6 +6,8 @@ import json
 import os
 import io
 
+from misc.normalizer import OCRTextNormalizer
+from misc.filehandler import FileHandler
 
 class TesseractHandler:
     def __init__(self, tesseract_cmd: str = None):

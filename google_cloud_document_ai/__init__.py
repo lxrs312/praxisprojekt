@@ -12,9 +12,11 @@ PROCESSOR_VERSION = "rc"
 sys.path.append('../praxisprojekt')
 
 from misc.normalizer import OCRTextNormalizer
+from misc.filehandler import FileHandler
 
-class GoogleCloudDocumentAI:
-    def __init__(self, auth_file_path: str, project_id: str, processor_id: str):
+class GoogleCloudDocumentAI(FileHandler):
+    def __init__(self, auth_file_path: str, project_id: str, processor_id: str, data_path: str, logger):
+        super().__init__(logger, data_path)
         self.__client = documentai.DocumentProcessorServiceClient(
             client_options=ClientOptions(
                 api_endpoint=f"{LOCATION}-documentai.googleapis.com",
@@ -31,8 +33,6 @@ class GoogleCloudDocumentAI:
                 enable_native_pdf_parsing=True,
             )
         )
-        
-        self.__data = None
         
         self.__normalizer = OCRTextNormalizer()
 
@@ -51,21 +51,16 @@ class GoogleCloudDocumentAI:
         result = self.__client.process_document(request=request)
         
         # speichere rohdaten
-        self.__data = result
+        self._data = result
 
-        
     def save_data(self, document: int, exemplar: int, processingTime, pingBefore, pingAfter):
 
         # dict conversion
-        data_dict = MessageToDict(self.__data.document._pb)
+        data_dict = MessageToDict(self._data.document._pb)
         
         # overwrite potential image key to avoid pushing too much data to github
         data_dict['pages'][0]['image'] = "saving-data.."
 
-        # firstly save raw data into raw_data directory
-        with open(os.path.join('data', 'google_cloud_document_ai', 'raw_data', str(document), f"{exemplar}.json"), "w", encoding="utf8") as f:
-            json.dump(data_dict, f, ensure_ascii=False, indent=4)
-        
         wordData = []
 
         # extract only relevant words for words.json
@@ -91,26 +86,11 @@ class GoogleCloudDocumentAI:
                         if normalized_word and confidence is not None:
                             wordData.append({'word': normalized_word, 'confidence': confidence})
 
-        # open processedData.json
-        processed_data_path = os.path.join('data', 'google_cloud_document_ai','processedData.json')
-        if os.path.exists(processed_data_path):
-            with open(processed_data_path, "r", encoding="utf8") as f:
-                processedData = json.load(f)
-        else:
-            processedData = {}
-        
-        if not processedData.get(str(document)):
-            processedData[str(document)] = {}
-        
-        processedData[str(document)][str(exemplar)] = {
-            "wordData": wordData,
-            "processingTime": processingTime,
-            "pingBefore": pingBefore,
-            "pingAfter": pingAfter
-        }
-        
-        # save processedData.json
-        with open(processed_data_path, "w", encoding="utf8") as f:
-             json.dump(processedData, f, ensure_ascii=False, indent=4)
-
-
+        self.handle_data(
+            processed_word_data=wordData,
+            document=document,
+            exemplar=exemplar,
+            processingTime=processingTime,
+            pingBefore=pingBefore,
+            pingAfter=pingAfter
+        )
