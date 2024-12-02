@@ -22,7 +22,7 @@ class Evaluator:
         self.machine_list = machine_list
         self.handwritten_list = handwritten_list
 
-    def run(self, recognized_words: list[dict]):
+    def run(self, recognized_words: list[dict], processing_time, ping_before, ping_after):
         """
         vergleicht erkannte wörter mit maschinen- und handgeschriebenen listen,
         zählt übereinstimmungen und rekonstruiert wörter aus unvollständigen matches.
@@ -243,11 +243,18 @@ class Evaluator:
             "word_splitting_machine": word_splitting_machine,
             "word_rebuilding_handwritten": word_rebuilding_handwritten,
             "word_splitting_handwritten": word_splitting_handwritten,
-            "remaining_words": recognized_words,
+            "remaining_words": {
+                'recognized_words': recognized_words,
+                'machine_list': machine_list,
+                'handwritten_list': handwritten_list
+            },
             "machine_tuples": machine_tuples,
             "handwritten_tuples": handwritten_tuples,
             "word_count_ocr_handwritten": word_count_ocr_handwritten,
-            "word_count_ocr_machine": word_count_ocr_machine
+            "word_count_ocr_machine": word_count_ocr_machine,
+            "processing_time": processing_time,
+            "ping_before": ping_before,
+            "ping_after": ping_after   
         }
 
         return Result(result_data)

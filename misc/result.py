@@ -12,7 +12,7 @@ class Result:
     def as_dict(self):
         # basierend auf den daten
         result = self.__data.copy()
-        
+
         # alle attribute und properties prüfen
         for name in dir(self):
             # überspringe interne oder private attribute

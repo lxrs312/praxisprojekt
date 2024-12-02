@@ -692,7 +692,7 @@
                 "handgeschriebene_woerter_anzahl": 29
             },
             "2": {
-                "schriftfarbe": "schwarz",
+                "schriftfarbe": "blau",
                 "autor": "lars",
                 "gescannt": false,
                 "ausgefüllt am": "",
@@ -1243,7 +1243,7 @@
         "maschinelle_woerter_anzahl": 210,
         "exemplare": {
             "1": {
-                "schriftfarbe": "blau",
+                "schriftfarbe": "schwarz",
                 "autor": "lars",
                 "gescannt": false,
                 "ausgefüllt am": "",
@@ -1597,7 +1597,7 @@
         "maschinelle_woerter_anzahl": 156,
         "exemplare": {
             "1": {
-                "schriftfarbe": "blau",
+                "schriftfarbe": "schwarz",
                 "autor": "lars",
                 "gescannt": false,
                 "ausgefüllt am": "",
@@ -1619,7 +1619,7 @@
                 ]
             },
             "2": {
-                "schriftfarbe": "schwarz",
+                "schriftfarbe": "blau",
                 "autor": "lars",
                 "gescannt": false,
                 "ausgefüllt am": "",
@@ -2879,7 +2879,7 @@
                 "optionen": ""
             },
             "7": {
-                "schriftfarbe": "blau",
+                "schriftfarbe": "schwarz",
                 "autor": "tim",
                 "gescannt": false,
                 "ausgefüllt am": "",
@@ -2905,7 +2905,7 @@
                 "optionen": ""
             },
             "8": {
-                "schriftfarbe": "schwarz",
+                "schriftfarbe": "blau",
                 "autor": "tim",
                 "gescannt": false,
                 "ausgefüllt am": "",
@@ -3197,11 +3197,8 @@
             "123",
             "12345",
             "Musterstadt",
-            "+49",
-            "123",
-            "456789",
-            "sekretariat@musterpraxis",
-            "de"
+            "+49123456789",
+            "sekretariat@musterpraxis.de"
         ],
         "maschinelle_woerter_anzahl": 197,
         "exemplare": {

@@ -1,10 +1,15 @@
-import os, logging
+import os, logging, asyncio
+
+from dotenv import load_dotenv
 
 # from azure_document_intelligence import DocumentIntelligenceHandler
 # from aws_textract import TextractHandler
 # from google_cloud_document_ai import GoogleCloudDocumentAI
-# from timehandler import TimeHandler
-# from misc.normalizer import OCRTextNormalizer
+from timehandler import TimeHandler
+from misc.normalizer import OCRTextNormalizer
+from gpt4o import GPT4oHandler
+
+load_dotenv()
 
 # Configure the logger
 logging.basicConfig(
@@ -79,4 +84,22 @@ def google():
 
     client.save_data(1, 1, processingTime, pingBefore, pingAfter)
 
-create_data_directory_structure()
+def gpt4o():
+    data_path = os.path.join('data', 'openai_gpt4o')
+    client = GPT4oHandler(os.getenv('client_id'), os.getenv('client_secret'), os.getenv('token_url'), os.getenv('api_base'), os.getenv('chat'), data_path, logger)
+    time_handler = TimeHandler()
+    async def process_documents():
+        for document in range(2, 11):
+            print(f"Processing document {document}")
+            for exemplar in range(1, 11):
+                print(f"Processing exemplar {document}-{exemplar}")
+                exemplar_name = f"0{exemplar}" if exemplar < 10 else exemplar
+                time_handler.startTimer()
+                await client.analyze_document(os.path.join('pdfs', 'scans', str(document), f'{exemplar_name}.pdf'))
+                processingTime = time_handler.stopTimer()
+                client.save_data(document, exemplar, processingTime, 0, 0)
+
+    asyncio.run(process_documents())
+
+#create_data_directory_structure()
+gpt4o()
