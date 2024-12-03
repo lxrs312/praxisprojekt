@@ -1,0 +1,542 @@
+[
+    {
+        "word": "Antrag",
+        "confidence": 0.99
+    },
+    {
+        "word": "auf",
+        "confidence": 0.99
+    },
+    {
+        "word": "Ausstellung",
+        "confidence": 0.99
+    },
+    {
+        "word": "eines",
+        "confidence": 0.99
+    },
+    {
+        "word": "Wahlscheins",
+        "confidence": 0.99
+    },
+    {
+        "word": "und",
+        "confidence": 0.99
+    },
+    {
+        "word": "der",
+        "confidence": 0.99
+    },
+    {
+        "word": "Briefwahlunterlagen",
+        "confidence": 0.99
+    },
+    {
+        "word": "Kommunalwahlen",
+        "confidence": 0.99
+    },
+    {
+        "word": "am",
+        "confidence": 0.99
+    },
+    {
+        "word": "14.07.2025",
+        "confidence": 0.99
+    },
+    {
+        "word": "Wahl",
+        "confidence": 0.99
+    },
+    {
+        "word": "des",
+        "confidence": 0.99
+    },
+    {
+        "word": "Regionspräsidenten",
+        "confidence": 0.99
+    },
+    {
+        "word": "oder",
+        "confidence": 0.99
+    },
+    {
+        "word": "der",
+        "confidence": 0.99
+    },
+    {
+        "word": "Regionspräsidentin",
+        "confidence": 0.99
+    },
+    {
+        "word": "Wahl",
+        "confidence": 0.99
+    },
+    {
+        "word": "der",
+        "confidence": 0.99
+    },
+    {
+        "word": "Regionsversammlung",
+        "confidence": 0.99
+    },
+    {
+        "word": "Wahl",
+        "confidence": 0.99
+    },
+    {
+        "word": "des",
+        "confidence": 0.99
+    },
+    {
+        "word": "Rates",
+        "confidence": 0.99
+    },
+    {
+        "word": "Wahl",
+        "confidence": 0.99
+    },
+    {
+        "word": "des",
+        "confidence": 0.99
+    },
+    {
+        "word": "Stadtbezirkrates",
+        "confidence": 0.99
+    },
+    {
+        "word": "Landeshauptstadt",
+        "confidence": 0.99
+    },
+    {
+        "word": "Musterhausen",
+        "confidence": 0.99
+    },
+    {
+        "word": "Wahlamt",
+        "confidence": 0.99
+    },
+    {
+        "word": "Rathaus",
+        "confidence": 0.99
+    },
+    {
+        "word": "etwaige",
+        "confidence": 0.99
+    },
+    {
+        "word": "Stichwahl",
+        "confidence": 0.99
+    },
+    {
+        "word": "am",
+        "confidence": 0.99
+    },
+    {
+        "word": "01.08.2025",
+        "confidence": 0.99
+    },
+    {
+        "word": "des",
+        "confidence": 0.99
+    },
+    {
+        "word": "Regionspräsidenten",
+        "confidence": 0.99
+    },
+    {
+        "word": "oder",
+        "confidence": 0.99
+    },
+    {
+        "word": "der",
+        "confidence": 0.99
+    },
+    {
+        "word": "Regionspräsidentin",
+        "confidence": 0.99
+    },
+    {
+        "word": "01234",
+        "confidence": 0.99
+    },
+    {
+        "word": "Musterhausen",
+        "confidence": 0.99
+    },
+    {
+        "word": "Ich",
+        "confidence": 0.99
+    },
+    {
+        "word": "will",
+        "confidence": 0.99
+    },
+    {
+        "word": "durch",
+        "confidence": 0.99
+    },
+    {
+        "word": "Briefwahl",
+        "confidence": 0.99
+    },
+    {
+        "word": "wählen",
+        "confidence": 0.99
+    },
+    {
+        "word": "und",
+        "confidence": 0.99
+    },
+    {
+        "word": "beantrage",
+        "confidence": 0.99
+    },
+    {
+        "word": "einen",
+        "confidence": 0.99
+    },
+    {
+        "word": "Wahlschein",
+        "confidence": 0.99
+    },
+    {
+        "word": "und",
+        "confidence": 0.99
+    },
+    {
+        "word": "Briefwahlunterlagen",
+        "confidence": 0.99
+    },
+    {
+        "word": "für",
+        "confidence": 0.99
+    },
+    {
+        "word": "die",
+        "confidence": 0.99
+    },
+    {
+        "word": "Wahlen",
+        "confidence": 0.99
+    },
+    {
+        "word": "am",
+        "confidence": 0.99
+    },
+    {
+        "word": "14.07.2025",
+        "confidence": 0.99
+    },
+    {
+        "word": "und",
+        "confidence": 0.99
+    },
+    {
+        "word": "etwaige",
+        "confidence": 0.99
+    },
+    {
+        "word": "Stichwahl",
+        "confidence": 0.99
+    },
+    {
+        "word": "am",
+        "confidence": 0.99
+    },
+    {
+        "word": "01.08.2025",
+        "confidence": 0.99
+    },
+    {
+        "word": "nur",
+        "confidence": 0.99
+    },
+    {
+        "word": "für",
+        "confidence": 0.99
+    },
+    {
+        "word": "die",
+        "confidence": 0.99
+    },
+    {
+        "word": "Wahl",
+        "confidence": 0.99
+    },
+    {
+        "word": "am",
+        "confidence": 0.99
+    },
+    {
+        "word": "14.07.2025",
+        "confidence": 0.99
+    },
+    {
+        "word": "nur",
+        "confidence": 0.99
+    },
+    {
+        "word": "für",
+        "confidence": 0.99
+    },
+    {
+        "word": "die",
+        "confidence": 0.99
+    },
+    {
+        "word": "etwaige",
+        "confidence": 0.99
+    },
+    {
+        "word": "Stichwahl",
+        "confidence": 0.99
+    },
+    {
+        "word": "am",
+        "confidence": 0.99
+    },
+    {
+        "word": "01.08.2025",
+        "confidence": 0.99
+    },
+    {
+        "word": "Familienname,",
+        "confidence": 0.99
+    },
+    {
+        "word": "Vorname",
+        "confidence": 0.99
+    },
+    {
+        "word": "Neumann,",
+        "confidence": 0.99
+    },
+    {
+        "word": "Jonas",
+        "confidence": 0.99
+    },
+    {
+        "word": "Hauptwohnung:",
+        "confidence": 0.99
+    },
+    {
+        "word": "Straße",
+        "confidence": 0.99
+    },
+    {
+        "word": "und",
+        "confidence": 0.99
+    },
+    {
+        "word": "Haus-Nr.",
+        "confidence": 0.99
+    },
+    {
+        "word": "Neugasse",
+        "confidence": 0.99
+    },
+    {
+        "word": "4",
+        "confidence": 0.99
+    },
+    {
+        "word": "Geburtstag",
+        "confidence": 0.99
+    },
+    {
+        "word": "1988-04-16",
+        "confidence": 0.99
+    },
+    {
+        "word": "PLZ",
+        "confidence": 0.99
+    },
+    {
+        "word": "Ort",
+        "confidence": 0.99
+    },
+    {
+        "word": "28195,",
+        "confidence": 0.99
+    },
+    {
+        "word": "Bremen",
+        "confidence": 0.99
+    },
+    {
+        "word": "freiwillige",
+        "confidence": 0.99
+    },
+    {
+        "word": "Angabe:",
+        "confidence": 0.99
+    },
+    {
+        "word": "E-Mail",
+        "confidence": 0.99
+    },
+    {
+        "word": "oder",
+        "confidence": 0.99
+    },
+    {
+        "word": "Telefonnummer",
+        "confidence": 0.99
+    },
+    {
+        "word": "für",
+        "confidence": 0.99
+    },
+    {
+        "word": "Rückfragen",
+        "confidence": 0.99
+    },
+    {
+        "word": "+49",
+        "confidence": 0.99
+    },
+    {
+        "word": "1734567890",
+        "confidence": 0.99
+    },
+    {
+        "word": "Der",
+        "confidence": 0.99
+    },
+    {
+        "word": "Wahlschein",
+        "confidence": 0.99
+    },
+    {
+        "word": "und",
+        "confidence": 0.99
+    },
+    {
+        "word": "die",
+        "confidence": 0.99
+    },
+    {
+        "word": "Briefwahlunterlagen",
+        "confidence": 0.99
+    },
+    {
+        "word": "sollen",
+        "confidence": 0.99
+    },
+    {
+        "word": "an",
+        "confidence": 0.99
+    },
+    {
+        "word": "folgende",
+        "confidence": 0.99
+    },
+    {
+        "word": "Anschrift",
+        "confidence": 0.99
+    },
+    {
+        "word": "geschickt",
+        "confidence": 0.99
+    },
+    {
+        "word": "werden:",
+        "confidence": 0.99
+    },
+    {
+        "word": "Straße,",
+        "confidence": 0.99
+    },
+    {
+        "word": "Hausnummer,",
+        "confidence": 0.99
+    },
+    {
+        "word": "ggf.",
+        "confidence": 0.99
+    },
+    {
+        "word": "Hotel",
+        "confidence": 0.99
+    },
+    {
+        "word": "usw.",
+        "confidence": 0.99
+    },
+    {
+        "word": "Neugasse,",
+        "confidence": 0.99
+    },
+    {
+        "word": "4",
+        "confidence": 0.99
+    },
+    {
+        "word": "Postleitzahl,",
+        "confidence": 0.99
+    },
+    {
+        "word": "Ort",
+        "confidence": 0.99
+    },
+    {
+        "word": "bei",
+        "confidence": 0.99
+    },
+    {
+        "word": "Versand",
+        "confidence": 0.99
+    },
+    {
+        "word": "ins",
+        "confidence": 0.99
+    },
+    {
+        "word": "Ausland",
+        "confidence": 0.99
+    },
+    {
+        "word": "auch",
+        "confidence": 0.99
+    },
+    {
+        "word": "Staat",
+        "confidence": 0.99
+    },
+    {
+        "word": "28195,",
+        "confidence": 0.99
+    },
+    {
+        "word": "Bremen",
+        "confidence": 0.99
+    },
+    {
+        "word": "Bremen,",
+        "confidence": 0.99
+    },
+    {
+        "word": "2024-11-03",
+        "confidence": 0.99
+    },
+    {
+        "word": "Ort",
+        "confidence": 0.99
+    },
+    {
+        "word": "und",
+        "confidence": 0.99
+    },
+    {
+        "word": "Datum",
+        "confidence": 0.99
+    },
+    {
+        "word": "Neumann",
+        "confidence": 0.99
+    },
+    {
+        "word": "Unterschrift",
+        "confidence": 0.99
+    }
+]

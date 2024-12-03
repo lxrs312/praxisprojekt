@@ -1,0 +1,458 @@
+[
+    {
+        "word": "Formular",
+        "confidence": 0.95
+    },
+    {
+        "word": "mit",
+        "confidence": 0.95
+    },
+    {
+        "word": "Mitarbeiterinformationen",
+        "confidence": 0.95
+    },
+    {
+        "word": "für",
+        "confidence": 0.95
+    },
+    {
+        "word": "den",
+        "confidence": 0.95
+    },
+    {
+        "word": "Notfall",
+        "confidence": 0.95
+    },
+    {
+        "word": "Zuletzt",
+        "confidence": 0.95
+    },
+    {
+        "word": "aktualisiert:",
+        "confidence": 0.95
+    },
+    {
+        "word": "21.10.2024",
+        "confidence": 0.95
+    },
+    {
+        "word": "Persönliche",
+        "confidence": 0.95
+    },
+    {
+        "word": "Informationen",
+        "confidence": 0.95
+    },
+    {
+        "word": "Mitarbeiternummer",
+        "confidence": 0.95
+    },
+    {
+        "word": "12345",
+        "confidence": 0.95
+    },
+    {
+        "word": "Vorname",
+        "confidence": 0.95
+    },
+    {
+        "word": "Max",
+        "confidence": 0.95
+    },
+    {
+        "word": "Zweiter",
+        "confidence": 0.95
+    },
+    {
+        "word": "Vorname",
+        "confidence": 0.95
+    },
+    {
+        "word": "Alexander",
+        "confidence": 0.95
+    },
+    {
+        "word": "Nachname",
+        "confidence": 0.95
+    },
+    {
+        "word": "Schmidt",
+        "confidence": 0.95
+    },
+    {
+        "word": "Rufname",
+        "confidence": 0.95
+    },
+    {
+        "word": "Max",
+        "confidence": 0.95
+    },
+    {
+        "word": "Geschlecht",
+        "confidence": 0.95
+    },
+    {
+        "word": "M",
+        "confidence": 0.95
+    },
+    {
+        "word": "Nationalität",
+        "confidence": 0.95
+    },
+    {
+        "word": "Deutsch",
+        "confidence": 0.95
+    },
+    {
+        "word": "Geburtsort",
+        "confidence": 0.95
+    },
+    {
+        "word": "(Land)",
+        "confidence": 0.95
+    },
+    {
+        "word": "Berlin",
+        "confidence": 0.95
+    },
+    {
+        "word": "Anschrift",
+        "confidence": 0.95
+    },
+    {
+        "word": "privat",
+        "confidence": 0.95
+    },
+    {
+        "word": "Musterstraße",
+        "confidence": 0.95
+    },
+    {
+        "word": "12",
+        "confidence": 0.95
+    },
+    {
+        "word": "10115",
+        "confidence": 0.95
+    },
+    {
+        "word": "Berlin",
+        "confidence": 0.95
+    },
+    {
+        "word": "Bundesland/Kanton",
+        "confidence": 0.95
+    },
+    {
+        "word": "Berlin",
+        "confidence": 0.95
+    },
+    {
+        "word": "Telefon",
+        "confidence": 0.95
+    },
+    {
+        "word": "privat",
+        "confidence": 0.95
+    },
+    {
+        "word": "+49",
+        "confidence": 0.95
+    },
+    {
+        "word": "30",
+        "confidence": 0.95
+    },
+    {
+        "word": "1234567",
+        "confidence": 0.95
+    },
+    {
+        "word": "Handy",
+        "confidence": 0.95
+    },
+    {
+        "word": "+49",
+        "confidence": 0.95
+    },
+    {
+        "word": "171",
+        "confidence": 0.95
+    },
+    {
+        "word": "234567",
+        "confidence": 0.95
+    },
+    {
+        "word": "Fax",
+        "confidence": 0.95
+    },
+    {
+        "word": "privat",
+        "confidence": 0.95
+    },
+    {
+        "word": "+49",
+        "confidence": 0.95
+    },
+    {
+        "word": "30",
+        "confidence": 0.95
+    },
+    {
+        "word": "1234568",
+        "confidence": 0.95
+    },
+    {
+        "word": "E-Mail-Adresse",
+        "confidence": 0.95
+    },
+    {
+        "word": "privat",
+        "confidence": 0.95
+    },
+    {
+        "word": "max.schmidt@example.com",
+        "confidence": 0.95
+    },
+    {
+        "word": "Geburtstag",
+        "confidence": 0.95
+    },
+    {
+        "word": "(TT/MM/JJJJ)",
+        "confidence": 0.95
+    },
+    {
+        "word": "1975-03-14",
+        "confidence": 0.95
+    },
+    {
+        "word": "Sozialversicherungsnummer",
+        "confidence": 0.95
+    },
+    {
+        "word": "123456789",
+        "confidence": 0.95
+    },
+    {
+        "word": "Ausweisnummer",
+        "confidence": 0.95
+    },
+    {
+        "word": "A123456789",
+        "confidence": 0.95
+    },
+    {
+        "word": "Führerscheinnummer",
+        "confidence": 0.95
+    },
+    {
+        "word": "D12345678",
+        "confidence": 0.95
+    },
+    {
+        "word": "Medizinische",
+        "confidence": 0.95
+    },
+    {
+        "word": "Informationen",
+        "confidence": 0.95
+    },
+    {
+        "word": "Name",
+        "confidence": 0.95
+    },
+    {
+        "word": "des",
+        "confidence": 0.95
+    },
+    {
+        "word": "Arztes",
+        "confidence": 0.95
+    },
+    {
+        "word": "Dr.",
+        "confidence": 0.95
+    },
+    {
+        "word": "Julia",
+        "confidence": 0.95
+    },
+    {
+        "word": "Weber",
+        "confidence": 0.95
+    },
+    {
+        "word": "Adresse",
+        "confidence": 0.95
+    },
+    {
+        "word": "Lindenstraße",
+        "confidence": 0.95
+    },
+    {
+        "word": "7",
+        "confidence": 0.95
+    },
+    {
+        "word": "10115",
+        "confidence": 0.95
+    },
+    {
+        "word": "Berlin",
+        "confidence": 0.95
+    },
+    {
+        "word": "Rufnummer",
+        "confidence": 0.95
+    },
+    {
+        "word": "+49",
+        "confidence": 0.95
+    },
+    {
+        "word": "30",
+        "confidence": 0.95
+    },
+    {
+        "word": "3643123",
+        "confidence": 0.95
+    },
+    {
+        "word": "Blutgruppe",
+        "confidence": 0.95
+    },
+    {
+        "word": "0",
+        "confidence": 0.95
+    },
+    {
+        "word": "Asthma",
+        "confidence": 0.95
+    },
+    {
+        "word": "Gesundheitliche",
+        "confidence": 0.95
+    },
+    {
+        "word": "Probleme",
+        "confidence": 0.95
+    },
+    {
+        "word": "Allergien",
+        "confidence": 0.95
+    },
+    {
+        "word": "Pollen",
+        "confidence": 0.95
+    },
+    {
+        "word": "Regelmäßig",
+        "confidence": 0.95
+    },
+    {
+        "word": "eingenommene",
+        "confidence": 0.95
+    },
+    {
+        "word": "Medikamente",
+        "confidence": 0.95
+    },
+    {
+        "word": "Ventolin",
+        "confidence": 0.95
+    },
+    {
+        "word": "Informationen",
+        "confidence": 0.95
+    },
+    {
+        "word": "für",
+        "confidence": 0.95
+    },
+    {
+        "word": "den",
+        "confidence": 0.95
+    },
+    {
+        "word": "Notfall",
+        "confidence": 0.95
+    },
+    {
+        "word": "Name",
+        "confidence": 0.95
+    },
+    {
+        "word": "der",
+        "confidence": 0.95
+    },
+    {
+        "word": "Kontaktperson",
+        "confidence": 0.95
+    },
+    {
+        "word": "für",
+        "confidence": 0.95
+    },
+    {
+        "word": "den",
+        "confidence": 0.95
+    },
+    {
+        "word": "Notfall",
+        "confidence": 0.95
+    },
+    {
+        "word": "Laura",
+        "confidence": 0.95
+    },
+    {
+        "word": "Schmidt",
+        "confidence": 0.95
+    },
+    {
+        "word": "Beziehung",
+        "confidence": 0.95
+    },
+    {
+        "word": "Schwester",
+        "confidence": 0.95
+    },
+    {
+        "word": "Adresse",
+        "confidence": 0.95
+    },
+    {
+        "word": "Schulstraße",
+        "confidence": 0.95
+    },
+    {
+        "word": "9",
+        "confidence": 0.95
+    },
+    {
+        "word": "10115",
+        "confidence": 0.95
+    },
+    {
+        "word": "Berlin",
+        "confidence": 0.95
+    },
+    {
+        "word": "Rufnummer(n)",
+        "confidence": 0.95
+    },
+    {
+        "word": "+49",
+        "confidence": 0.95
+    },
+    {
+        "word": "30",
+        "confidence": 0.95
+    },
+    {
+        "word": "9876543",
+        "confidence": 0.95
+    }
+]

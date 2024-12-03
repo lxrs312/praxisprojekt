@@ -1,0 +1,466 @@
+[
+    {
+        "word": "Formular",
+        "confidence": 95
+    },
+    {
+        "word": "mit",
+        "confidence": 98
+    },
+    {
+        "word": "Mitarbeiterinformationen",
+        "confidence": 96
+    },
+    {
+        "word": "für",
+        "confidence": 99
+    },
+    {
+        "word": "den",
+        "confidence": 99
+    },
+    {
+        "word": "Notfall",
+        "confidence": 97
+    },
+    {
+        "word": "Zuletzt",
+        "confidence": 95
+    },
+    {
+        "word": "aktualisiert:",
+        "confidence": 96
+    },
+    {
+        "word": "21.10.2024",
+        "confidence": 97
+    },
+    {
+        "word": "Persönliche",
+        "confidence": 94
+    },
+    {
+        "word": "Informationen",
+        "confidence": 95
+    },
+    {
+        "word": "Mitarbeiternummer",
+        "confidence": 94
+    },
+    {
+        "word": "123579",
+        "confidence": 93
+    },
+    {
+        "word": "Vorname",
+        "confidence": 98
+    },
+    {
+        "word": "Lukas",
+        "confidence": 92
+    },
+    {
+        "word": "Zweiter",
+        "confidence": 95
+    },
+    {
+        "word": "Vorname",
+        "confidence": 95
+    },
+    {
+        "word": "Paul",
+        "confidence": 93
+    },
+    {
+        "word": "Nachname",
+        "confidence": 98
+    },
+    {
+        "word": "Fischer",
+        "confidence": 92
+    },
+    {
+        "word": "Rufname",
+        "confidence": 97
+    },
+    {
+        "word": "Luke",
+        "confidence": 90
+    },
+    {
+        "word": "Geschlecht",
+        "confidence": 97
+    },
+    {
+        "word": "m",
+        "confidence": 99
+    },
+    {
+        "word": "Nationalität",
+        "confidence": 96
+    },
+    {
+        "word": "Deutsch",
+        "confidence": 92
+    },
+    {
+        "word": "Geburtsort",
+        "confidence": 95
+    },
+    {
+        "word": "(Land)",
+        "confidence": 93
+    },
+    {
+        "word": "München",
+        "confidence": 94
+    },
+    {
+        "word": "Anschrift",
+        "confidence": 97
+    },
+    {
+        "word": "privat",
+        "confidence": 96
+    },
+    {
+        "word": "Hauptstraße",
+        "confidence": 92
+    },
+    {
+        "word": "10",
+        "confidence": 98
+    },
+    {
+        "word": "80331",
+        "confidence": 93
+    },
+    {
+        "word": "München",
+        "confidence": 94
+    },
+    {
+        "word": "Bundesland/Kanton",
+        "confidence": 95
+    },
+    {
+        "word": "Bayern",
+        "confidence": 94
+    },
+    {
+        "word": "Telefon",
+        "confidence": 97
+    },
+    {
+        "word": "privat",
+        "confidence": 96
+    },
+    {
+        "word": "+49",
+        "confidence": 99
+    },
+    {
+        "word": "89",
+        "confidence": 98
+    },
+    {
+        "word": "1230987",
+        "confidence": 93
+    },
+    {
+        "word": "Handy",
+        "confidence": 98
+    },
+    {
+        "word": "+49",
+        "confidence": 99
+    },
+    {
+        "word": "171",
+        "confidence": 98
+    },
+    {
+        "word": "230987",
+        "confidence": 93
+    },
+    {
+        "word": "Fax",
+        "confidence": 97
+    },
+    {
+        "word": "privat",
+        "confidence": 96
+    },
+    {
+        "word": "+49",
+        "confidence": 99
+    },
+    {
+        "word": "89",
+        "confidence": 98
+    },
+    {
+        "word": "230389",
+        "confidence": 93
+    },
+    {
+        "word": "E-Mail-Adresse",
+        "confidence": 96
+    },
+    {
+        "word": "privat",
+        "confidence": 96
+    },
+    {
+        "word": "lukas.fischer@example.com",
+        "confidence": 92
+    },
+    {
+        "word": "Geburtstag",
+        "confidence": 97
+    },
+    {
+        "word": "(TT/MM/JJJJ)",
+        "confidence": 93
+    },
+    {
+        "word": "01",
+        "confidence": 98
+    },
+    {
+        "word": "12",
+        "confidence": 98
+    },
+    {
+        "word": "1983",
+        "confidence": 95
+    },
+    {
+        "word": "Sozialversicherungsnummer",
+        "confidence": 94
+    },
+    {
+        "word": "456789123",
+        "confidence": 92
+    },
+    {
+        "word": "Ausweisnummer",
+        "confidence": 94
+    },
+    {
+        "word": "C45678912",
+        "confidence": 90
+    },
+    {
+        "word": "Führerscheinnummer",
+        "confidence": 95
+    },
+    {
+        "word": "F45678912",
+        "confidence": 90
+    },
+    {
+        "word": "Medizinische",
+        "confidence": 94
+    },
+    {
+        "word": "Informationen",
+        "confidence": 95
+    },
+    {
+        "word": "Name",
+        "confidence": 97
+    },
+    {
+        "word": "des",
+        "confidence": 99
+    },
+    {
+        "word": "Arztes",
+        "confidence": 96
+    },
+    {
+        "word": "Dr.",
+        "confidence": 98
+    },
+    {
+        "word": "Eva",
+        "confidence": 92
+    },
+    {
+        "word": "Braun",
+        "confidence": 92
+    },
+    {
+        "word": "Adresse",
+        "confidence": 98
+    },
+    {
+        "word": "Rathausplatz",
+        "confidence": 92
+    },
+    {
+        "word": "5",
+        "confidence": 98
+    },
+    {
+        "word": "80331",
+        "confidence": 93
+    },
+    {
+        "word": "München",
+        "confidence": 94
+    },
+    {
+        "word": "Rufnummer",
+        "confidence": 95
+    },
+    {
+        "word": "+49",
+        "confidence": 99
+    },
+    {
+        "word": "89",
+        "confidence": 98
+    },
+    {
+        "word": "8765432",
+        "confidence": 93
+    },
+    {
+        "word": "Blutgruppe",
+        "confidence": 95
+    },
+    {
+        "word": "B",
+        "confidence": 99
+    },
+    {
+        "word": "Gesundheitliche",
+        "confidence": 94
+    },
+    {
+        "word": "Probleme",
+        "confidence": 96
+    },
+    {
+        "word": "Diabetes",
+        "confidence": 90
+    },
+    {
+        "word": "Allergien",
+        "confidence": 95
+    },
+    {
+        "word": "Nüsse",
+        "confidence": 90
+    },
+    {
+        "word": "Regelmäßig",
+        "confidence": 94
+    },
+    {
+        "word": "eingenommene",
+        "confidence": 92
+    },
+    {
+        "word": "Medikamente",
+        "confidence": 95
+    },
+    {
+        "word": "Insulin",
+        "confidence": 90
+    },
+    {
+        "word": "Informationen",
+        "confidence": 95
+    },
+    {
+        "word": "für",
+        "confidence": 99
+    },
+    {
+        "word": "den",
+        "confidence": 99
+    },
+    {
+        "word": "Notfall",
+        "confidence": 97
+    },
+    {
+        "word": "Name",
+        "confidence": 97
+    },
+    {
+        "word": "der",
+        "confidence": 99
+    },
+    {
+        "word": "Kontaktperson",
+        "confidence": 94
+    },
+    {
+        "word": "für",
+        "confidence": 99
+    },
+    {
+        "word": "den",
+        "confidence": 99
+    },
+    {
+        "word": "Notfall",
+        "confidence": 97
+    },
+    {
+        "word": "Anna",
+        "confidence": 92
+    },
+    {
+        "word": "Fischer",
+        "confidence": 92
+    },
+    {
+        "word": "Beziehung",
+        "confidence": 95
+    },
+    {
+        "word": "Mutter",
+        "confidence": 90
+    },
+    {
+        "word": "Adresse",
+        "confidence": 98
+    },
+    {
+        "word": "Neleweg",
+        "confidence": 90
+    },
+    {
+        "word": "6",
+        "confidence": 98
+    },
+    {
+        "word": "80333",
+        "confidence": 93
+    },
+    {
+        "word": "München",
+        "confidence": 94
+    },
+    {
+        "word": "Rufnummer(n)",
+        "confidence": 93
+    },
+    {
+        "word": "+49",
+        "confidence": 99
+    },
+    {
+        "word": "89",
+        "confidence": 98
+    },
+    {
+        "word": "2345678",
+        "confidence": 93
+    }
+]

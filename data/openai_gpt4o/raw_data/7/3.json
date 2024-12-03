@@ -1,0 +1,502 @@
+[
+    {
+        "word": "MusterTech",
+        "confidence": 0.9
+    },
+    {
+        "word": "GmbH",
+        "confidence": 0.9
+    },
+    {
+        "word": "Ihre",
+        "confidence": 0.9
+    },
+    {
+        "word": "Technik",
+        "confidence": 0.9
+    },
+    {
+        "word": "Unser",
+        "confidence": 0.9
+    },
+    {
+        "word": "Muster",
+        "confidence": 0.9
+    },
+    {
+        "word": "für",
+        "confidence": 0.9
+    },
+    {
+        "word": "Erfolg",
+        "confidence": 0.9
+    },
+    {
+        "word": "Musterstraße",
+        "confidence": 0.9
+    },
+    {
+        "word": "123",
+        "confidence": 0.9
+    },
+    {
+        "word": "12345",
+        "confidence": 0.9
+    },
+    {
+        "word": "Musterstadt",
+        "confidence": 0.9
+    },
+    {
+        "word": "+4912345678",
+        "confidence": 0.9
+    },
+    {
+        "word": "AN:",
+        "confidence": 0.9
+    },
+    {
+        "word": "Herr",
+        "confidence": 0.9
+    },
+    {
+        "word": "Michael",
+        "confidence": 0.9
+    },
+    {
+        "word": "Buchhalter",
+        "confidence": 0.9
+    },
+    {
+        "word": "Testlogistik",
+        "confidence": 0.9
+    },
+    {
+        "word": "AG",
+        "confidence": 0.9
+    },
+    {
+        "word": "Testweg",
+        "confidence": 0.9
+    },
+    {
+        "word": "456",
+        "confidence": 0.9
+    },
+    {
+        "word": "67890",
+        "confidence": 0.9
+    },
+    {
+        "word": "Testhausen",
+        "confidence": 0.9
+    },
+    {
+        "word": "+4987654321",
+        "confidence": 0.9
+    },
+    {
+        "word": "LIEFERADRESSE:",
+        "confidence": 0.9
+    },
+    {
+        "word": "Frau",
+        "confidence": 0.9
+    },
+    {
+        "word": "Sabine",
+        "confidence": 0.9
+    },
+    {
+        "word": "Logistik",
+        "confidence": 0.9
+    },
+    {
+        "word": "Testlogistik",
+        "confidence": 0.9
+    },
+    {
+        "word": "AG",
+        "confidence": 0.9
+    },
+    {
+        "word": "Teststraße",
+        "confidence": 0.9
+    },
+    {
+        "word": "42",
+        "confidence": 0.9
+    },
+    {
+        "word": "09999",
+        "confidence": 0.9
+    },
+    {
+        "word": "Testdorf",
+        "confidence": 0.9
+    },
+    {
+        "word": "Telefon:",
+        "confidence": 0.9
+    },
+    {
+        "word": "+4987654322",
+        "confidence": 0.9
+    },
+    {
+        "word": "KOMMENTARE",
+        "confidence": 0.9
+    },
+    {
+        "word": "ODER",
+        "confidence": 0.9
+    },
+    {
+        "word": "BESONDERE",
+        "confidence": 0.9
+    },
+    {
+        "word": "ANWEISUNGEN:",
+        "confidence": 0.9
+    },
+    {
+        "word": "Bitte",
+        "confidence": 0.9
+    },
+    {
+        "word": "alle",
+        "confidence": 0.9
+    },
+    {
+        "word": "Geräte",
+        "confidence": 0.9
+    },
+    {
+        "word": "vor",
+        "confidence": 0.9
+    },
+    {
+        "word": "der",
+        "confidence": 0.9
+    },
+    {
+        "word": "Inbetriebnahme",
+        "confidence": 0.9
+    },
+    {
+        "word": "gründlich",
+        "confidence": 0.9
+    },
+    {
+        "word": "prüfen",
+        "confidence": 0.9
+    },
+    {
+        "word": "Verpackungsmaterial",
+        "confidence": 0.9
+    },
+    {
+        "word": "bitte",
+        "confidence": 0.9
+    },
+    {
+        "word": "umweltgerecht",
+        "confidence": 0.9
+    },
+    {
+        "word": "entsorgen",
+        "confidence": 0.9
+    },
+    {
+        "word": "VERKÄUFER",
+        "confidence": 0.9
+    },
+    {
+        "word": "P.O.",
+        "confidence": 0.9
+    },
+    {
+        "word": "NUMMER",
+        "confidence": 0.9
+    },
+    {
+        "word": "ANFORDERER",
+        "confidence": 0.9
+    },
+    {
+        "word": "VERSANDWEG",
+        "confidence": 0.9
+    },
+    {
+        "word": "FREI",
+        "confidence": 0.9
+    },
+    {
+        "word": "(AN",
+        "confidence": 0.9
+    },
+    {
+        "word": "BORD)-",
+        "confidence": 0.9
+    },
+    {
+        "word": "PUNKT",
+        "confidence": 0.9
+    },
+    {
+        "word": "BEDINGUNGEN",
+        "confidence": 0.9
+    },
+    {
+        "word": "MusterTech",
+        "confidence": 0.9
+    },
+    {
+        "word": "GmbH",
+        "confidence": 0.9
+    },
+    {
+        "word": "987654321",
+        "confidence": 0.9
+    },
+    {
+        "word": "Max",
+        "confidence": 0.9
+    },
+    {
+        "word": "Mustermann",
+        "confidence": 0.9
+    },
+    {
+        "word": "LHD",
+        "confidence": 0.9
+    },
+    {
+        "word": "Express",
+        "confidence": 0.9
+    },
+    {
+        "word": "Hafen",
+        "confidence": 0.9
+    },
+    {
+        "word": "Musterstadt",
+        "confidence": 0.9
+    },
+    {
+        "word": "Fällig",
+        "confidence": 0.9
+    },
+    {
+        "word": "bei",
+        "confidence": 0.9
+    },
+    {
+        "word": "Erhalt",
+        "confidence": 0.9
+    },
+    {
+        "word": "MENGE",
+        "confidence": 0.9
+    },
+    {
+        "word": "BESCHREIBUNG",
+        "confidence": 0.9
+    },
+    {
+        "word": "EINZELPREIS",
+        "confidence": 0.9
+    },
+    {
+        "word": "SUMME",
+        "confidence": 0.9
+    },
+    {
+        "word": "10",
+        "confidence": 0.9
+    },
+    {
+        "word": "Hefte",
+        "confidence": 0.9
+    },
+    {
+        "word": "2",
+        "confidence": 0.9
+    },
+    {
+        "word": "20",
+        "confidence": 0.9
+    },
+    {
+        "word": "5",
+        "confidence": 0.9
+    },
+    {
+        "word": "Stifte",
+        "confidence": 0.9
+    },
+    {
+        "word": "1",
+        "confidence": 0.9
+    },
+    {
+        "word": "5",
+        "confidence": 0.9
+    },
+    {
+        "word": "3",
+        "confidence": 0.9
+    },
+    {
+        "word": "Radiergummi",
+        "confidence": 0.9
+    },
+    {
+        "word": "0.5",
+        "confidence": 0.9
+    },
+    {
+        "word": "1.5",
+        "confidence": 0.9
+    },
+    {
+        "word": "ZWISCHENSUMME",
+        "confidence": 0.9
+    },
+    {
+        "word": "26.5",
+        "confidence": 0.9
+    },
+    {
+        "word": "MEHRWERTSTEUER",
+        "confidence": 0.9
+    },
+    {
+        "word": "5.3",
+        "confidence": 0.9
+    },
+    {
+        "word": "VERPACKUNG",
+        "confidence": 0.9
+    },
+    {
+        "word": "UND",
+        "confidence": 0.9
+    },
+    {
+        "word": "VERSAND",
+        "confidence": 0.9
+    },
+    {
+        "word": "5",
+        "confidence": 0.9
+    },
+    {
+        "word": "SUMME",
+        "confidence": 0.9
+    },
+    {
+        "word": "FÄLLIG",
+        "confidence": 0.9
+    },
+    {
+        "word": "36.8",
+        "confidence": 0.9
+    },
+    {
+        "word": "Alle",
+        "confidence": 0.9
+    },
+    {
+        "word": "Schecks",
+        "confidence": 0.9
+    },
+    {
+        "word": "auszahlbar",
+        "confidence": 0.9
+    },
+    {
+        "word": "an",
+        "confidence": 0.9
+    },
+    {
+        "word": "MusterTech",
+        "confidence": 0.9
+    },
+    {
+        "word": "GmbH",
+        "confidence": 0.9
+    },
+    {
+        "word": "Wenden",
+        "confidence": 0.9
+    },
+    {
+        "word": "Sie",
+        "confidence": 0.9
+    },
+    {
+        "word": "sich",
+        "confidence": 0.9
+    },
+    {
+        "word": "mit",
+        "confidence": 0.9
+    },
+    {
+        "word": "Fragen",
+        "confidence": 0.9
+    },
+    {
+        "word": "zu",
+        "confidence": 0.9
+    },
+    {
+        "word": "dieser",
+        "confidence": 0.9
+    },
+    {
+        "word": "Rechnung",
+        "confidence": 0.9
+    },
+    {
+        "word": "an",
+        "confidence": 0.9
+    },
+    {
+        "word": "Max",
+        "confidence": 0.9
+    },
+    {
+        "word": "Mustermann,",
+        "confidence": 0.9
+    },
+    {
+        "word": "+4912345678,",
+        "confidence": 0.9
+    },
+    {
+        "word": "max.mustermann@mustertech.de",
+        "confidence": 0.9
+    },
+    {
+        "word": "VIELEN",
+        "confidence": 0.9
+    },
+    {
+        "word": "DANK",
+        "confidence": 0.9
+    },
+    {
+        "word": "FÜR",
+        "confidence": 0.9
+    },
+    {
+        "word": "IHRE",
+        "confidence": 0.9
+    },
+    {
+        "word": "BESTELLUNG!",
+        "confidence": 0.9
+    }
+]

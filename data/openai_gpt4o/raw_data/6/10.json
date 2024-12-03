@@ -1,0 +1,418 @@
+[
+    {
+        "word": "Formular",
+        "confidence": 0.98
+    },
+    {
+        "word": "mit",
+        "confidence": 0.96
+    },
+    {
+        "word": "Mitarbeiterinformationen",
+        "confidence": 0.98
+    },
+    {
+        "word": "für",
+        "confidence": 0.97
+    },
+    {
+        "word": "den",
+        "confidence": 0.98
+    },
+    {
+        "word": "Notfall",
+        "confidence": 0.99
+    },
+    {
+        "word": "Zuletzt",
+        "confidence": 0.97
+    },
+    {
+        "word": "aktualisiert:",
+        "confidence": 0.99
+    },
+    {
+        "word": "21.10.2024",
+        "confidence": 0.96
+    },
+    {
+        "word": "Persönliche",
+        "confidence": 0.98
+    },
+    {
+        "word": "Informationen",
+        "confidence": 0.97
+    },
+    {
+        "word": "Mitarbeiternummer",
+        "confidence": 0.99
+    },
+    {
+        "word": "29680",
+        "confidence": 0.95
+    },
+    {
+        "word": "Vorname",
+        "confidence": 0.99
+    },
+    {
+        "word": "Anna",
+        "confidence": 0.96
+    },
+    {
+        "word": "Zweiter",
+        "confidence": 0.98
+    },
+    {
+        "word": "Vorname",
+        "confidence": 0.99
+    },
+    {
+        "word": "Sophie",
+        "confidence": 0.97
+    },
+    {
+        "word": "Nachname",
+        "confidence": 0.99
+    },
+    {
+        "word": "Schneider",
+        "confidence": 0.97
+    },
+    {
+        "word": "Rufname",
+        "confidence": 0.98
+    },
+    {
+        "word": "Anni",
+        "confidence": 0.95
+    },
+    {
+        "word": "Geschlecht",
+        "confidence": 0.99
+    },
+    {
+        "word": "F",
+        "confidence": 0.97
+    },
+    {
+        "word": "Nationalität",
+        "confidence": 0.99
+    },
+    {
+        "word": "Deutsch",
+        "confidence": 0.97
+    },
+    {
+        "word": "Geburtsort",
+        "confidence": 0.98
+    },
+    {
+        "word": "(Land)",
+        "confidence": 0.96
+    },
+    {
+        "word": "Köln",
+        "confidence": 0.96
+    },
+    {
+        "word": "Anschrift",
+        "confidence": 0.98
+    },
+    {
+        "word": "privat",
+        "confidence": 0.97
+    },
+    {
+        "word": "Ringstraße",
+        "confidence": 0.98
+    },
+    {
+        "word": "20",
+        "confidence": 0.95
+    },
+    {
+        "word": "50676",
+        "confidence": 0.95
+    },
+    {
+        "word": "Köln",
+        "confidence": 0.96
+    },
+    {
+        "word": "Bundesland/Kanton",
+        "confidence": 0.97
+    },
+    {
+        "word": "Nordrhein-Westfalen",
+        "confidence": 0.97
+    },
+    {
+        "word": "Telefon",
+        "confidence": 0.98
+    },
+    {
+        "word": "privat",
+        "confidence": 0.97
+    },
+    {
+        "word": "+492214876543",
+        "confidence": 0.96
+    },
+    {
+        "word": "Handy",
+        "confidence": 0.97
+    },
+    {
+        "word": "+491715876543",
+        "confidence": 0.96
+    },
+    {
+        "word": "Fax",
+        "confidence": 0.98
+    },
+    {
+        "word": "privat",
+        "confidence": 0.97
+    },
+    {
+        "word": "+492214876644",
+        "confidence": 0.96
+    },
+    {
+        "word": "E-Mail-Adresse",
+        "confidence": 0.97
+    },
+    {
+        "word": "privat",
+        "confidence": 0.97
+    },
+    {
+        "word": "anna.schneider@example.com",
+        "confidence": 0.95
+    },
+    {
+        "word": "Geburtstag",
+        "confidence": 0.98
+    },
+    {
+        "word": "(TT/MM/JJJJ)",
+        "confidence": 0.96
+    },
+    {
+        "word": "1989-05-10",
+        "confidence": 0.95
+    },
+    {
+        "word": "Sozialversicherungsnummer",
+        "confidence": 0.97
+    },
+    {
+        "word": "123987654",
+        "confidence": 0.96
+    },
+    {
+        "word": "Ausweisnummer",
+        "confidence": 0.97
+    },
+    {
+        "word": "ID2338765",
+        "confidence": 0.95
+    },
+    {
+        "word": "Führerscheinnummer",
+        "confidence": 0.97
+    },
+    {
+        "word": "G12398765",
+        "confidence": 0.95
+    },
+    {
+        "word": "Medizinische",
+        "confidence": 0.98
+    },
+    {
+        "word": "Informationen",
+        "confidence": 0.97
+    },
+    {
+        "word": "Name",
+        "confidence": 0.99
+    },
+    {
+        "word": "des",
+        "confidence": 0.98
+    },
+    {
+        "word": "Arztes",
+        "confidence": 0.98
+    },
+    {
+        "word": "Dr.",
+        "confidence": 0.96
+    },
+    {
+        "word": "Karl",
+        "confidence": 0.97
+    },
+    {
+        "word": "Wagner",
+        "confidence": 0.97
+    },
+    {
+        "word": "Adresse",
+        "confidence": 0.98
+    },
+    {
+        "word": "Domplatz",
+        "confidence": 0.97
+    },
+    {
+        "word": "3",
+        "confidence": 0.95
+    },
+    {
+        "word": "50676",
+        "confidence": 0.95
+    },
+    {
+        "word": "Köln",
+        "confidence": 0.96
+    },
+    {
+        "word": "Rufnummer",
+        "confidence": 0.97
+    },
+    {
+        "word": "+492217654321",
+        "confidence": 0.96
+    },
+    {
+        "word": "Blutgruppe",
+        "confidence": 0.98
+    },
+    {
+        "word": "A+",
+        "confidence": 0.95
+    },
+    {
+        "word": "Gesundheitliche",
+        "confidence": 0.98
+    },
+    {
+        "word": "Probleme",
+        "confidence": 0.97
+    },
+    {
+        "word": "Migräne",
+        "confidence": 0.96
+    },
+    {
+        "word": "Allergien",
+        "confidence": 0.98
+    },
+    {
+        "word": "Gräser",
+        "confidence": 0.96
+    },
+    {
+        "word": "Regelmäßig",
+        "confidence": 0.97
+    },
+    {
+        "word": "eingenommene",
+        "confidence": 0.96
+    },
+    {
+        "word": "Medikamente",
+        "confidence": 0.98
+    },
+    {
+        "word": "Ibuprofen",
+        "confidence": 0.96
+    },
+    {
+        "word": "Informationen",
+        "confidence": 0.98
+    },
+    {
+        "word": "für",
+        "confidence": 0.97
+    },
+    {
+        "word": "den",
+        "confidence": 0.98
+    },
+    {
+        "word": "Notfall",
+        "confidence": 0.99
+    },
+    {
+        "word": "Name",
+        "confidence": 0.99
+    },
+    {
+        "word": "der",
+        "confidence": 0.98
+    },
+    {
+        "word": "Kontaktperson",
+        "confidence": 0.97
+    },
+    {
+        "word": "für",
+        "confidence": 0.97
+    },
+    {
+        "word": "den",
+        "confidence": 0.98
+    },
+    {
+        "word": "Notfall",
+        "confidence": 0.99
+    },
+    {
+        "word": "Paul",
+        "confidence": 0.96
+    },
+    {
+        "word": "Schneider",
+        "confidence": 0.97
+    },
+    {
+        "word": "Beziehung",
+        "confidence": 0.98
+    },
+    {
+        "word": "Bruder",
+        "confidence": 0.96
+    },
+    {
+        "word": "Adresse",
+        "confidence": 0.98
+    },
+    {
+        "word": "Ringstraße",
+        "confidence": 0.98
+    },
+    {
+        "word": "21",
+        "confidence": 0.95
+    },
+    {
+        "word": "50676",
+        "confidence": 0.95
+    },
+    {
+        "word": "Köln",
+        "confidence": 0.96
+    },
+    {
+        "word": "Rufnummer(n)",
+        "confidence": 0.97
+    },
+    {
+        "word": "+4922148765432",
+        "confidence": 0.96
+    }
+]

@@ -89,15 +89,16 @@ def gpt4o():
     client = GPT4oHandler(os.getenv('client_id'), os.getenv('client_secret'), os.getenv('token_url'), os.getenv('api_base'), os.getenv('chat'), data_path, logger)
     time_handler = TimeHandler()
     async def process_documents():
-        for document in range(2, 11):
+        for document in range(2, 3):
             print(f"Processing document {document}")
-            for exemplar in range(1, 11):
+            for exemplar in range(6, 11):
                 print(f"Processing exemplar {document}-{exemplar}")
                 exemplar_name = f"0{exemplar}" if exemplar < 10 else exemplar
                 time_handler.startTimer()
                 await client.analyze_document(os.path.join('pdfs', 'scans', str(document), f'{exemplar_name}.pdf'))
                 processingTime = time_handler.stopTimer()
                 client.save_data(document, exemplar, processingTime, 0, 0)
+                await asyncio.sleep(5)
 
     asyncio.run(process_documents())
 

@@ -1,0 +1,434 @@
+[
+    {
+        "word": "Formular",
+        "confidence": 95
+    },
+    {
+        "word": "mit",
+        "confidence": 95
+    },
+    {
+        "word": "Mitarbeiterinformationen",
+        "confidence": 95
+    },
+    {
+        "word": "für",
+        "confidence": 95
+    },
+    {
+        "word": "den",
+        "confidence": 95
+    },
+    {
+        "word": "Notfall",
+        "confidence": 95
+    },
+    {
+        "word": "Zuletzt",
+        "confidence": 95
+    },
+    {
+        "word": "aktualisiert:",
+        "confidence": 95
+    },
+    {
+        "word": "21.10.2024",
+        "confidence": 95
+    },
+    {
+        "word": "Persönliche",
+        "confidence": 95
+    },
+    {
+        "word": "Informationen",
+        "confidence": 95
+    },
+    {
+        "word": "Mitarbeiternummer",
+        "confidence": 95
+    },
+    {
+        "word": "93521",
+        "confidence": 95
+    },
+    {
+        "word": "Vorname",
+        "confidence": 95
+    },
+    {
+        "word": "Sebastian",
+        "confidence": 95
+    },
+    {
+        "word": "Zweiter",
+        "confidence": 95
+    },
+    {
+        "word": "Vorname",
+        "confidence": 95
+    },
+    {
+        "word": "Karl",
+        "confidence": 95
+    },
+    {
+        "word": "Nachname",
+        "confidence": 95
+    },
+    {
+        "word": "Lehmann",
+        "confidence": 95
+    },
+    {
+        "word": "Rufname",
+        "confidence": 95
+    },
+    {
+        "word": "Seb",
+        "confidence": 95
+    },
+    {
+        "word": "Geschlecht",
+        "confidence": 95
+    },
+    {
+        "word": "M",
+        "confidence": 95
+    },
+    {
+        "word": "Nationalität",
+        "confidence": 95
+    },
+    {
+        "word": "Deutsch",
+        "confidence": 95
+    },
+    {
+        "word": "Geburtsort",
+        "confidence": 95
+    },
+    {
+        "word": "(Land)",
+        "confidence": 95
+    },
+    {
+        "word": "Stuttgart",
+        "confidence": 95
+    },
+    {
+        "word": "Anschrift",
+        "confidence": 95
+    },
+    {
+        "word": "privat",
+        "confidence": 95
+    },
+    {
+        "word": "Bergstraße",
+        "confidence": 95
+    },
+    {
+        "word": "45",
+        "confidence": 95
+    },
+    {
+        "word": "70173",
+        "confidence": 95
+    },
+    {
+        "word": "Stuttgart",
+        "confidence": 95
+    },
+    {
+        "word": "Bundesland/Kanton",
+        "confidence": 95
+    },
+    {
+        "word": "Baden-Württemberg",
+        "confidence": 95
+    },
+    {
+        "word": "Telefon",
+        "confidence": 95
+    },
+    {
+        "word": "privat",
+        "confidence": 95
+    },
+    {
+        "word": "+49711",
+        "confidence": 95
+    },
+    {
+        "word": "3456789",
+        "confidence": 95
+    },
+    {
+        "word": "Handy",
+        "confidence": 95
+    },
+    {
+        "word": "+49711",
+        "confidence": 95
+    },
+    {
+        "word": "3456789",
+        "confidence": 95
+    },
+    {
+        "word": "Fax",
+        "confidence": 95
+    },
+    {
+        "word": "privat",
+        "confidence": 95
+    },
+    {
+        "word": "+49711",
+        "confidence": 95
+    },
+    {
+        "word": "3456789",
+        "confidence": 95
+    },
+    {
+        "word": "E-Mail-Adresse",
+        "confidence": 95
+    },
+    {
+        "word": "privat",
+        "confidence": 95
+    },
+    {
+        "word": "sebastian.lehmann@example.com",
+        "confidence": 95
+    },
+    {
+        "word": "Geburtstag",
+        "confidence": 95
+    },
+    {
+        "word": "(TT/MM/JJJJ)",
+        "confidence": 95
+    },
+    {
+        "word": "23/11/1987",
+        "confidence": 95
+    },
+    {
+        "word": "Sozialversicherungsnummer",
+        "confidence": 95
+    },
+    {
+        "word": "67890123",
+        "confidence": 95
+    },
+    {
+        "word": "Ausweisnummer",
+        "confidence": 95
+    },
+    {
+        "word": "E67890123",
+        "confidence": 95
+    },
+    {
+        "word": "Führerscheinnummer",
+        "confidence": 95
+    },
+    {
+        "word": "F67890123",
+        "confidence": 95
+    },
+    {
+        "word": "Medizinische",
+        "confidence": 95
+    },
+    {
+        "word": "Informationen",
+        "confidence": 95
+    },
+    {
+        "word": "Name",
+        "confidence": 95
+    },
+    {
+        "word": "des",
+        "confidence": 95
+    },
+    {
+        "word": "Arztes",
+        "confidence": 95
+    },
+    {
+        "word": "Dr.",
+        "confidence": 95
+    },
+    {
+        "word": "Lisa",
+        "confidence": 95
+    },
+    {
+        "word": "Sommer",
+        "confidence": 95
+    },
+    {
+        "word": "Adresse",
+        "confidence": 95
+    },
+    {
+        "word": "Klinikweg",
+        "confidence": 95
+    },
+    {
+        "word": "6",
+        "confidence": 95
+    },
+    {
+        "word": "70173",
+        "confidence": 95
+    },
+    {
+        "word": "Stuttgart",
+        "confidence": 95
+    },
+    {
+        "word": "Rufnummer",
+        "confidence": 95
+    },
+    {
+        "word": "+49711",
+        "confidence": 95
+    },
+    {
+        "word": "2345678",
+        "confidence": 95
+    },
+    {
+        "word": "Blutgruppe",
+        "confidence": 95
+    },
+    {
+        "word": "A+",
+        "confidence": 95
+    },
+    {
+        "word": "Gesundheitliche",
+        "confidence": 95
+    },
+    {
+        "word": "Probleme",
+        "confidence": 95
+    },
+    {
+        "word": "Epilepsie",
+        "confidence": 95
+    },
+    {
+        "word": "Allergien",
+        "confidence": 95
+    },
+    {
+        "word": "Keine",
+        "confidence": 95
+    },
+    {
+        "word": "Regelmäßig",
+        "confidence": 95
+    },
+    {
+        "word": "eingenommene",
+        "confidence": 95
+    },
+    {
+        "word": "Medikamente",
+        "confidence": 95
+    },
+    {
+        "word": "Levetiracetam",
+        "confidence": 95
+    },
+    {
+        "word": "Informationen",
+        "confidence": 95
+    },
+    {
+        "word": "für",
+        "confidence": 95
+    },
+    {
+        "word": "den",
+        "confidence": 95
+    },
+    {
+        "word": "Notfall",
+        "confidence": 95
+    },
+    {
+        "word": "Name",
+        "confidence": 95
+    },
+    {
+        "word": "der",
+        "confidence": 95
+    },
+    {
+        "word": "Kontaktperson",
+        "confidence": 95
+    },
+    {
+        "word": "für",
+        "confidence": 95
+    },
+    {
+        "word": "den",
+        "confidence": 95
+    },
+    {
+        "word": "Notfall",
+        "confidence": 95
+    },
+    {
+        "word": "Sophia",
+        "confidence": 95
+    },
+    {
+        "word": "Lehmann",
+        "confidence": 95
+    },
+    {
+        "word": "Beziehung",
+        "confidence": 95
+    },
+    {
+        "word": "Ehefrau",
+        "confidence": 95
+    },
+    {
+        "word": "Adresse",
+        "confidence": 95
+    },
+    {
+        "word": "Bergstraße",
+        "confidence": 95
+    },
+    {
+        "word": "9",
+        "confidence": 95
+    },
+    {
+        "word": "70173",
+        "confidence": 95
+    },
+    {
+        "word": "Stuttgart",
+        "confidence": 95
+    },
+    {
+        "word": "Rufnummer(n)",
+        "confidence": 95
+    },
+    {
+        "word": "+49711865432",
+        "confidence": 95
+    }
+]

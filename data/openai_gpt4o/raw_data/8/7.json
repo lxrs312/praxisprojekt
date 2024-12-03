@@ -1,0 +1,826 @@
+[
+    {
+        "word": "Regelung",
+        "confidence": 0.9
+    },
+    {
+        "word": "bei",
+        "confidence": 0.9
+    },
+    {
+        "word": "Terminversäumnissen",
+        "confidence": 0.9
+    },
+    {
+        "word": "und",
+        "confidence": 0.9
+    },
+    {
+        "word": "nicht",
+        "confidence": 0.9
+    },
+    {
+        "word": "rechtzeitiger",
+        "confidence": 0.9
+    },
+    {
+        "word": "Terminabsage",
+        "confidence": 0.9
+    },
+    {
+        "word": "-",
+        "confidence": 0.9
+    },
+    {
+        "word": "Formular",
+        "confidence": 0.9
+    },
+    {
+        "word": "Wenn",
+        "confidence": 0.9
+    },
+    {
+        "word": "unsere",
+        "confidence": 0.9
+    },
+    {
+        "word": "Praxis",
+        "confidence": 0.9
+    },
+    {
+        "word": "einen",
+        "confidence": 0.9
+    },
+    {
+        "word": "Termin",
+        "confidence": 0.9
+    },
+    {
+        "word": "für",
+        "confidence": 0.9
+    },
+    {
+        "word": "Sie",
+        "confidence": 0.9
+    },
+    {
+        "word": "vormerkt,",
+        "confidence": 0.9
+    },
+    {
+        "word": "wird",
+        "confidence": 0.9
+    },
+    {
+        "word": "ein",
+        "confidence": 0.9
+    },
+    {
+        "word": "bestimmtes",
+        "confidence": 0.9
+    },
+    {
+        "word": "Zeitfenster",
+        "confidence": 0.9
+    },
+    {
+        "word": "für",
+        "confidence": 0.9
+    },
+    {
+        "word": "Sie",
+        "confidence": 0.9
+    },
+    {
+        "word": "reserviert.",
+        "confidence": 0.9
+    },
+    {
+        "word": "Sollten",
+        "confidence": 0.9
+    },
+    {
+        "word": "Sie",
+        "confidence": 0.9
+    },
+    {
+        "word": "Ihren",
+        "confidence": 0.9
+    },
+    {
+        "word": "Termin",
+        "confidence": 0.9
+    },
+    {
+        "word": "verschieben",
+        "confidence": 0.9
+    },
+    {
+        "word": "müssen,",
+        "confidence": 0.9
+    },
+    {
+        "word": "bitten",
+        "confidence": 0.9
+    },
+    {
+        "word": "wir",
+        "confidence": 0.9
+    },
+    {
+        "word": "Sie,",
+        "confidence": 0.9
+    },
+    {
+        "word": "uns",
+        "confidence": 0.9
+    },
+    {
+        "word": "dies",
+        "confidence": 0.9
+    },
+    {
+        "word": "mindestens",
+        "confidence": 0.9
+    },
+    {
+        "word": "24",
+        "confidence": 0.9
+    },
+    {
+        "word": "Stunden",
+        "confidence": 0.9
+    },
+    {
+        "word": "im",
+        "confidence": 0.9
+    },
+    {
+        "word": "Voraus",
+        "confidence": 0.9
+    },
+    {
+        "word": "mitzuteilen.",
+        "confidence": 0.9
+    },
+    {
+        "word": "Auf",
+        "confidence": 0.9
+    },
+    {
+        "word": "diese",
+        "confidence": 0.9
+    },
+    {
+        "word": "Weise",
+        "confidence": 0.9
+    },
+    {
+        "word": "können",
+        "confidence": 0.9
+    },
+    {
+        "word": "wir",
+        "confidence": 0.9
+    },
+    {
+        "word": "das",
+        "confidence": 0.9
+    },
+    {
+        "word": "für",
+        "confidence": 0.9
+    },
+    {
+        "word": "Sie",
+        "confidence": 0.9
+    },
+    {
+        "word": "reservierte",
+        "confidence": 0.9
+    },
+    {
+        "word": "Zeitfenster",
+        "confidence": 0.9
+    },
+    {
+        "word": "einem",
+        "confidence": 0.9
+    },
+    {
+        "word": "anderen",
+        "confidence": 0.9
+    },
+    {
+        "word": "Patienten",
+        "confidence": 0.9
+    },
+    {
+        "word": "zuweisen,",
+        "confidence": 0.9
+    },
+    {
+        "word": "der",
+        "confidence": 0.9
+    },
+    {
+        "word": "den",
+        "confidence": 0.9
+    },
+    {
+        "word": "Termin",
+        "confidence": 0.9
+    },
+    {
+        "word": "gerne",
+        "confidence": 0.9
+    },
+    {
+        "word": "wahrnehmen",
+        "confidence": 0.9
+    },
+    {
+        "word": "wird.",
+        "confidence": 0.9
+    },
+    {
+        "word": "Bei",
+        "confidence": 0.9
+    },
+    {
+        "word": "nicht",
+        "confidence": 0.9
+    },
+    {
+        "word": "wahrgenommenen",
+        "confidence": 0.9
+    },
+    {
+        "word": "Terminen",
+        "confidence": 0.9
+    },
+    {
+        "word": "fällt",
+        "confidence": 0.9
+    },
+    {
+        "word": "eine",
+        "confidence": 0.9
+    },
+    {
+        "word": "Gebühr",
+        "confidence": 0.9
+    },
+    {
+        "word": "von",
+        "confidence": 0.9
+    },
+    {
+        "word": "50",
+        "confidence": 0.9
+    },
+    {
+        "word": "€",
+        "confidence": 0.9
+    },
+    {
+        "word": "an.",
+        "confidence": 0.9
+    },
+    {
+        "word": "*",
+        "confidence": 0.9
+    },
+    {
+        "word": "Wiederholte",
+        "confidence": 0.9
+    },
+    {
+        "word": "Absagen",
+        "confidence": 0.9
+    },
+    {
+        "word": "oder",
+        "confidence": 0.9
+    },
+    {
+        "word": "Terminversäumnisse",
+        "confidence": 0.9
+    },
+    {
+        "word": "führen",
+        "confidence": 0.9
+    },
+    {
+        "word": "zum",
+        "confidence": 0.9
+    },
+    {
+        "word": "Verlust",
+        "confidence": 0.9
+    },
+    {
+        "word": "zukünftiger",
+        "confidence": 0.9
+    },
+    {
+        "word": "Terminansprüche.",
+        "confidence": 0.9
+    },
+    {
+        "word": "Jeder",
+        "confidence": 0.9
+    },
+    {
+        "word": "Patient",
+        "confidence": 0.9
+    },
+    {
+        "word": "in",
+        "confidence": 0.9
+    },
+    {
+        "word": "unserer",
+        "confidence": 0.9
+    },
+    {
+        "word": "Praxis",
+        "confidence": 0.9
+    },
+    {
+        "word": "erhält",
+        "confidence": 0.9
+    },
+    {
+        "word": "eine",
+        "confidence": 0.9
+    },
+    {
+        "word": "solche",
+        "confidence": 0.9
+    },
+    {
+        "word": "einmalige",
+        "confidence": 0.9
+    },
+    {
+        "word": "Terminreservierung.",
+        "confidence": 0.9
+    },
+    {
+        "word": "Nachdem",
+        "confidence": 0.9
+    },
+    {
+        "word": "Ihr",
+        "confidence": 0.9
+    },
+    {
+        "word": "Termin",
+        "confidence": 0.9
+    },
+    {
+        "word": "entgegnet",
+        "confidence": 0.9
+    },
+    {
+        "word": "und",
+        "confidence": 0.9
+    },
+    {
+        "word": "Ihnen",
+        "confidence": 0.9
+    },
+    {
+        "word": "ein",
+        "confidence": 0.9
+    },
+    {
+        "word": "Zeitfenster",
+        "confidence": 0.9
+    },
+    {
+        "word": "zugewiesen",
+        "confidence": 0.9
+    },
+    {
+        "word": "wurde,",
+        "confidence": 0.9
+    },
+    {
+        "word": "bestellen",
+        "confidence": 0.9
+    },
+    {
+        "word": "wir",
+        "confidence": 0.9
+    },
+    {
+        "word": "einiges",
+        "confidence": 0.9
+    },
+    {
+        "word": "Material",
+        "confidence": 0.9
+    },
+    {
+        "word": "für",
+        "confidence": 0.9
+    },
+    {
+        "word": "Sie",
+        "confidence": 0.9
+    },
+    {
+        "word": "und",
+        "confidence": 0.9
+    },
+    {
+        "word": "treffen",
+        "confidence": 0.9
+    },
+    {
+        "word": "die",
+        "confidence": 0.9
+    },
+    {
+        "word": "erforderlichen",
+        "confidence": 0.9
+    },
+    {
+        "word": "Vorbereitungen,",
+        "confidence": 0.9
+    },
+    {
+        "word": "um",
+        "confidence": 0.9
+    },
+    {
+        "word": "bestens",
+        "confidence": 0.9
+    },
+    {
+        "word": "auf",
+        "confidence": 0.9
+    },
+    {
+        "word": "Ihre",
+        "confidence": 0.9
+    },
+    {
+        "word": "Visite",
+        "confidence": 0.9
+    },
+    {
+        "word": "vorbereitet",
+        "confidence": 0.9
+    },
+    {
+        "word": "zu",
+        "confidence": 0.9
+    },
+    {
+        "word": "sein.",
+        "confidence": 0.9
+    },
+    {
+        "word": "Außer",
+        "confidence": 0.9
+    },
+    {
+        "word": "wenn",
+        "confidence": 0.9
+    },
+    {
+        "word": "ein",
+        "confidence": 0.9
+    },
+    {
+        "word": "anderer",
+        "confidence": 0.9
+    },
+    {
+        "word": "Patient",
+        "confidence": 0.9
+    },
+    {
+        "word": "notversorgt",
+        "confidence": 0.9
+    },
+    {
+        "word": "werden",
+        "confidence": 0.9
+    },
+    {
+        "word": "muss,",
+        "confidence": 0.9
+    },
+    {
+        "word": "können",
+        "confidence": 0.9
+    },
+    {
+        "word": "Sie",
+        "confidence": 0.9
+    },
+    {
+        "word": "davon",
+        "confidence": 0.9
+    },
+    {
+        "word": "ausgehen,",
+        "confidence": 0.9
+    },
+    {
+        "word": "dass",
+        "confidence": 0.9
+    },
+    {
+        "word": "wir",
+        "confidence": 0.9
+    },
+    {
+        "word": "pünktlich",
+        "confidence": 0.9
+    },
+    {
+        "word": "sind.",
+        "confidence": 0.9
+    },
+    {
+        "word": "Wir",
+        "confidence": 0.9
+    },
+    {
+        "word": "würden",
+        "confidence": 0.9
+    },
+    {
+        "word": "es",
+        "confidence": 0.9
+    },
+    {
+        "word": "natürlich",
+        "confidence": 0.9
+    },
+    {
+        "word": "über",
+        "confidence": 0.9
+    },
+    {
+        "word": "diese",
+        "confidence": 0.9
+    },
+    {
+        "word": "Möglichkeit",
+        "confidence": 0.9
+    },
+    {
+        "word": "von",
+        "confidence": 0.9
+    },
+    {
+        "word": "Ihrer",
+        "confidence": 0.9
+    },
+    {
+        "word": "Seite",
+        "confidence": 0.9
+    },
+    {
+        "word": "sehr",
+        "confidence": 0.9
+    },
+    {
+        "word": "freuen.",
+        "confidence": 0.9
+    },
+    {
+        "word": "Kreditkarten-Reservierungsformular",
+        "confidence": 0.9
+    },
+    {
+        "word": "Hinweis:",
+        "confidence": 0.9
+    },
+    {
+        "word": "Die",
+        "confidence": 0.9
+    },
+    {
+        "word": "unten",
+        "confidence": 0.9
+    },
+    {
+        "word": "angegebene",
+        "confidence": 0.9
+    },
+    {
+        "word": "Karte",
+        "confidence": 0.9
+    },
+    {
+        "word": "wird",
+        "confidence": 0.9
+    },
+    {
+        "word": "am",
+        "confidence": 0.9
+    },
+    {
+        "word": "Tag",
+        "confidence": 0.9
+    },
+    {
+        "word": "Ihres",
+        "confidence": 0.9
+    },
+    {
+        "word": "geplanten",
+        "confidence": 0.9
+    },
+    {
+        "word": "Termins",
+        "confidence": 0.9
+    },
+    {
+        "word": "nur",
+        "confidence": 0.9
+    },
+    {
+        "word": "dann",
+        "confidence": 0.9
+    },
+    {
+        "word": "belastet,",
+        "confidence": 0.9
+    },
+    {
+        "word": "wenn",
+        "confidence": 0.9
+    },
+    {
+        "word": "dieser",
+        "confidence": 0.9
+    },
+    {
+        "word": "nicht",
+        "confidence": 0.9
+    },
+    {
+        "word": "innerhalb",
+        "confidence": 0.9
+    },
+    {
+        "word": "der",
+        "confidence": 0.9
+    },
+    {
+        "word": "erforderlichen",
+        "confidence": 0.9
+    },
+    {
+        "word": "24-Stunden-Frist",
+        "confidence": 0.9
+    },
+    {
+        "word": "abgesagt",
+        "confidence": 0.9
+    },
+    {
+        "word": "wurde.",
+        "confidence": 0.9
+    },
+    {
+        "word": "4567890123456789",
+        "confidence": 0.9
+    },
+    {
+        "word": "Kreditkartennummer",
+        "confidence": 0.9
+    },
+    {
+        "word": "Visa",
+        "confidence": 0.9
+    },
+    {
+        "word": "Kartentyp",
+        "confidence": 0.9
+    },
+    {
+        "word": "05/24",
+        "confidence": 0.9
+    },
+    {
+        "word": "Ablaufdatum",
+        "confidence": 0.9
+    },
+    {
+        "word": "912",
+        "confidence": 0.9
+    },
+    {
+        "word": "CVC-",
+        "confidence": 0.9
+    },
+    {
+        "word": "/Sicherheitscode",
+        "confidence": 0.9
+    },
+    {
+        "word": "(3",
+        "confidence": 0.9
+    },
+    {
+        "word": "Ziffern)",
+        "confidence": 0.9
+    },
+    {
+        "word": "7830",
+        "confidence": 0.9
+    },
+    {
+        "word": "Amex-",
+        "confidence": 0.9
+    },
+    {
+        "word": "Sicherheitscode",
+        "confidence": 0.9
+    },
+    {
+        "word": "(4",
+        "confidence": 0.9
+    },
+    {
+        "word": "Ziffern)",
+        "confidence": 0.9
+    },
+    {
+        "word": "Laura",
+        "confidence": 0.9
+    },
+    {
+        "word": "Meier",
+        "confidence": 0.9
+    },
+    {
+        "word": "Name",
+        "confidence": 0.9
+    },
+    {
+        "word": "Patient/Patientin",
+        "confidence": 0.9
+    },
+    {
+        "word": "Laura",
+        "confidence": 0.9
+    },
+    {
+        "word": "Meier",
+        "confidence": 0.9
+    },
+    {
+        "word": "Patientenunterschrift",
+        "confidence": 0.9
+    },
+    {
+        "word": "2024-10-31",
+        "confidence": 0.9
+    },
+    {
+        "word": "Datum",
+        "confidence": 0.9
+    },
+    {
+        "word": "Musterstraße",
+        "confidence": 0.9
+    },
+    {
+        "word": "123,",
+        "confidence": 0.9
+    },
+    {
+        "word": "12345",
+        "confidence": 0.9
+    },
+    {
+        "word": "Musterstadt",
+        "confidence": 0.9
+    },
+    {
+        "word": "+49",
+        "confidence": 0.9
+    },
+    {
+        "word": "123",
+        "confidence": 0.9
+    },
+    {
+        "word": "456789",
+        "confidence": 0.9
+    },
+    {
+        "word": "sekretariat@musterpraxis.de",
+        "confidence": 0.9
+    }
+]

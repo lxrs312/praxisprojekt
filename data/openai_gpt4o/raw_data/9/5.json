@@ -1,0 +1,542 @@
+[
+    {
+        "word": "Antrag",
+        "confidence": 95
+    },
+    {
+        "word": "auf",
+        "confidence": 96
+    },
+    {
+        "word": "Ausstellung",
+        "confidence": 92
+    },
+    {
+        "word": "eines",
+        "confidence": 93
+    },
+    {
+        "word": "Wahlscheins",
+        "confidence": 94
+    },
+    {
+        "word": "und",
+        "confidence": 95
+    },
+    {
+        "word": "der",
+        "confidence": 96
+    },
+    {
+        "word": "Briefwahlunterlagen",
+        "confidence": 90
+    },
+    {
+        "word": "Kommunalwahlen",
+        "confidence": 88
+    },
+    {
+        "word": "am",
+        "confidence": 97
+    },
+    {
+        "word": "14.07.2025",
+        "confidence": 96
+    },
+    {
+        "word": "Wahl",
+        "confidence": 97
+    },
+    {
+        "word": "des",
+        "confidence": 98
+    },
+    {
+        "word": "Regionspräsidenten",
+        "confidence": 94
+    },
+    {
+        "word": "oder",
+        "confidence": 93
+    },
+    {
+        "word": "der",
+        "confidence": 94
+    },
+    {
+        "word": "Regionspräsidentin",
+        "confidence": 92
+    },
+    {
+        "word": "Wahl",
+        "confidence": 97
+    },
+    {
+        "word": "der",
+        "confidence": 98
+    },
+    {
+        "word": "Regionsversammlung",
+        "confidence": 94
+    },
+    {
+        "word": "Wahl",
+        "confidence": 97
+    },
+    {
+        "word": "des",
+        "confidence": 98
+    },
+    {
+        "word": "Rates",
+        "confidence": 96
+    },
+    {
+        "word": "Wahl",
+        "confidence": 97
+    },
+    {
+        "word": "des",
+        "confidence": 98
+    },
+    {
+        "word": "Stadtbezirkrates",
+        "confidence": 93
+    },
+    {
+        "word": "Landeshauptstadt",
+        "confidence": 90
+    },
+    {
+        "word": "Musterhausen",
+        "confidence": 91
+    },
+    {
+        "word": "Wahlamt",
+        "confidence": 89
+    },
+    {
+        "word": "Rathaus",
+        "confidence": 95
+    },
+    {
+        "word": "etwaige",
+        "confidence": 91
+    },
+    {
+        "word": "Stichwahl",
+        "confidence": 90
+    },
+    {
+        "word": "am",
+        "confidence": 97
+    },
+    {
+        "word": "01.08.2025",
+        "confidence": 96
+    },
+    {
+        "word": "des",
+        "confidence": 98
+    },
+    {
+        "word": "Regionspräsidenten",
+        "confidence": 94
+    },
+    {
+        "word": "oder",
+        "confidence": 93
+    },
+    {
+        "word": "der",
+        "confidence": 94
+    },
+    {
+        "word": "Regionspräsidentin",
+        "confidence": 92
+    },
+    {
+        "word": "01234",
+        "confidence": 97
+    },
+    {
+        "word": "Musterhausen",
+        "confidence": 91
+    },
+    {
+        "word": "Ich",
+        "confidence": 95
+    },
+    {
+        "word": "will",
+        "confidence": 96
+    },
+    {
+        "word": "durch",
+        "confidence": 95
+    },
+    {
+        "word": "Briefwahl",
+        "confidence": 90
+    },
+    {
+        "word": "wählen",
+        "confidence": 89
+    },
+    {
+        "word": "und",
+        "confidence": 95
+    },
+    {
+        "word": "beantrage",
+        "confidence": 88
+    },
+    {
+        "word": "einen",
+        "confidence": 92
+    },
+    {
+        "word": "Wahlschein",
+        "confidence": 94
+    },
+    {
+        "word": "und",
+        "confidence": 95
+    },
+    {
+        "word": "Briefwahlunterlagen",
+        "confidence": 90
+    },
+    {
+        "word": "für",
+        "confidence": 97
+    },
+    {
+        "word": "die",
+        "confidence": 98
+    },
+    {
+        "word": "Wahlen",
+        "confidence": 95
+    },
+    {
+        "word": "am",
+        "confidence": 97
+    },
+    {
+        "word": "14.07.2025",
+        "confidence": 96
+    },
+    {
+        "word": "und",
+        "confidence": 95
+    },
+    {
+        "word": "etwaige",
+        "confidence": 91
+    },
+    {
+        "word": "Stichwahl",
+        "confidence": 90
+    },
+    {
+        "word": "am",
+        "confidence": 97
+    },
+    {
+        "word": "01.08.2025",
+        "confidence": 96
+    },
+    {
+        "word": "nur",
+        "confidence": 95
+    },
+    {
+        "word": "für",
+        "confidence": 97
+    },
+    {
+        "word": "die",
+        "confidence": 98
+    },
+    {
+        "word": "Wahl",
+        "confidence": 97
+    },
+    {
+        "word": "am",
+        "confidence": 97
+    },
+    {
+        "word": "14.07.2025",
+        "confidence": 96
+    },
+    {
+        "word": "nur",
+        "confidence": 95
+    },
+    {
+        "word": "für",
+        "confidence": 97
+    },
+    {
+        "word": "die",
+        "confidence": 98
+    },
+    {
+        "word": "etwaige",
+        "confidence": 91
+    },
+    {
+        "word": "Stichwahl",
+        "confidence": 90
+    },
+    {
+        "word": "am",
+        "confidence": 97
+    },
+    {
+        "word": "01.08.2025",
+        "confidence": 96
+    },
+    {
+        "word": "Familienname",
+        "confidence": 91
+    },
+    {
+        "word": "Vorname",
+        "confidence": 93
+    },
+    {
+        "word": "Wagner",
+        "confidence": 90
+    },
+    {
+        "word": "Sebastian",
+        "confidence": 92
+    },
+    {
+        "word": "Hauptwohnung",
+        "confidence": 89
+    },
+    {
+        "word": "Straße",
+        "confidence": 87
+    },
+    {
+        "word": "und",
+        "confidence": 95
+    },
+    {
+        "word": "Haus-Nr",
+        "confidence": 89
+    },
+    {
+        "word": "Feldstraße",
+        "confidence": 88
+    },
+    {
+        "word": "9",
+        "confidence": 98
+    },
+    {
+        "word": "Geburtstag",
+        "confidence": 92
+    },
+    {
+        "word": "1995-07-14",
+        "confidence": 95
+    },
+    {
+        "word": "PLZ",
+        "confidence": 97
+    },
+    {
+        "word": "Ort",
+        "confidence": 97
+    },
+    {
+        "word": "70173",
+        "confidence": 98
+    },
+    {
+        "word": "Stuttgart",
+        "confidence": 91
+    },
+    {
+        "word": "freiwillige",
+        "confidence": 90
+    },
+    {
+        "word": "Angabe",
+        "confidence": 91
+    },
+    {
+        "word": "E-Mail",
+        "confidence": 94
+    },
+    {
+        "word": "oder",
+        "confidence": 93
+    },
+    {
+        "word": "Telefonnummer",
+        "confidence": 89
+    },
+    {
+        "word": "für",
+        "confidence": 97
+    },
+    {
+        "word": "Rückfragen",
+        "confidence": 88
+    },
+    {
+        "word": "sebastian.wagner@example.com",
+        "confidence": 89
+    },
+    {
+        "word": "Der",
+        "confidence": 95
+    },
+    {
+        "word": "Wahlschein",
+        "confidence": 94
+    },
+    {
+        "word": "und",
+        "confidence": 95
+    },
+    {
+        "word": "die",
+        "confidence": 98
+    },
+    {
+        "word": "Briefwahlunterlagen",
+        "confidence": 90
+    },
+    {
+        "word": "sollen",
+        "confidence": 92
+    },
+    {
+        "word": "an",
+        "confidence": 95
+    },
+    {
+        "word": "folgende",
+        "confidence": 93
+    },
+    {
+        "word": "Anschrift",
+        "confidence": 88
+    },
+    {
+        "word": "geschickt",
+        "confidence": 89
+    },
+    {
+        "word": "werden",
+        "confidence": 95
+    },
+    {
+        "word": "Straße",
+        "confidence": 87
+    },
+    {
+        "word": "Hausnummer",
+        "confidence": 89
+    },
+    {
+        "word": "ggf",
+        "confidence": 91
+    },
+    {
+        "word": "Hotel",
+        "confidence": 87
+    },
+    {
+        "word": "usw",
+        "confidence": 90
+    },
+    {
+        "word": "Feldstraße",
+        "confidence": 88
+    },
+    {
+        "word": "8",
+        "confidence": 98
+    },
+    {
+        "word": "Postleitzahl",
+        "confidence": 91
+    },
+    {
+        "word": "Ort",
+        "confidence": 97
+    },
+    {
+        "word": "bei",
+        "confidence": 95
+    },
+    {
+        "word": "Versand",
+        "confidence": 91
+    },
+    {
+        "word": "ins",
+        "confidence": 95
+    },
+    {
+        "word": "Ausland",
+        "confidence": 92
+    },
+    {
+        "word": "auch",
+        "confidence": 95
+    },
+    {
+        "word": "Staat",
+        "confidence": 90
+    },
+    {
+        "word": "70173",
+        "confidence": 98
+    },
+    {
+        "word": "Stuttgart",
+        "confidence": 91
+    },
+    {
+        "word": "Stuttgart",
+        "confidence": 91
+    },
+    {
+        "word": "2024-10-29",
+        "confidence": 95
+    },
+    {
+        "word": "Ort",
+        "confidence": 97
+    },
+    {
+        "word": "und",
+        "confidence": 95
+    },
+    {
+        "word": "Datum",
+        "confidence": 92
+    },
+    {
+        "word": "Sebastian",
+        "confidence": 92
+    },
+    {
+        "word": "Wagner",
+        "confidence": 90
+    },
+    {
+        "word": "Unterschrift",
+        "confidence": 89
+    }
+]

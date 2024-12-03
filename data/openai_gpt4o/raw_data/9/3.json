@@ -1,0 +1,546 @@
+[
+    {
+        "word": "Antrag",
+        "confidence": 0.98
+    },
+    {
+        "word": "auf",
+        "confidence": 0.98
+    },
+    {
+        "word": "Ausstellung",
+        "confidence": 0.98
+    },
+    {
+        "word": "eines",
+        "confidence": 0.98
+    },
+    {
+        "word": "Wahlscheins",
+        "confidence": 0.98
+    },
+    {
+        "word": "und",
+        "confidence": 0.98
+    },
+    {
+        "word": "der",
+        "confidence": 0.98
+    },
+    {
+        "word": "Briefwahlunterlagen",
+        "confidence": 0.98
+    },
+    {
+        "word": "Kommunalwahlen",
+        "confidence": 0.97
+    },
+    {
+        "word": "am",
+        "confidence": 0.97
+    },
+    {
+        "word": "14.07.2025",
+        "confidence": 0.97
+    },
+    {
+        "word": "Wahl",
+        "confidence": 0.97
+    },
+    {
+        "word": "des",
+        "confidence": 0.97
+    },
+    {
+        "word": "Regionspräsidenten",
+        "confidence": 0.97
+    },
+    {
+        "word": "oder",
+        "confidence": 0.97
+    },
+    {
+        "word": "der",
+        "confidence": 0.97
+    },
+    {
+        "word": "Regionspräsidentin",
+        "confidence": 0.97
+    },
+    {
+        "word": "Wahl",
+        "confidence": 0.97
+    },
+    {
+        "word": "der",
+        "confidence": 0.97
+    },
+    {
+        "word": "Regionsversammlung",
+        "confidence": 0.97
+    },
+    {
+        "word": "Wahl",
+        "confidence": 0.97
+    },
+    {
+        "word": "des",
+        "confidence": 0.97
+    },
+    {
+        "word": "Rates",
+        "confidence": 0.97
+    },
+    {
+        "word": "Wahl",
+        "confidence": 0.97
+    },
+    {
+        "word": "des",
+        "confidence": 0.97
+    },
+    {
+        "word": "Stadtbezirkrates",
+        "confidence": 0.97
+    },
+    {
+        "word": "Landeshauptstadt",
+        "confidence": 0.96
+    },
+    {
+        "word": "Musterhausen",
+        "confidence": 0.96
+    },
+    {
+        "word": "Wahlamt",
+        "confidence": 0.96
+    },
+    {
+        "word": "Rathaus",
+        "confidence": 0.96
+    },
+    {
+        "word": "etwaige",
+        "confidence": 0.96
+    },
+    {
+        "word": "Stichwahl",
+        "confidence": 0.96
+    },
+    {
+        "word": "am",
+        "confidence": 0.96
+    },
+    {
+        "word": "01.08.2025",
+        "confidence": 0.96
+    },
+    {
+        "word": "des",
+        "confidence": 0.96
+    },
+    {
+        "word": "Regionspräsidenten",
+        "confidence": 0.96
+    },
+    {
+        "word": "oder",
+        "confidence": 0.96
+    },
+    {
+        "word": "der",
+        "confidence": 0.96
+    },
+    {
+        "word": "Regionspräsidentin",
+        "confidence": 0.96
+    },
+    {
+        "word": "01234",
+        "confidence": 0.96
+    },
+    {
+        "word": "Musterhausen",
+        "confidence": 0.96
+    },
+    {
+        "word": "Ich",
+        "confidence": 0.95
+    },
+    {
+        "word": "will",
+        "confidence": 0.95
+    },
+    {
+        "word": "durch",
+        "confidence": 0.95
+    },
+    {
+        "word": "Briefwahl",
+        "confidence": 0.95
+    },
+    {
+        "word": "wählen",
+        "confidence": 0.95
+    },
+    {
+        "word": "und",
+        "confidence": 0.95
+    },
+    {
+        "word": "beantrage",
+        "confidence": 0.95
+    },
+    {
+        "word": "einen",
+        "confidence": 0.95
+    },
+    {
+        "word": "Wahlschein",
+        "confidence": 0.95
+    },
+    {
+        "word": "und",
+        "confidence": 0.95
+    },
+    {
+        "word": "Briefwahlunterlagen",
+        "confidence": 0.95
+    },
+    {
+        "word": "für",
+        "confidence": 0.94
+    },
+    {
+        "word": "die",
+        "confidence": 0.94
+    },
+    {
+        "word": "Wahlen",
+        "confidence": 0.94
+    },
+    {
+        "word": "am",
+        "confidence": 0.94
+    },
+    {
+        "word": "14.07.2025",
+        "confidence": 0.94
+    },
+    {
+        "word": "und",
+        "confidence": 0.94
+    },
+    {
+        "word": "etwaige",
+        "confidence": 0.94
+    },
+    {
+        "word": "Stichwahl",
+        "confidence": 0.94
+    },
+    {
+        "word": "am",
+        "confidence": 0.94
+    },
+    {
+        "word": "01.08.2025",
+        "confidence": 0.94
+    },
+    {
+        "word": "nur",
+        "confidence": 0.94
+    },
+    {
+        "word": "für",
+        "confidence": 0.94
+    },
+    {
+        "word": "die",
+        "confidence": 0.94
+    },
+    {
+        "word": "Wahl",
+        "confidence": 0.94
+    },
+    {
+        "word": "am",
+        "confidence": 0.94
+    },
+    {
+        "word": "14.07.2025",
+        "confidence": 0.94
+    },
+    {
+        "word": "nur",
+        "confidence": 0.94
+    },
+    {
+        "word": "für",
+        "confidence": 0.94
+    },
+    {
+        "word": "die",
+        "confidence": 0.94
+    },
+    {
+        "word": "etwaige",
+        "confidence": 0.94
+    },
+    {
+        "word": "Stichwahl",
+        "confidence": 0.94
+    },
+    {
+        "word": "am",
+        "confidence": 0.94
+    },
+    {
+        "word": "01.08.2025",
+        "confidence": 0.94
+    },
+    {
+        "word": "Familienname,",
+        "confidence": 0.93
+    },
+    {
+        "word": "Vorname",
+        "confidence": 0.93
+    },
+    {
+        "word": "Fischer,",
+        "confidence": 0.93
+    },
+    {
+        "word": "Lukas",
+        "confidence": 0.93
+    },
+    {
+        "word": "Geburtstag",
+        "confidence": 0.93
+    },
+    {
+        "word": "1992-03-30",
+        "confidence": 0.93
+    },
+    {
+        "word": "Hauptwohnung:",
+        "confidence": 0.93
+    },
+    {
+        "word": "Straße",
+        "confidence": 0.93
+    },
+    {
+        "word": "und",
+        "confidence": 0.93
+    },
+    {
+        "word": "Haus-Nr.",
+        "confidence": 0.93
+    },
+    {
+        "word": "Marktstraße",
+        "confidence": 0.93
+    },
+    {
+        "word": "7",
+        "confidence": 0.93
+    },
+    {
+        "word": "PLZ",
+        "confidence": 0.93
+    },
+    {
+        "word": "Ort",
+        "confidence": 0.93
+    },
+    {
+        "word": "80331",
+        "confidence": 0.93
+    },
+    {
+        "word": "München",
+        "confidence": 0.93
+    },
+    {
+        "word": "freiwillige",
+        "confidence": 0.92
+    },
+    {
+        "word": "Angabe:",
+        "confidence": 0.92
+    },
+    {
+        "word": "E-Mail",
+        "confidence": 0.92
+    },
+    {
+        "word": "oder",
+        "confidence": 0.92
+    },
+    {
+        "word": "Telefonnummer",
+        "confidence": 0.92
+    },
+    {
+        "word": "für",
+        "confidence": 0.92
+    },
+    {
+        "word": "Rückfragen",
+        "confidence": 0.92
+    },
+    {
+        "word": "lukas.fischer@example.com",
+        "confidence": 0.92
+    },
+    {
+        "word": "Der",
+        "confidence": 0.91
+    },
+    {
+        "word": "Wahlschein",
+        "confidence": 0.91
+    },
+    {
+        "word": "und",
+        "confidence": 0.91
+    },
+    {
+        "word": "die",
+        "confidence": 0.91
+    },
+    {
+        "word": "Briefwahlunterlagen",
+        "confidence": 0.91
+    },
+    {
+        "word": "sollen",
+        "confidence": 0.91
+    },
+    {
+        "word": "an",
+        "confidence": 0.91
+    },
+    {
+        "word": "folgende",
+        "confidence": 0.91
+    },
+    {
+        "word": "Anschrift",
+        "confidence": 0.91
+    },
+    {
+        "word": "geschickt",
+        "confidence": 0.91
+    },
+    {
+        "word": "werden:",
+        "confidence": 0.91
+    },
+    {
+        "word": "Straße,",
+        "confidence": 0.91
+    },
+    {
+        "word": "Hausnummer,",
+        "confidence": 0.91
+    },
+    {
+        "word": "gef.",
+        "confidence": 0.91
+    },
+    {
+        "word": "Hotel",
+        "confidence": 0.91
+    },
+    {
+        "word": "usw.",
+        "confidence": 0.91
+    },
+    {
+        "word": "Marktstraße",
+        "confidence": 0.91
+    },
+    {
+        "word": "7",
+        "confidence": 0.91
+    },
+    {
+        "word": "Postleitzahl,",
+        "confidence": 0.91
+    },
+    {
+        "word": "Ort",
+        "confidence": 0.91
+    },
+    {
+        "word": "–",
+        "confidence": 0.91
+    },
+    {
+        "word": "bei",
+        "confidence": 0.91
+    },
+    {
+        "word": "Versand",
+        "confidence": 0.91
+    },
+    {
+        "word": "ins",
+        "confidence": 0.91
+    },
+    {
+        "word": "Ausland",
+        "confidence": 0.91
+    },
+    {
+        "word": "auch",
+        "confidence": 0.91
+    },
+    {
+        "word": "Staat",
+        "confidence": 0.91
+    },
+    {
+        "word": "80331",
+        "confidence": 0.91
+    },
+    {
+        "word": "München",
+        "confidence": 0.91
+    },
+    {
+        "word": "München,",
+        "confidence": 0.91
+    },
+    {
+        "word": "2024-10-27",
+        "confidence": 0.91
+    },
+    {
+        "word": "Ort",
+        "confidence": 0.91
+    },
+    {
+        "word": "und",
+        "confidence": 0.91
+    },
+    {
+        "word": "Datum",
+        "confidence": 0.91
+    },
+    {
+        "word": "Lukas",
+        "confidence": 0.91
+    },
+    {
+        "word": "Fischer",
+        "confidence": 0.91
+    },
+    {
+        "word": "Unterschrift",
+        "confidence": 0.91
+    }
+]

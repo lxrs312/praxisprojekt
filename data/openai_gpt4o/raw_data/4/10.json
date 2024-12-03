@@ -1,0 +1,674 @@
+[
+    {
+        "word": "TerraTech",
+        "confidence": 0.95
+    },
+    {
+        "word": "GmbH",
+        "confidence": 0.95
+    },
+    {
+        "word": "2-fache",
+        "confidence": 0.88
+    },
+    {
+        "word": "Ausfertigung",
+        "confidence": 0.88
+    },
+    {
+        "word": "TerraTech",
+        "confidence": 0.95
+    },
+    {
+        "word": "Ausbauproduktion",
+        "confidence": 0.9
+    },
+    {
+        "word": "GmbH",
+        "confidence": 0.95
+    },
+    {
+        "word": "1x",
+        "confidence": 0.9
+    },
+    {
+        "word": "Kunde",
+        "confidence": 0.89
+    },
+    {
+        "word": "1x",
+        "confidence": 0.9
+    },
+    {
+        "word": "TerraTech",
+        "confidence": 0.95
+    },
+    {
+        "word": "GmbH",
+        "confidence": 0.95
+    },
+    {
+        "word": "Erklärung",
+        "confidence": 0.92
+    },
+    {
+        "word": "zum",
+        "confidence": 0.92
+    },
+    {
+        "word": "Haftungs-",
+        "confidence": 0.88
+    },
+    {
+        "word": "und",
+        "confidence": 0.92
+    },
+    {
+        "word": "Gewährleistungsausschluss",
+        "confidence": 0.85
+    },
+    {
+        "word": "Feldstraße",
+        "confidence": 0.93
+    },
+    {
+        "word": "11,",
+        "confidence": 0.93
+    },
+    {
+        "word": "50667",
+        "confidence": 0.93
+    },
+    {
+        "word": "Köln",
+        "confidence": 0.93
+    },
+    {
+        "word": "Anschrift",
+        "confidence": 0.89
+    },
+    {
+        "word": "des",
+        "confidence": 0.92
+    },
+    {
+        "word": "Objektes",
+        "confidence": 0.9
+    },
+    {
+        "word": "(Ort,",
+        "confidence": 0.87
+    },
+    {
+        "word": "Straße,",
+        "confidence": 0.89
+    },
+    {
+        "word": "Haus-Nr.)",
+        "confidence": 0.87
+    },
+    {
+        "word": "Hoffmann,",
+        "confidence": 0.9
+    },
+    {
+        "word": "Tobias",
+        "confidence": 0.9
+    },
+    {
+        "word": "Name,",
+        "confidence": 0.9
+    },
+    {
+        "word": "Vorname",
+        "confidence": 0.9
+    },
+    {
+        "word": "Köln,",
+        "confidence": 0.93
+    },
+    {
+        "word": "Eichenstraße,",
+        "confidence": 0.87
+    },
+    {
+        "word": "2",
+        "confidence": 0.93
+    },
+    {
+        "word": "Ort,",
+        "confidence": 0.92
+    },
+    {
+        "word": "Straße,",
+        "confidence": 0.89
+    },
+    {
+        "word": "Haus-Nr.",
+        "confidence": 0.89
+    },
+    {
+        "word": "Ich",
+        "confidence": 0.92
+    },
+    {
+        "word": "wünsche,",
+        "confidence": 0.87
+    },
+    {
+        "word": "dass",
+        "confidence": 0.92
+    },
+    {
+        "word": "die",
+        "confidence": 0.92
+    },
+    {
+        "word": "Herstellung",
+        "confidence": 0.88
+    },
+    {
+        "word": "der",
+        "confidence": 0.92
+    },
+    {
+        "word": "Hauseinführung",
+        "confidence": 0.88
+    },
+    {
+        "word": "Herstellung",
+        "confidence": 0.88
+    },
+    {
+        "word": "des",
+        "confidence": 0.92
+    },
+    {
+        "word": "Kabelgrabens",
+        "confidence": 0.88
+    },
+    {
+        "word": "Verlegung",
+        "confidence": 0.88
+    },
+    {
+        "word": "der",
+        "confidence": 0.92
+    },
+    {
+        "word": "Kabel/Rohre",
+        "confidence": 0.88
+    },
+    {
+        "word": "auf",
+        "confidence": 0.92
+    },
+    {
+        "word": "meinem",
+        "confidence": 0.92
+    },
+    {
+        "word": "Grundstück",
+        "confidence": 0.88
+    },
+    {
+        "word": "(zutreffendes",
+        "confidence": 0.85
+    },
+    {
+        "word": "bitte",
+        "confidence": 0.92
+    },
+    {
+        "word": "ankreuzen)",
+        "confidence": 0.85
+    },
+    {
+        "word": "für",
+        "confidence": 0.92
+    },
+    {
+        "word": "die",
+        "confidence": 0.92
+    },
+    {
+        "word": "Fernmeldekabel",
+        "confidence": 0.88
+    },
+    {
+        "word": "in",
+        "confidence": 0.92
+    },
+    {
+        "word": "Absprache",
+        "confidence": 0.88
+    },
+    {
+        "word": "mit",
+        "confidence": 0.92
+    },
+    {
+        "word": "den",
+        "confidence": 0.92
+    },
+    {
+        "word": "zuständigen",
+        "confidence": 0.88
+    },
+    {
+        "word": "Versorgungsunternehmen",
+        "confidence": 0.85
+    },
+    {
+        "word": "oder",
+        "confidence": 0.92
+    },
+    {
+        "word": "deren",
+        "confidence": 0.92
+    },
+    {
+        "word": "beauftragten",
+        "confidence": 0.88
+    },
+    {
+        "word": "Dienstleistern",
+        "confidence": 0.88
+    },
+    {
+        "word": "erfolgt.",
+        "confidence": 0.87
+    },
+    {
+        "word": "Dabei",
+        "confidence": 0.88
+    },
+    {
+        "word": "bestätige",
+        "confidence": 0.88
+    },
+    {
+        "word": "ich,",
+        "confidence": 0.87
+    },
+    {
+        "word": "dass",
+        "confidence": 0.92
+    },
+    {
+        "word": "ich",
+        "confidence": 0.92
+    },
+    {
+        "word": "als",
+        "confidence": 0.92
+    },
+    {
+        "word": "Grundstückseigentümer",
+        "confidence": 0.85
+    },
+    {
+        "word": "für",
+        "confidence": 0.92
+    },
+    {
+        "word": "die",
+        "confidence": 0.92
+    },
+    {
+        "word": "ordnungsgemäße",
+        "confidence": 0.88
+    },
+    {
+        "word": "Durchführung",
+        "confidence": 0.88
+    },
+    {
+        "word": "der",
+        "confidence": 0.92
+    },
+    {
+        "word": "Arbeiten",
+        "confidence": 0.88
+    },
+    {
+        "word": "auf",
+        "confidence": 0.92
+    },
+    {
+        "word": "meinem",
+        "confidence": 0.92
+    },
+    {
+        "word": "Grundstück",
+        "confidence": 0.88
+    },
+    {
+        "word": "verantwortlich",
+        "confidence": 0.88
+    },
+    {
+        "word": "bin",
+        "confidence": 0.92
+    },
+    {
+        "word": "und",
+        "confidence": 0.92
+    },
+    {
+        "word": "sämtliche",
+        "confidence": 0.88
+    },
+    {
+        "word": "notwendigen",
+        "confidence": 0.88
+    },
+    {
+        "word": "Genehmigungen",
+        "confidence": 0.85
+    },
+    {
+        "word": "eingeholt",
+        "confidence": 0.88
+    },
+    {
+        "word": "wurden.",
+        "confidence": 0.87
+    },
+    {
+        "word": "Des",
+        "confidence": 0.92
+    },
+    {
+        "word": "Weiteren",
+        "confidence": 0.88
+    },
+    {
+        "word": "erkläre",
+        "confidence": 0.88
+    },
+    {
+        "word": "ich",
+        "confidence": 0.92
+    },
+    {
+        "word": "mich",
+        "confidence": 0.92
+    },
+    {
+        "word": "bereit,",
+        "confidence": 0.87
+    },
+    {
+        "word": "für",
+        "confidence": 0.92
+    },
+    {
+        "word": "etwaige",
+        "confidence": 0.88
+    },
+    {
+        "word": "Schäden,",
+        "confidence": 0.87
+    },
+    {
+        "word": "die",
+        "confidence": 0.92
+    },
+    {
+        "word": "im",
+        "confidence": 0.92
+    },
+    {
+        "word": "Zuge",
+        "confidence": 0.88
+    },
+    {
+        "word": "der",
+        "confidence": 0.92
+    },
+    {
+        "word": "Arbeiten",
+        "confidence": 0.88
+    },
+    {
+        "word": "an",
+        "confidence": 0.92
+    },
+    {
+        "word": "bereits",
+        "confidence": 0.88
+    },
+    {
+        "word": "bestehenden",
+        "confidence": 0.88
+    },
+    {
+        "word": "Installationen",
+        "confidence": 0.85
+    },
+    {
+        "word": "oder",
+        "confidence": 0.92
+    },
+    {
+        "word": "am",
+        "confidence": 0.92
+    },
+    {
+        "word": "Grundstück",
+        "confidence": 0.88
+    },
+    {
+        "word": "selbst",
+        "confidence": 0.92
+    },
+    {
+        "word": "entstehen",
+        "confidence": 0.88
+    },
+    {
+        "word": "könnten,",
+        "confidence": 0.87
+    },
+    {
+        "word": "keine",
+        "confidence": 0.92
+    },
+    {
+        "word": "Haftung",
+        "confidence": 0.88
+    },
+    {
+        "word": "gegenüber",
+        "confidence": 0.88
+    },
+    {
+        "word": "dem",
+        "confidence": 0.92
+    },
+    {
+        "word": "beauftragten",
+        "confidence": 0.88
+    },
+    {
+        "word": "Unternehmen",
+        "confidence": 0.88
+    },
+    {
+        "word": "oder",
+        "confidence": 0.92
+    },
+    {
+        "word": "den",
+        "confidence": 0.92
+    },
+    {
+        "word": "Versorgungsunternehmen",
+        "confidence": 0.85
+    },
+    {
+        "word": "geltend",
+        "confidence": 0.88
+    },
+    {
+        "word": "zu",
+        "confidence": 0.92
+    },
+    {
+        "word": "machen,",
+        "confidence": 0.87
+    },
+    {
+        "word": "sofern",
+        "confidence": 0.88
+    },
+    {
+        "word": "diese",
+        "confidence": 0.92
+    },
+    {
+        "word": "nicht",
+        "confidence": 0.92
+    },
+    {
+        "word": "auf",
+        "confidence": 0.92
+    },
+    {
+        "word": "grobe",
+        "confidence": 0.88
+    },
+    {
+        "word": "Fahrlässigkeit",
+        "confidence": 0.85
+    },
+    {
+        "word": "oder",
+        "confidence": 0.92
+    },
+    {
+        "word": "Vorsatz",
+        "confidence": 0.88
+    },
+    {
+        "word": "zurückzuführen",
+        "confidence": 0.85
+    },
+    {
+        "word": "sind.",
+        "confidence": 0.87
+    },
+    {
+        "word": "Die",
+        "confidence": 0.92
+    },
+    {
+        "word": "Kosten",
+        "confidence": 0.88
+    },
+    {
+        "word": "für",
+        "confidence": 0.92
+    },
+    {
+        "word": "die",
+        "confidence": 0.92
+    },
+    {
+        "word": "genannten",
+        "confidence": 0.88
+    },
+    {
+        "word": "Arbeiten",
+        "confidence": 0.88
+    },
+    {
+        "word": "trage",
+        "confidence": 0.88
+    },
+    {
+        "word": "ich,",
+        "confidence": 0.87
+    },
+    {
+        "word": "soweit",
+        "confidence": 0.88
+    },
+    {
+        "word": "diese",
+        "confidence": 0.92
+    },
+    {
+        "word": "nicht",
+        "confidence": 0.92
+    },
+    {
+        "word": "bereits",
+        "confidence": 0.88
+    },
+    {
+        "word": "durch",
+        "confidence": 0.92
+    },
+    {
+        "word": "vertragliche",
+        "confidence": 0.88
+    },
+    {
+        "word": "Vereinbarungen",
+        "confidence": 0.88
+    },
+    {
+        "word": "mit",
+        "confidence": 0.92
+    },
+    {
+        "word": "dem",
+        "confidence": 0.92
+    },
+    {
+        "word": "Versorgungsunternehmen",
+        "confidence": 0.85
+    },
+    {
+        "word": "abgedeckt",
+        "confidence": 0.88
+    },
+    {
+        "word": "sind.",
+        "confidence": 0.87
+    },
+    {
+        "word": "Köln,",
+        "confidence": 0.93
+    },
+    {
+        "word": "28.03.2025",
+        "confidence": 0.93
+    },
+    {
+        "word": "Ort,",
+        "confidence": 0.92
+    },
+    {
+        "word": "Datum",
+        "confidence": 0.92
+    },
+    {
+        "word": "Tobias",
+        "confidence": 0.9
+    },
+    {
+        "word": "Hoffmann",
+        "confidence": 0.9
+    },
+    {
+        "word": "rechtsverbindliche",
+        "confidence": 0.85
+    },
+    {
+        "word": "Unterschrift",
+        "confidence": 0.88
+    }
+]

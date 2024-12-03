@@ -1,0 +1,374 @@
+[
+    {
+        "word": "Mitgliedsantrag",
+        "confidence": 95
+    },
+    {
+        "word": "Angelverein",
+        "confidence": 95
+    },
+    {
+        "word": "Bitte",
+        "confidence": 95
+    },
+    {
+        "word": "füllen",
+        "confidence": 95
+    },
+    {
+        "word": "Sie",
+        "confidence": 95
+    },
+    {
+        "word": "das",
+        "confidence": 95
+    },
+    {
+        "word": "Formular",
+        "confidence": 95
+    },
+    {
+        "word": "vollständig",
+        "confidence": 95
+    },
+    {
+        "word": "und",
+        "confidence": 95
+    },
+    {
+        "word": "leserlich",
+        "confidence": 95
+    },
+    {
+        "word": "aus.",
+        "confidence": 95
+    },
+    {
+        "word": "Persönliche",
+        "confidence": 95
+    },
+    {
+        "word": "Angaben:",
+        "confidence": 95
+    },
+    {
+        "word": "Name:",
+        "confidence": 95
+    },
+    {
+        "word": "Julia",
+        "confidence": 95
+    },
+    {
+        "word": "Müller",
+        "confidence": 95
+    },
+    {
+        "word": "Adresse:",
+        "confidence": 95
+    },
+    {
+        "word": "Angelweg",
+        "confidence": 95
+    },
+    {
+        "word": "5",
+        "confidence": 95
+    },
+    {
+        "word": "Postleitzahl/Ort:",
+        "confidence": 95
+    },
+    {
+        "word": "20095",
+        "confidence": 95
+    },
+    {
+        "word": "Hamburg",
+        "confidence": 95
+    },
+    {
+        "word": "Telefonnummer:",
+        "confidence": 95
+    },
+    {
+        "word": "+49123456788",
+        "confidence": 95
+    },
+    {
+        "word": "E-Mail:",
+        "confidence": 95
+    },
+    {
+        "word": "julia.mueller@example.com",
+        "confidence": 95
+    },
+    {
+        "word": "Angelspezifische",
+        "confidence": 95
+    },
+    {
+        "word": "Angaben:",
+        "confidence": 95
+    },
+    {
+        "word": "Datum",
+        "confidence": 95
+    },
+    {
+        "word": "der",
+        "confidence": 95
+    },
+    {
+        "word": "abgelegten",
+        "confidence": 95
+    },
+    {
+        "word": "Angelprüfung:",
+        "confidence": 95
+    },
+    {
+        "word": "2022-10-26",
+        "confidence": 95
+    },
+    {
+        "word": "Nummer",
+        "confidence": 95
+    },
+    {
+        "word": "des",
+        "confidence": 95
+    },
+    {
+        "word": "Fischereischeins:",
+        "confidence": 95
+    },
+    {
+        "word": "002",
+        "confidence": 95
+    },
+    {
+        "word": "Bisheriger",
+        "confidence": 95
+    },
+    {
+        "word": "Angelverein",
+        "confidence": 95
+    },
+    {
+        "word": "(falls",
+        "confidence": 95
+    },
+    {
+        "word": "vorhanden):",
+        "confidence": 95
+    },
+    {
+        "word": "Die",
+        "confidence": 95
+    },
+    {
+        "word": "Fisch(anstoßen)",
+        "confidence": 95
+    },
+    {
+        "word": "Mitgliedschaftsinformationen:",
+        "confidence": 95
+    },
+    {
+        "word": "Gewünschter",
+        "confidence": 95
+    },
+    {
+        "word": "Eintrittstermin:",
+        "confidence": 95
+    },
+    {
+        "word": "2024-11-15",
+        "confidence": 95
+    },
+    {
+        "word": "Art",
+        "confidence": 95
+    },
+    {
+        "word": "der",
+        "confidence": 95
+    },
+    {
+        "word": "Mitgliedschaft",
+        "confidence": 95
+    },
+    {
+        "word": "(aktiv/passiv):",
+        "confidence": 95
+    },
+    {
+        "word": "Passiv",
+        "confidence": 95
+    },
+    {
+        "word": "Einverständniserklärung:",
+        "confidence": 95
+    },
+    {
+        "word": "Mit",
+        "confidence": 95
+    },
+    {
+        "word": "meiner",
+        "confidence": 95
+    },
+    {
+        "word": "Unterschrift",
+        "confidence": 95
+    },
+    {
+        "word": "bestätige",
+        "confidence": 95
+    },
+    {
+        "word": "ich",
+        "confidence": 95
+    },
+    {
+        "word": "die",
+        "confidence": 95
+    },
+    {
+        "word": "Richtigkeit",
+        "confidence": 95
+    },
+    {
+        "word": "meiner",
+        "confidence": 95
+    },
+    {
+        "word": "Angaben",
+        "confidence": 95
+    },
+    {
+        "word": "und",
+        "confidence": 95
+    },
+    {
+        "word": "erkläre",
+        "confidence": 95
+    },
+    {
+        "word": "mich",
+        "confidence": 95
+    },
+    {
+        "word": "mit",
+        "confidence": 95
+    },
+    {
+        "word": "den",
+        "confidence": 95
+    },
+    {
+        "word": "Regeln",
+        "confidence": 95
+    },
+    {
+        "word": "und",
+        "confidence": 95
+    },
+    {
+        "word": "Vorschriften",
+        "confidence": 95
+    },
+    {
+        "word": "des",
+        "confidence": 95
+    },
+    {
+        "word": "Angelvereins",
+        "confidence": 95
+    },
+    {
+        "word": "einverstanden.",
+        "confidence": 95
+    },
+    {
+        "word": "Ich",
+        "confidence": 95
+    },
+    {
+        "word": "bin",
+        "confidence": 95
+    },
+    {
+        "word": "mir",
+        "confidence": 95
+    },
+    {
+        "word": "bewusst,",
+        "confidence": 95
+    },
+    {
+        "word": "dass",
+        "confidence": 95
+    },
+    {
+        "word": "falsche",
+        "confidence": 95
+    },
+    {
+        "word": "Angaben",
+        "confidence": 95
+    },
+    {
+        "word": "zum",
+        "confidence": 95
+    },
+    {
+        "word": "Ausschluss",
+        "confidence": 95
+    },
+    {
+        "word": "aus",
+        "confidence": 95
+    },
+    {
+        "word": "dem",
+        "confidence": 95
+    },
+    {
+        "word": "Verein",
+        "confidence": 95
+    },
+    {
+        "word": "führen",
+        "confidence": 95
+    },
+    {
+        "word": "können.",
+        "confidence": 95
+    },
+    {
+        "word": "Ort/Datum:",
+        "confidence": 95
+    },
+    {
+        "word": "Hamburg",
+        "confidence": 95
+    },
+    {
+        "word": "2022-10-26",
+        "confidence": 95
+    },
+    {
+        "word": "Unterschrift:",
+        "confidence": 95
+    },
+    {
+        "word": "Julia",
+        "confidence": 95
+    },
+    {
+        "word": "Müller",
+        "confidence": 95
+    }
+]

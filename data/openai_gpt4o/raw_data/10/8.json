@@ -1,0 +1,390 @@
+[
+    {
+        "word": "Mitgliedsantrag",
+        "confidence": 0.9
+    },
+    {
+        "word": "Angelverein",
+        "confidence": 0.9
+    },
+    {
+        "word": "Bitte",
+        "confidence": 0.9
+    },
+    {
+        "word": "füllen",
+        "confidence": 0.9
+    },
+    {
+        "word": "Sie",
+        "confidence": 0.9
+    },
+    {
+        "word": "das",
+        "confidence": 0.9
+    },
+    {
+        "word": "Formular",
+        "confidence": 0.9
+    },
+    {
+        "word": "vollständig",
+        "confidence": 0.9
+    },
+    {
+        "word": "und",
+        "confidence": 0.9
+    },
+    {
+        "word": "leserlich",
+        "confidence": 0.9
+    },
+    {
+        "word": "aus.",
+        "confidence": 0.9
+    },
+    {
+        "word": "Persönliche",
+        "confidence": 0.9
+    },
+    {
+        "word": "Angaben:",
+        "confidence": 0.9
+    },
+    {
+        "word": "Name:",
+        "confidence": 0.9
+    },
+    {
+        "word": "Marie",
+        "confidence": 0.9
+    },
+    {
+        "word": "Schulze",
+        "confidence": 0.9
+    },
+    {
+        "word": "Adresse:",
+        "confidence": 0.9
+    },
+    {
+        "word": "Waldstraße",
+        "confidence": 0.9
+    },
+    {
+        "word": "6",
+        "confidence": 0.9
+    },
+    {
+        "word": "Postleitzahl/Ort:",
+        "confidence": 0.9
+    },
+    {
+        "word": "60331",
+        "confidence": 0.9
+    },
+    {
+        "word": "Frankfurt",
+        "confidence": 0.9
+    },
+    {
+        "word": "am",
+        "confidence": 0.9
+    },
+    {
+        "word": "Main",
+        "confidence": 0.9
+    },
+    {
+        "word": "Telefonnummer:",
+        "confidence": 0.9
+    },
+    {
+        "word": "+49",
+        "confidence": 0.9
+    },
+    {
+        "word": "0157",
+        "confidence": 0.9
+    },
+    {
+        "word": "23456781",
+        "confidence": 0.9
+    },
+    {
+        "word": "E-Mail:",
+        "confidence": 0.9
+    },
+    {
+        "word": "marie.schulze@example.com",
+        "confidence": 0.9
+    },
+    {
+        "word": "Angelspezifische",
+        "confidence": 0.9
+    },
+    {
+        "word": "Angaben:",
+        "confidence": 0.9
+    },
+    {
+        "word": "Datum",
+        "confidence": 0.9
+    },
+    {
+        "word": "der",
+        "confidence": 0.9
+    },
+    {
+        "word": "abgelegten",
+        "confidence": 0.9
+    },
+    {
+        "word": "Angelprüfung:",
+        "confidence": 0.9
+    },
+    {
+        "word": "2024-11-02",
+        "confidence": 0.9
+    },
+    {
+        "word": "Nummer",
+        "confidence": 0.9
+    },
+    {
+        "word": "des",
+        "confidence": 0.9
+    },
+    {
+        "word": "Fischereischeins:",
+        "confidence": 0.9
+    },
+    {
+        "word": "005",
+        "confidence": 0.9
+    },
+    {
+        "word": "Bisheriger",
+        "confidence": 0.9
+    },
+    {
+        "word": "Angelverein",
+        "confidence": 0.9
+    },
+    {
+        "word": "(falls",
+        "confidence": 0.9
+    },
+    {
+        "word": "vorhanden):",
+        "confidence": 0.9
+    },
+    {
+        "word": "Die",
+        "confidence": 0.9
+    },
+    {
+        "word": "Petriangler",
+        "confidence": 0.9
+    },
+    {
+        "word": "Mitgliedschaftsinformationen:",
+        "confidence": 0.9
+    },
+    {
+        "word": "Gewünschter",
+        "confidence": 0.9
+    },
+    {
+        "word": "Eintrittstermin:",
+        "confidence": 0.9
+    },
+    {
+        "word": "2024-11-15",
+        "confidence": 0.9
+    },
+    {
+        "word": "Art",
+        "confidence": 0.9
+    },
+    {
+        "word": "der",
+        "confidence": 0.9
+    },
+    {
+        "word": "Mitgliedschaft",
+        "confidence": 0.9
+    },
+    {
+        "word": "(aktiv/passiv):",
+        "confidence": 0.9
+    },
+    {
+        "word": "Familienmitglied",
+        "confidence": 0.9
+    },
+    {
+        "word": "Einverständniserklärung:",
+        "confidence": 0.9
+    },
+    {
+        "word": "Mit",
+        "confidence": 0.9
+    },
+    {
+        "word": "meiner",
+        "confidence": 0.9
+    },
+    {
+        "word": "Unterschrift",
+        "confidence": 0.9
+    },
+    {
+        "word": "bestätige",
+        "confidence": 0.9
+    },
+    {
+        "word": "ich",
+        "confidence": 0.9
+    },
+    {
+        "word": "die",
+        "confidence": 0.9
+    },
+    {
+        "word": "Richtigkeit",
+        "confidence": 0.9
+    },
+    {
+        "word": "meiner",
+        "confidence": 0.9
+    },
+    {
+        "word": "Angaben",
+        "confidence": 0.9
+    },
+    {
+        "word": "und",
+        "confidence": 0.9
+    },
+    {
+        "word": "erkläre",
+        "confidence": 0.9
+    },
+    {
+        "word": "mich",
+        "confidence": 0.9
+    },
+    {
+        "word": "mit",
+        "confidence": 0.9
+    },
+    {
+        "word": "den",
+        "confidence": 0.9
+    },
+    {
+        "word": "Regeln",
+        "confidence": 0.9
+    },
+    {
+        "word": "und",
+        "confidence": 0.9
+    },
+    {
+        "word": "Vorschriften",
+        "confidence": 0.9
+    },
+    {
+        "word": "des",
+        "confidence": 0.9
+    },
+    {
+        "word": "Angelvereins",
+        "confidence": 0.9
+    },
+    {
+        "word": "einverstanden.",
+        "confidence": 0.9
+    },
+    {
+        "word": "Ich",
+        "confidence": 0.9
+    },
+    {
+        "word": "bin",
+        "confidence": 0.9
+    },
+    {
+        "word": "mir",
+        "confidence": 0.9
+    },
+    {
+        "word": "bewusst,",
+        "confidence": 0.9
+    },
+    {
+        "word": "dass",
+        "confidence": 0.9
+    },
+    {
+        "word": "falsche",
+        "confidence": 0.9
+    },
+    {
+        "word": "Angaben",
+        "confidence": 0.9
+    },
+    {
+        "word": "zum",
+        "confidence": 0.9
+    },
+    {
+        "word": "Ausschluss",
+        "confidence": 0.9
+    },
+    {
+        "word": "aus",
+        "confidence": 0.9
+    },
+    {
+        "word": "dem",
+        "confidence": 0.9
+    },
+    {
+        "word": "Verein",
+        "confidence": 0.9
+    },
+    {
+        "word": "führen",
+        "confidence": 0.9
+    },
+    {
+        "word": "können.",
+        "confidence": 0.9
+    },
+    {
+        "word": "Ort/Datum:",
+        "confidence": 0.9
+    },
+    {
+        "word": "Frankfurt,",
+        "confidence": 0.9
+    },
+    {
+        "word": "2024-11-02",
+        "confidence": 0.9
+    },
+    {
+        "word": "Unterschrift:",
+        "confidence": 0.9
+    },
+    {
+        "word": "Marie",
+        "confidence": 0.9
+    },
+    {
+        "word": "Schulze",
+        "confidence": 0.9
+    }
+]

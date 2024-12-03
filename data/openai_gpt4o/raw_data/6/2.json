@@ -1,0 +1,430 @@
+[
+    {
+        "word": "Formular",
+        "confidence": 95
+    },
+    {
+        "word": "mit",
+        "confidence": 95
+    },
+    {
+        "word": "Mitarbeiterinformationen",
+        "confidence": 90
+    },
+    {
+        "word": "für",
+        "confidence": 95
+    },
+    {
+        "word": "den",
+        "confidence": 95
+    },
+    {
+        "word": "Notfall",
+        "confidence": 95
+    },
+    {
+        "word": "Zuletzt",
+        "confidence": 95
+    },
+    {
+        "word": "aktualisiert:",
+        "confidence": 90
+    },
+    {
+        "word": "21.10.2024",
+        "confidence": 90
+    },
+    {
+        "word": "Persönliche",
+        "confidence": 95
+    },
+    {
+        "word": "Informationen",
+        "confidence": 90
+    },
+    {
+        "word": "Mitarbeiternummer",
+        "confidence": 85
+    },
+    {
+        "word": "67890",
+        "confidence": 90
+    },
+    {
+        "word": "Vorname",
+        "confidence": 95
+    },
+    {
+        "word": "Julia",
+        "confidence": 85
+    },
+    {
+        "word": "Zweiter",
+        "confidence": 90
+    },
+    {
+        "word": "Vorname",
+        "confidence": 90
+    },
+    {
+        "word": "Maria",
+        "confidence": 85
+    },
+    {
+        "word": "Nachname",
+        "confidence": 90
+    },
+    {
+        "word": "Müller",
+        "confidence": 90
+    },
+    {
+        "word": "Rufname",
+        "confidence": 90
+    },
+    {
+        "word": "Juli",
+        "confidence": 85
+    },
+    {
+        "word": "Geschlecht",
+        "confidence": 90
+    },
+    {
+        "word": "F",
+        "confidence": 90
+    },
+    {
+        "word": "Nationalität",
+        "confidence": 90
+    },
+    {
+        "word": "deutsch",
+        "confidence": 85
+    },
+    {
+        "word": "Geburtsort",
+        "confidence": 90
+    },
+    {
+        "word": "(Land)",
+        "confidence": 90
+    },
+    {
+        "word": "Hamburg",
+        "confidence": 90
+    },
+    {
+        "word": "Anschrift",
+        "confidence": 90
+    },
+    {
+        "word": "privat",
+        "confidence": 90
+    },
+    {
+        "word": "Beispielweg",
+        "confidence": 85
+    },
+    {
+        "word": "3",
+        "confidence": 90
+    },
+    {
+        "word": "20095",
+        "confidence": 90
+    },
+    {
+        "word": "Hamburg",
+        "confidence": 90
+    },
+    {
+        "word": "Bundesland/Kanton",
+        "confidence": 85
+    },
+    {
+        "word": "Hamburg",
+        "confidence": 90
+    },
+    {
+        "word": "Telefon",
+        "confidence": 90
+    },
+    {
+        "word": "privat",
+        "confidence": 90
+    },
+    {
+        "word": "+49",
+        "confidence": 90
+    },
+    {
+        "word": "406543210",
+        "confidence": 85
+    },
+    {
+        "word": "Handy",
+        "confidence": 90
+    },
+    {
+        "word": "+49",
+        "confidence": 90
+    },
+    {
+        "word": "176543210",
+        "confidence": 85
+    },
+    {
+        "word": "Fax",
+        "confidence": 90
+    },
+    {
+        "word": "privat",
+        "confidence": 90
+    },
+    {
+        "word": "+49",
+        "confidence": 90
+    },
+    {
+        "word": "406543221",
+        "confidence": 85
+    },
+    {
+        "word": "E-Mail-Adresse",
+        "confidence": 85
+    },
+    {
+        "word": "privat",
+        "confidence": 90
+    },
+    {
+        "word": "julia.mueller@example.com",
+        "confidence": 80
+    },
+    {
+        "word": "Geburtstag",
+        "confidence": 90
+    },
+    {
+        "word": "(TT/MM/JJJJ)",
+        "confidence": 85
+    },
+    {
+        "word": "1969-07-24",
+        "confidence": 85
+    },
+    {
+        "word": "Sozialversicherungsnummer",
+        "confidence": 80
+    },
+    {
+        "word": "987654321",
+        "confidence": 85
+    },
+    {
+        "word": "Ausweisnummer",
+        "confidence": 85
+    },
+    {
+        "word": "B98765432",
+        "confidence": 85
+    },
+    {
+        "word": "Führerscheinnummer",
+        "confidence": 80
+    },
+    {
+        "word": "F98765432",
+        "confidence": 85
+    },
+    {
+        "word": "Medizinische",
+        "confidence": 90
+    },
+    {
+        "word": "Informationen",
+        "confidence": 90
+    },
+    {
+        "word": "Name",
+        "confidence": 90
+    },
+    {
+        "word": "des",
+        "confidence": 95
+    },
+    {
+        "word": "Arztes",
+        "confidence": 90
+    },
+    {
+        "word": "Dr.",
+        "confidence": 90
+    },
+    {
+        "word": "Thomas",
+        "confidence": 85
+    },
+    {
+        "word": "Lange",
+        "confidence": 85
+    },
+    {
+        "word": "Adresse",
+        "confidence": 90
+    },
+    {
+        "word": "Arztplatz",
+        "confidence": 85
+    },
+    {
+        "word": "1",
+        "confidence": 90
+    },
+    {
+        "word": "20095",
+        "confidence": 90
+    },
+    {
+        "word": "Hamburg",
+        "confidence": 90
+    },
+    {
+        "word": "Rufnummer",
+        "confidence": 85
+    },
+    {
+        "word": "+49",
+        "confidence": 90
+    },
+    {
+        "word": "40234569",
+        "confidence": 85
+    },
+    {
+        "word": "Blutgruppe",
+        "confidence": 85
+    },
+    {
+        "word": "O+",
+        "confidence": 85
+    },
+    {
+        "word": "Gesundheitliche",
+        "confidence": 85
+    },
+    {
+        "word": "Probleme",
+        "confidence": 90
+    },
+    {
+        "word": "Keine",
+        "confidence": 85
+    },
+    {
+        "word": "Allergien",
+        "confidence": 85
+    },
+    {
+        "word": "Hausstaub",
+        "confidence": 85
+    },
+    {
+        "word": "Medikamente",
+        "confidence": 90
+    },
+    {
+        "word": "Cetirizin",
+        "confidence": 85
+    },
+    {
+        "word": "Informationen",
+        "confidence": 90
+    },
+    {
+        "word": "für",
+        "confidence": 95
+    },
+    {
+        "word": "den",
+        "confidence": 95
+    },
+    {
+        "word": "Notfall",
+        "confidence": 95
+    },
+    {
+        "word": "Name",
+        "confidence": 90
+    },
+    {
+        "word": "der",
+        "confidence": 95
+    },
+    {
+        "word": "Kontaktperson",
+        "confidence": 85
+    },
+    {
+        "word": "für",
+        "confidence": 95
+    },
+    {
+        "word": "den",
+        "confidence": 95
+    },
+    {
+        "word": "Notfall",
+        "confidence": 95
+    },
+    {
+        "word": "Michael",
+        "confidence": 85
+    },
+    {
+        "word": "Müller",
+        "confidence": 90
+    },
+    {
+        "word": "Beziehung",
+        "confidence": 90
+    },
+    {
+        "word": "Ehemann",
+        "confidence": 85
+    },
+    {
+        "word": "Adresse",
+        "confidence": 90
+    },
+    {
+        "word": "Beispielstraße",
+        "confidence": 85
+    },
+    {
+        "word": "6",
+        "confidence": 90
+    },
+    {
+        "word": "20095",
+        "confidence": 90
+    },
+    {
+        "word": "Hamburg",
+        "confidence": 90
+    },
+    {
+        "word": "Rufnummer(n)",
+        "confidence": 85
+    },
+    {
+        "word": "+49",
+        "confidence": 90
+    },
+    {
+        "word": "40654322",
+        "confidence": 85
+    }
+]

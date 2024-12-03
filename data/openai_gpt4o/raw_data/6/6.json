@@ -1,0 +1,482 @@
+[
+    {
+        "word": "Formular",
+        "confidence": 0.98
+    },
+    {
+        "word": "mit",
+        "confidence": 0.99
+    },
+    {
+        "word": "Mitarbeiterinformationen",
+        "confidence": 0.95
+    },
+    {
+        "word": "für",
+        "confidence": 0.97
+    },
+    {
+        "word": "den",
+        "confidence": 0.96
+    },
+    {
+        "word": "Notfall",
+        "confidence": 0.98
+    },
+    {
+        "word": "Zuletzt",
+        "confidence": 0.97
+    },
+    {
+        "word": "aktualisiert:",
+        "confidence": 0.96
+    },
+    {
+        "word": "21.10.2024",
+        "confidence": 0.99
+    },
+    {
+        "word": "Persönliche",
+        "confidence": 0.95
+    },
+    {
+        "word": "Informationen",
+        "confidence": 0.94
+    },
+    {
+        "word": "Mitarbeiternummer",
+        "confidence": 0.93
+    },
+    {
+        "word": "15283",
+        "confidence": 0.99
+    },
+    {
+        "word": "Vorname",
+        "confidence": 0.95
+    },
+    {
+        "word": "Jonas",
+        "confidence": 0.99
+    },
+    {
+        "word": "Zweiter",
+        "confidence": 0.94
+    },
+    {
+        "word": "Vorname",
+        "confidence": 0.95
+    },
+    {
+        "word": "Henrik",
+        "confidence": 0.99
+    },
+    {
+        "word": "Nachname",
+        "confidence": 0.96
+    },
+    {
+        "word": "Mayer",
+        "confidence": 0.99
+    },
+    {
+        "word": "Rufname",
+        "confidence": 0.97
+    },
+    {
+        "word": "Jo",
+        "confidence": 0.99
+    },
+    {
+        "word": "Geschlecht",
+        "confidence": 0.95
+    },
+    {
+        "word": "m",
+        "confidence": 0.99
+    },
+    {
+        "word": "Nationalität",
+        "confidence": 0.95
+    },
+    {
+        "word": "Deutsch",
+        "confidence": 0.99
+    },
+    {
+        "word": "Geburtsort",
+        "confidence": 0.95
+    },
+    {
+        "word": "(Land)",
+        "confidence": 0.92
+    },
+    {
+        "word": "Frankfurt",
+        "confidence": 0.99
+    },
+    {
+        "word": "am",
+        "confidence": 0.99
+    },
+    {
+        "word": "Main",
+        "confidence": 0.99
+    },
+    {
+        "word": "Anschrift",
+        "confidence": 0.95
+    },
+    {
+        "word": "privat",
+        "confidence": 0.98
+    },
+    {
+        "word": "Mainstraße",
+        "confidence": 0.99
+    },
+    {
+        "word": "15",
+        "confidence": 0.99
+    },
+    {
+        "word": "60314",
+        "confidence": 0.99
+    },
+    {
+        "word": "Frankfurt",
+        "confidence": 0.99
+    },
+    {
+        "word": "Bundesland/Kanton",
+        "confidence": 0.92
+    },
+    {
+        "word": "Hessen",
+        "confidence": 0.99
+    },
+    {
+        "word": "Telefon",
+        "confidence": 0.94
+    },
+    {
+        "word": "privat",
+        "confidence": 0.99
+    },
+    {
+        "word": "+49",
+        "confidence": 0.99
+    },
+    {
+        "word": "69",
+        "confidence": 0.99
+    },
+    {
+        "word": "34",
+        "confidence": 0.99
+    },
+    {
+        "word": "56",
+        "confidence": 0.99
+    },
+    {
+        "word": "789",
+        "confidence": 0.99
+    },
+    {
+        "word": "Handy",
+        "confidence": 0.98
+    },
+    {
+        "word": "+49",
+        "confidence": 0.99
+    },
+    {
+        "word": "174",
+        "confidence": 0.99
+    },
+    {
+        "word": "345",
+        "confidence": 0.99
+    },
+    {
+        "word": "789",
+        "confidence": 0.99
+    },
+    {
+        "word": "Fax",
+        "confidence": 0.97
+    },
+    {
+        "word": "privat",
+        "confidence": 0.99
+    },
+    {
+        "word": "+49",
+        "confidence": 0.99
+    },
+    {
+        "word": "69",
+        "confidence": 0.99
+    },
+    {
+        "word": "34",
+        "confidence": 0.99
+    },
+    {
+        "word": "56",
+        "confidence": 0.99
+    },
+    {
+        "word": "780",
+        "confidence": 0.99
+    },
+    {
+        "word": "E-Mail-Adresse",
+        "confidence": 0.94
+    },
+    {
+        "word": "privat",
+        "confidence": 0.99
+    },
+    {
+        "word": "jonas.mayer@",
+        "confidence": 0.99
+    },
+    {
+        "word": "example.com",
+        "confidence": 0.99
+    },
+    {
+        "word": "Geburtstag",
+        "confidence": 0.95
+    },
+    {
+        "word": "(TT/MM/JJJJ)",
+        "confidence": 0.92
+    },
+    {
+        "word": "1993-01-30",
+        "confidence": 0.99
+    },
+    {
+        "word": "Sozialversicherungsnummer",
+        "confidence": 0.9
+    },
+    {
+        "word": "23456789",
+        "confidence": 0.99
+    },
+    {
+        "word": "Ausweisnummer",
+        "confidence": 0.93
+    },
+    {
+        "word": "G23456789",
+        "confidence": 0.99
+    },
+    {
+        "word": "Führerscheinnummer",
+        "confidence": 0.91
+    },
+    {
+        "word": "123456789",
+        "confidence": 0.99
+    },
+    {
+        "word": "Medizinische",
+        "confidence": 0.94
+    },
+    {
+        "word": "Informationen",
+        "confidence": 0.94
+    },
+    {
+        "word": "Name",
+        "confidence": 0.95
+    },
+    {
+        "word": "des",
+        "confidence": 0.96
+    },
+    {
+        "word": "Arztes",
+        "confidence": 0.95
+    },
+    {
+        "word": "Dr.",
+        "confidence": 0.99
+    },
+    {
+        "word": "Petra",
+        "confidence": 0.99
+    },
+    {
+        "word": "Vogel",
+        "confidence": 0.99
+    },
+    {
+        "word": "Adresse",
+        "confidence": 0.95
+    },
+    {
+        "word": "Turmweg",
+        "confidence": 0.99
+    },
+    {
+        "word": "4",
+        "confidence": 0.99
+    },
+    {
+        "word": "60314",
+        "confidence": 0.99
+    },
+    {
+        "word": "Frankfurt",
+        "confidence": 0.99
+    },
+    {
+        "word": "Rufnummer",
+        "confidence": 0.95
+    },
+    {
+        "word": "+49",
+        "confidence": 0.99
+    },
+    {
+        "word": "698765432",
+        "confidence": 0.99
+    },
+    {
+        "word": "Blutgruppe",
+        "confidence": 0.94
+    },
+    {
+        "word": "AB-",
+        "confidence": 0.99
+    },
+    {
+        "word": "Gesundheitliche",
+        "confidence": 0.93
+    },
+    {
+        "word": "Probleme",
+        "confidence": 0.94
+    },
+    {
+        "word": "Bluthochdruck",
+        "confidence": 0.99
+    },
+    {
+        "word": "Allergien",
+        "confidence": 0.95
+    },
+    {
+        "word": "Penicillin",
+        "confidence": 0.99
+    },
+    {
+        "word": "Regelmäßig",
+        "confidence": 0.92
+    },
+    {
+        "word": "eingenommene",
+        "confidence": 0.9
+    },
+    {
+        "word": "Medikamente",
+        "confidence": 0.93
+    },
+    {
+        "word": "Amlodipin",
+        "confidence": 0.99
+    },
+    {
+        "word": "Informationen",
+        "confidence": 0.93
+    },
+    {
+        "word": "für",
+        "confidence": 0.97
+    },
+    {
+        "word": "den",
+        "confidence": 0.96
+    },
+    {
+        "word": "Notfall",
+        "confidence": 0.98
+    },
+    {
+        "word": "Name",
+        "confidence": 0.95
+    },
+    {
+        "word": "der",
+        "confidence": 0.96
+    },
+    {
+        "word": "Kontaktperson",
+        "confidence": 0.94
+    },
+    {
+        "word": "für",
+        "confidence": 0.97
+    },
+    {
+        "word": "den",
+        "confidence": 0.96
+    },
+    {
+        "word": "Notfall",
+        "confidence": 0.98
+    },
+    {
+        "word": "Klara",
+        "confidence": 0.99
+    },
+    {
+        "word": "Mayer",
+        "confidence": 0.99
+    },
+    {
+        "word": "Beziehung",
+        "confidence": 0.93
+    },
+    {
+        "word": "Mutter",
+        "confidence": 0.99
+    },
+    {
+        "word": "Adresse",
+        "confidence": 0.95
+    },
+    {
+        "word": "Mainstraße",
+        "confidence": 0.99
+    },
+    {
+        "word": "16",
+        "confidence": 0.99
+    },
+    {
+        "word": "60314",
+        "confidence": 0.99
+    },
+    {
+        "word": "Frankfurt",
+        "confidence": 0.99
+    },
+    {
+        "word": "Rufnummer(n)",
+        "confidence": 0.93
+    },
+    {
+        "word": "+49",
+        "confidence": 0.99
+    },
+    {
+        "word": "698765434",
+        "confidence": 0.99
+    }
+]

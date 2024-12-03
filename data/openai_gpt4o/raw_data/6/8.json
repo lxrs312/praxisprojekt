@@ -1,0 +1,418 @@
+[
+    {
+        "word": "Formular",
+        "confidence": 0.95
+    },
+    {
+        "word": "mit",
+        "confidence": 0.97
+    },
+    {
+        "word": "Mitarbeiterinformationen",
+        "confidence": 0.96
+    },
+    {
+        "word": "für",
+        "confidence": 0.98
+    },
+    {
+        "word": "den",
+        "confidence": 0.99
+    },
+    {
+        "word": "Notfall",
+        "confidence": 0.99
+    },
+    {
+        "word": "Zuletzt",
+        "confidence": 0.97
+    },
+    {
+        "word": "aktualisiert:",
+        "confidence": 0.95
+    },
+    {
+        "word": "21.10.2024",
+        "confidence": 0.98
+    },
+    {
+        "word": "Persönliche",
+        "confidence": 0.96
+    },
+    {
+        "word": "Informationen",
+        "confidence": 0.95
+    },
+    {
+        "word": "Mitarbeiternummer",
+        "confidence": 0.96
+    },
+    {
+        "word": "57848",
+        "confidence": 0.98
+    },
+    {
+        "word": "Vorname",
+        "confidence": 0.97
+    },
+    {
+        "word": "Daniel",
+        "confidence": 0.98
+    },
+    {
+        "word": "Zweiter",
+        "confidence": 0.95
+    },
+    {
+        "word": "Vorname",
+        "confidence": 0.97
+    },
+    {
+        "word": "Frederic",
+        "confidence": 0.96
+    },
+    {
+        "word": "Nachname",
+        "confidence": 0.97
+    },
+    {
+        "word": "Schulz",
+        "confidence": 0.98
+    },
+    {
+        "word": "Rufname",
+        "confidence": 0.96
+    },
+    {
+        "word": "Dani",
+        "confidence": 0.97
+    },
+    {
+        "word": "Geschlecht",
+        "confidence": 0.98
+    },
+    {
+        "word": "M",
+        "confidence": 0.99
+    },
+    {
+        "word": "Nationalität",
+        "confidence": 0.97
+    },
+    {
+        "word": "Deutsch",
+        "confidence": 0.98
+    },
+    {
+        "word": "Geburtsort",
+        "confidence": 0.96
+    },
+    {
+        "word": "(Land)",
+        "confidence": 0.95
+    },
+    {
+        "word": "Leipzig",
+        "confidence": 0.98
+    },
+    {
+        "word": "Anschrift",
+        "confidence": 0.97
+    },
+    {
+        "word": "privat",
+        "confidence": 0.95
+    },
+    {
+        "word": "Musterstraße",
+        "confidence": 0.96
+    },
+    {
+        "word": "11",
+        "confidence": 0.98
+    },
+    {
+        "word": "04103",
+        "confidence": 0.97
+    },
+    {
+        "word": "Leipzig",
+        "confidence": 0.98
+    },
+    {
+        "word": "Bundesland/Kanton",
+        "confidence": 0.95
+    },
+    {
+        "word": "Sachsen",
+        "confidence": 0.98
+    },
+    {
+        "word": "Telefon",
+        "confidence": 0.96
+    },
+    {
+        "word": "privat",
+        "confidence": 0.95
+    },
+    {
+        "word": "+493413243567",
+        "confidence": 0.97
+    },
+    {
+        "word": "Handy",
+        "confidence": 0.95
+    },
+    {
+        "word": "+491711234567",
+        "confidence": 0.98
+    },
+    {
+        "word": "Fax",
+        "confidence": 0.96
+    },
+    {
+        "word": "privat",
+        "confidence": 0.95
+    },
+    {
+        "word": "+493413243568",
+        "confidence": 0.97
+    },
+    {
+        "word": "E-Mail-Adresse",
+        "confidence": 0.96
+    },
+    {
+        "word": "privat",
+        "confidence": 0.95
+    },
+    {
+        "word": "daniel.schulz@example.com",
+        "confidence": 0.98
+    },
+    {
+        "word": "Geburtstag",
+        "confidence": 0.97
+    },
+    {
+        "word": "(TT/MM/JJJJ)",
+        "confidence": 0.95
+    },
+    {
+        "word": "1985-02-17",
+        "confidence": 0.98
+    },
+    {
+        "word": "Sozialversicherungsnummer",
+        "confidence": 0.96
+    },
+    {
+        "word": "456789123",
+        "confidence": 0.98
+    },
+    {
+        "word": "Ausweisnummer",
+        "confidence": 0.96
+    },
+    {
+        "word": "456789123",
+        "confidence": 0.98
+    },
+    {
+        "word": "Führerscheinnummer",
+        "confidence": 0.96
+    },
+    {
+        "word": "456789123",
+        "confidence": 0.98
+    },
+    {
+        "word": "Medizinische",
+        "confidence": 0.95
+    },
+    {
+        "word": "Informationen",
+        "confidence": 0.97
+    },
+    {
+        "word": "Name",
+        "confidence": 0.95
+    },
+    {
+        "word": "des",
+        "confidence": 0.96
+    },
+    {
+        "word": "Arztes",
+        "confidence": 0.98
+    },
+    {
+        "word": "Dr.",
+        "confidence": 0.97
+    },
+    {
+        "word": "Andrea",
+        "confidence": 0.96
+    },
+    {
+        "word": "Neumann",
+        "confidence": 0.98
+    },
+    {
+        "word": "Adresse",
+        "confidence": 0.97
+    },
+    {
+        "word": "Ringweg",
+        "confidence": 0.96
+    },
+    {
+        "word": "2",
+        "confidence": 0.98
+    },
+    {
+        "word": "04103",
+        "confidence": 0.97
+    },
+    {
+        "word": "Leipzig",
+        "confidence": 0.98
+    },
+    {
+        "word": "Rufnummer",
+        "confidence": 0.96
+    },
+    {
+        "word": "+493413976543",
+        "confidence": 0.97
+    },
+    {
+        "word": "Blutgruppe",
+        "confidence": 0.96
+    },
+    {
+        "word": "B+",
+        "confidence": 0.98
+    },
+    {
+        "word": "Gesundheitliche",
+        "confidence": 0.96
+    },
+    {
+        "word": "Probleme",
+        "confidence": 0.97
+    },
+    {
+        "word": "Diabetes",
+        "confidence": 0.98
+    },
+    {
+        "word": "Allergien",
+        "confidence": 0.96
+    },
+    {
+        "word": "Heuschnupfen",
+        "confidence": 0.98
+    },
+    {
+        "word": "Regelmäßig",
+        "confidence": 0.96
+    },
+    {
+        "word": "eingenommene",
+        "confidence": 0.97
+    },
+    {
+        "word": "Medikamente",
+        "confidence": 0.98
+    },
+    {
+        "word": "Metformin",
+        "confidence": 0.98
+    },
+    {
+        "word": "Informationen",
+        "confidence": 0.96
+    },
+    {
+        "word": "für",
+        "confidence": 0.97
+    },
+    {
+        "word": "den",
+        "confidence": 0.98
+    },
+    {
+        "word": "Notfall",
+        "confidence": 0.99
+    },
+    {
+        "word": "Name",
+        "confidence": 0.95
+    },
+    {
+        "word": "der",
+        "confidence": 0.96
+    },
+    {
+        "word": "Kontaktperson",
+        "confidence": 0.97
+    },
+    {
+        "word": "für",
+        "confidence": 0.98
+    },
+    {
+        "word": "den",
+        "confidence": 0.99
+    },
+    {
+        "word": "Notfall",
+        "confidence": 0.99
+    },
+    {
+        "word": "Alex",
+        "confidence": 0.97
+    },
+    {
+        "word": "Schulz",
+        "confidence": 0.98
+    },
+    {
+        "word": "Beziehung",
+        "confidence": 0.96
+    },
+    {
+        "word": "Bruder",
+        "confidence": 0.98
+    },
+    {
+        "word": "Adresse",
+        "confidence": 0.97
+    },
+    {
+        "word": "Musterstraße",
+        "confidence": 0.96
+    },
+    {
+        "word": "11",
+        "confidence": 0.98
+    },
+    {
+        "word": "04103",
+        "confidence": 0.97
+    },
+    {
+        "word": "Leipzig",
+        "confidence": 0.98
+    },
+    {
+        "word": "Rufnummer(n)",
+        "confidence": 0.96
+    },
+    {
+        "word": "+4934139765432",
+        "confidence": 0.97
+    }
+]

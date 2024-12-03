@@ -1,0 +1,450 @@
+[
+    {
+        "word": "Formular",
+        "confidence": 0.99
+    },
+    {
+        "word": "mit",
+        "confidence": 0.99
+    },
+    {
+        "word": "Mitarbeiterinformationen",
+        "confidence": 0.99
+    },
+    {
+        "word": "für",
+        "confidence": 0.99
+    },
+    {
+        "word": "den",
+        "confidence": 0.99
+    },
+    {
+        "word": "Notfall",
+        "confidence": 0.99
+    },
+    {
+        "word": "Zuletzt",
+        "confidence": 0.99
+    },
+    {
+        "word": "aktualisiert:",
+        "confidence": 0.99
+    },
+    {
+        "word": "21.10.2024",
+        "confidence": 0.99
+    },
+    {
+        "word": "Persönliche",
+        "confidence": 0.99
+    },
+    {
+        "word": "Informationen",
+        "confidence": 0.99
+    },
+    {
+        "word": "Mitarbeiternummer",
+        "confidence": 0.99
+    },
+    {
+        "word": "56731",
+        "confidence": 0.99
+    },
+    {
+        "word": "Vorname",
+        "confidence": 0.99
+    },
+    {
+        "word": "Nina",
+        "confidence": 0.99
+    },
+    {
+        "word": "Zweiter",
+        "confidence": 0.99
+    },
+    {
+        "word": "Vorname",
+        "confidence": 0.99
+    },
+    {
+        "word": "Lina",
+        "confidence": 0.99
+    },
+    {
+        "word": "Nachname",
+        "confidence": 0.99
+    },
+    {
+        "word": "Neumann",
+        "confidence": 0.99
+    },
+    {
+        "word": "Rufname",
+        "confidence": 0.99
+    },
+    {
+        "word": "Nini",
+        "confidence": 0.99
+    },
+    {
+        "word": "Geschlecht",
+        "confidence": 0.99
+    },
+    {
+        "word": "F",
+        "confidence": 0.99
+    },
+    {
+        "word": "Nationalität",
+        "confidence": 0.99
+    },
+    {
+        "word": "Deutsch",
+        "confidence": 0.99
+    },
+    {
+        "word": "Geburtsort",
+        "confidence": 0.99
+    },
+    {
+        "word": "(Land)",
+        "confidence": 0.99
+    },
+    {
+        "word": "Bremen",
+        "confidence": 0.99
+    },
+    {
+        "word": "Anschrift",
+        "confidence": 0.99
+    },
+    {
+        "word": "privat",
+        "confidence": 0.99
+    },
+    {
+        "word": "Seestraße",
+        "confidence": 0.99
+    },
+    {
+        "word": "25",
+        "confidence": 0.99
+    },
+    {
+        "word": "28345",
+        "confidence": 0.99
+    },
+    {
+        "word": "Bremen",
+        "confidence": 0.99
+    },
+    {
+        "word": "Bundesland/Kanton",
+        "confidence": 0.99
+    },
+    {
+        "word": "Bremen",
+        "confidence": 0.99
+    },
+    {
+        "word": "Telefon",
+        "confidence": 0.99
+    },
+    {
+        "word": "privat",
+        "confidence": 0.99
+    },
+    {
+        "word": "+49",
+        "confidence": 0.99
+    },
+    {
+        "word": "42",
+        "confidence": 0.99
+    },
+    {
+        "word": "1230987",
+        "confidence": 0.99
+    },
+    {
+        "word": "Handy",
+        "confidence": 0.99
+    },
+    {
+        "word": "+49",
+        "confidence": 0.99
+    },
+    {
+        "word": "171230987",
+        "confidence": 0.99
+    },
+    {
+        "word": "Fax",
+        "confidence": 0.99
+    },
+    {
+        "word": "privat",
+        "confidence": 0.99
+    },
+    {
+        "word": "+49",
+        "confidence": 0.99
+    },
+    {
+        "word": "42",
+        "confidence": 0.99
+    },
+    {
+        "word": "1230588",
+        "confidence": 0.99
+    },
+    {
+        "word": "E-Mail-Adresse",
+        "confidence": 0.99
+    },
+    {
+        "word": "privat",
+        "confidence": 0.99
+    },
+    {
+        "word": "nina.neumann@example.com",
+        "confidence": 0.99
+    },
+    {
+        "word": "Geburtstag",
+        "confidence": 0.99
+    },
+    {
+        "word": "(TT/MM/JJJJ)",
+        "confidence": 0.99
+    },
+    {
+        "word": "1996-04-05",
+        "confidence": 0.99
+    },
+    {
+        "word": "Sozialversicherungsnummer",
+        "confidence": 0.99
+    },
+    {
+        "word": "567890423",
+        "confidence": 0.99
+    },
+    {
+        "word": "Ausweisnummer",
+        "confidence": 0.99
+    },
+    {
+        "word": "756789012",
+        "confidence": 0.99
+    },
+    {
+        "word": "Führerscheinnummer",
+        "confidence": 0.99
+    },
+    {
+        "word": "456789012",
+        "confidence": 0.99
+    },
+    {
+        "word": "Medizinische",
+        "confidence": 0.99
+    },
+    {
+        "word": "Informationen",
+        "confidence": 0.99
+    },
+    {
+        "word": "Name",
+        "confidence": 0.99
+    },
+    {
+        "word": "des",
+        "confidence": 0.99
+    },
+    {
+        "word": "Arztes",
+        "confidence": 0.99
+    },
+    {
+        "word": "Dr.",
+        "confidence": 0.99
+    },
+    {
+        "word": "Martin",
+        "confidence": 0.99
+    },
+    {
+        "word": "Weiss",
+        "confidence": 0.99
+    },
+    {
+        "word": "Adresse",
+        "confidence": 0.99
+    },
+    {
+        "word": "Altstadt",
+        "confidence": 0.99
+    },
+    {
+        "word": "28345",
+        "confidence": 0.99
+    },
+    {
+        "word": "Bremen",
+        "confidence": 0.99
+    },
+    {
+        "word": "Rufnummer",
+        "confidence": 0.99
+    },
+    {
+        "word": "+49",
+        "confidence": 0.99
+    },
+    {
+        "word": "42",
+        "confidence": 0.99
+    },
+    {
+        "word": "19876543",
+        "confidence": 0.99
+    },
+    {
+        "word": "Blutgruppe",
+        "confidence": 0.99
+    },
+    {
+        "word": "A+",
+        "confidence": 0.99
+    },
+    {
+        "word": "Gesundheitliche",
+        "confidence": 0.99
+    },
+    {
+        "word": "Probleme",
+        "confidence": 0.99
+    },
+    {
+        "word": "Keine",
+        "confidence": 0.99
+    },
+    {
+        "word": "Allergien",
+        "confidence": 0.99
+    },
+    {
+        "word": "Gluten",
+        "confidence": 0.99
+    },
+    {
+        "word": "Regelmässig",
+        "confidence": 0.99
+    },
+    {
+        "word": "eingenommene",
+        "confidence": 0.99
+    },
+    {
+        "word": "Medikamente",
+        "confidence": 0.99
+    },
+    {
+        "word": "Enzyme",
+        "confidence": 0.99
+    },
+    {
+        "word": "Informationen",
+        "confidence": 0.99
+    },
+    {
+        "word": "für",
+        "confidence": 0.99
+    },
+    {
+        "word": "den",
+        "confidence": 0.99
+    },
+    {
+        "word": "Notfall",
+        "confidence": 0.99
+    },
+    {
+        "word": "Name",
+        "confidence": 0.99
+    },
+    {
+        "word": "der",
+        "confidence": 0.99
+    },
+    {
+        "word": "Kontaktperson",
+        "confidence": 0.99
+    },
+    {
+        "word": "für",
+        "confidence": 0.99
+    },
+    {
+        "word": "den",
+        "confidence": 0.99
+    },
+    {
+        "word": "Notfall",
+        "confidence": 0.99
+    },
+    {
+        "word": "Clara",
+        "confidence": 0.99
+    },
+    {
+        "word": "Neumann",
+        "confidence": 0.99
+    },
+    {
+        "word": "Beziehung",
+        "confidence": 0.99
+    },
+    {
+        "word": "Mutter",
+        "confidence": 0.99
+    },
+    {
+        "word": "Adresse",
+        "confidence": 0.99
+    },
+    {
+        "word": "Seestraße",
+        "confidence": 0.99
+    },
+    {
+        "word": "25",
+        "confidence": 0.99
+    },
+    {
+        "word": "28345",
+        "confidence": 0.99
+    },
+    {
+        "word": "Bremen",
+        "confidence": 0.99
+    },
+    {
+        "word": "Rufnummer(n)",
+        "confidence": 0.99
+    },
+    {
+        "word": "+49",
+        "confidence": 0.99
+    },
+    {
+        "word": "42",
+        "confidence": 0.99
+    },
+    {
+        "word": "12345678",
+        "confidence": 0.99
+    }
+]

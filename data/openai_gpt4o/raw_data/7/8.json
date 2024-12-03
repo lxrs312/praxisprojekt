@@ -1,0 +1,522 @@
+[
+    {
+        "word": "MusterTech",
+        "confidence": 0.95
+    },
+    {
+        "word": "GmbH",
+        "confidence": 0.95
+    },
+    {
+        "word": "Ihre",
+        "confidence": 0.95
+    },
+    {
+        "word": "Technik",
+        "confidence": 0.95
+    },
+    {
+        "word": "Unser",
+        "confidence": 0.95
+    },
+    {
+        "word": "Muster",
+        "confidence": 0.95
+    },
+    {
+        "word": "für",
+        "confidence": 0.95
+    },
+    {
+        "word": "Erfolg",
+        "confidence": 0.95
+    },
+    {
+        "word": "RECHNUNG",
+        "confidence": 0.95
+    },
+    {
+        "word": "Musterstraße",
+        "confidence": 0.95
+    },
+    {
+        "word": "123",
+        "confidence": 0.95
+    },
+    {
+        "word": "12435",
+        "confidence": 0.95
+    },
+    {
+        "word": "Musterstadt",
+        "confidence": 0.95
+    },
+    {
+        "word": "RECHNUNGSNR",
+        "confidence": 0.95
+    },
+    {
+        "word": "123",
+        "confidence": 0.95
+    },
+    {
+        "word": "DATUM",
+        "confidence": 0.95
+    },
+    {
+        "word": "16.10.2024",
+        "confidence": 0.95
+    },
+    {
+        "word": "AN",
+        "confidence": 0.95
+    },
+    {
+        "word": "LIEFERADRESSE",
+        "confidence": 0.95
+    },
+    {
+        "word": "Herr",
+        "confidence": 0.95
+    },
+    {
+        "word": "Michael",
+        "confidence": 0.95
+    },
+    {
+        "word": "Buchhalter",
+        "confidence": 0.95
+    },
+    {
+        "word": "Testlogistik",
+        "confidence": 0.95
+    },
+    {
+        "word": "AG",
+        "confidence": 0.95
+    },
+    {
+        "word": "Testweg",
+        "confidence": 0.95
+    },
+    {
+        "word": "456",
+        "confidence": 0.95
+    },
+    {
+        "word": "67890",
+        "confidence": 0.95
+    },
+    {
+        "word": "Testhausen",
+        "confidence": 0.95
+    },
+    {
+        "word": "Frau",
+        "confidence": 0.95
+    },
+    {
+        "word": "Sabine",
+        "confidence": 0.95
+    },
+    {
+        "word": "Logistik",
+        "confidence": 0.95
+    },
+    {
+        "word": "Testlogistik",
+        "confidence": 0.95
+    },
+    {
+        "word": "AG",
+        "confidence": 0.95
+    },
+    {
+        "word": "Teststraße",
+        "confidence": 0.95
+    },
+    {
+        "word": "42",
+        "confidence": 0.95
+    },
+    {
+        "word": "09999",
+        "confidence": 0.95
+    },
+    {
+        "word": "Testdorf",
+        "confidence": 0.95
+    },
+    {
+        "word": "Telefon",
+        "confidence": 0.95
+    },
+    {
+        "word": "+4912345678",
+        "confidence": 0.95
+    },
+    {
+        "word": "Telefon",
+        "confidence": 0.95
+    },
+    {
+        "word": "+4987654322",
+        "confidence": 0.95
+    },
+    {
+        "word": "KOMMENTARE",
+        "confidence": 0.95
+    },
+    {
+        "word": "ODER",
+        "confidence": 0.95
+    },
+    {
+        "word": "BESONDERE",
+        "confidence": 0.95
+    },
+    {
+        "word": "ANWEISUNGEN",
+        "confidence": 0.95
+    },
+    {
+        "word": "Bitte",
+        "confidence": 0.95
+    },
+    {
+        "word": "alle",
+        "confidence": 0.95
+    },
+    {
+        "word": "Geräte",
+        "confidence": 0.95
+    },
+    {
+        "word": "vor",
+        "confidence": 0.95
+    },
+    {
+        "word": "der",
+        "confidence": 0.95
+    },
+    {
+        "word": "Inbetriebnahme",
+        "confidence": 0.95
+    },
+    {
+        "word": "gründlich",
+        "confidence": 0.95
+    },
+    {
+        "word": "prüfen",
+        "confidence": 0.95
+    },
+    {
+        "word": "Verpackungsmaterial",
+        "confidence": 0.95
+    },
+    {
+        "word": "bitte",
+        "confidence": 0.95
+    },
+    {
+        "word": "umweltgerecht",
+        "confidence": 0.95
+    },
+    {
+        "word": "entsorgen",
+        "confidence": 0.95
+    },
+    {
+        "word": "VERKÄUFER",
+        "confidence": 0.95
+    },
+    {
+        "word": "P.O.",
+        "confidence": 0.95
+    },
+    {
+        "word": "NUMMER",
+        "confidence": 0.95
+    },
+    {
+        "word": "ANFORDERER",
+        "confidence": 0.95
+    },
+    {
+        "word": "VERSANDWEG",
+        "confidence": 0.95
+    },
+    {
+        "word": "FREI",
+        "confidence": 0.95
+    },
+    {
+        "word": "AN",
+        "confidence": 0.95
+    },
+    {
+        "word": "BORD-",
+        "confidence": 0.95
+    },
+    {
+        "word": "BEDINGUNGEN",
+        "confidence": 0.95
+    },
+    {
+        "word": "PUNKT",
+        "confidence": 0.95
+    },
+    {
+        "word": "MusterTech",
+        "confidence": 0.95
+    },
+    {
+        "word": "GmbH",
+        "confidence": 0.95
+    },
+    {
+        "word": "987654321",
+        "confidence": 0.95
+    },
+    {
+        "word": "Max",
+        "confidence": 0.95
+    },
+    {
+        "word": "Mustermann",
+        "confidence": 0.95
+    },
+    {
+        "word": "LHD",
+        "confidence": 0.95
+    },
+    {
+        "word": "Express",
+        "confidence": 0.95
+    },
+    {
+        "word": "Hafen",
+        "confidence": 0.95
+    },
+    {
+        "word": "Musterstadt",
+        "confidence": 0.95
+    },
+    {
+        "word": "Fällig",
+        "confidence": 0.95
+    },
+    {
+        "word": "bei",
+        "confidence": 0.95
+    },
+    {
+        "word": "Erhalt",
+        "confidence": 0.95
+    },
+    {
+        "word": "MENGE",
+        "confidence": 0.95
+    },
+    {
+        "word": "BESCHREIBUNG",
+        "confidence": 0.95
+    },
+    {
+        "word": "EINZELPREIS",
+        "confidence": 0.95
+    },
+    {
+        "word": "SUMME",
+        "confidence": 0.95
+    },
+    {
+        "word": "3",
+        "confidence": 0.95
+    },
+    {
+        "word": "Sessel",
+        "confidence": 0.95
+    },
+    {
+        "word": "200",
+        "confidence": 0.95
+    },
+    {
+        "word": "600",
+        "confidence": 0.95
+    },
+    {
+        "word": "1",
+        "confidence": 0.95
+    },
+    {
+        "word": "Couchstuhl",
+        "confidence": 0.95
+    },
+    {
+        "word": "150",
+        "confidence": 0.95
+    },
+    {
+        "word": "150",
+        "confidence": 0.95
+    },
+    {
+        "word": "2",
+        "confidence": 0.95
+    },
+    {
+        "word": "Dekokissen",
+        "confidence": 0.95
+    },
+    {
+        "word": "25",
+        "confidence": 0.95
+    },
+    {
+        "word": "50",
+        "confidence": 0.95
+    },
+    {
+        "word": "ZWISCHENSUMME",
+        "confidence": 0.95
+    },
+    {
+        "word": "800",
+        "confidence": 0.95
+    },
+    {
+        "word": "MEHRWERTSTEUER",
+        "confidence": 0.95
+    },
+    {
+        "word": "160",
+        "confidence": 0.95
+    },
+    {
+        "word": "VERPACKUNG",
+        "confidence": 0.95
+    },
+    {
+        "word": "UND",
+        "confidence": 0.95
+    },
+    {
+        "word": "VERSAND",
+        "confidence": 0.95
+    },
+    {
+        "word": "20",
+        "confidence": 0.95
+    },
+    {
+        "word": "SUMME",
+        "confidence": 0.95
+    },
+    {
+        "word": "FÄLLIG",
+        "confidence": 0.95
+    },
+    {
+        "word": "980",
+        "confidence": 0.95
+    },
+    {
+        "word": "Alle",
+        "confidence": 0.95
+    },
+    {
+        "word": "Schecks",
+        "confidence": 0.95
+    },
+    {
+        "word": "auszahlbar",
+        "confidence": 0.95
+    },
+    {
+        "word": "an",
+        "confidence": 0.95
+    },
+    {
+        "word": "MusterTech",
+        "confidence": 0.95
+    },
+    {
+        "word": "GmbH",
+        "confidence": 0.95
+    },
+    {
+        "word": "Wenden",
+        "confidence": 0.95
+    },
+    {
+        "word": "Sie",
+        "confidence": 0.95
+    },
+    {
+        "word": "sich",
+        "confidence": 0.95
+    },
+    {
+        "word": "mit",
+        "confidence": 0.95
+    },
+    {
+        "word": "Fragen",
+        "confidence": 0.95
+    },
+    {
+        "word": "zu",
+        "confidence": 0.95
+    },
+    {
+        "word": "dieser",
+        "confidence": 0.95
+    },
+    {
+        "word": "Rechnung",
+        "confidence": 0.95
+    },
+    {
+        "word": "an",
+        "confidence": 0.95
+    },
+    {
+        "word": "Max",
+        "confidence": 0.95
+    },
+    {
+        "word": "Mustermann",
+        "confidence": 0.95
+    },
+    {
+        "word": "+4912345678,",
+        "confidence": 0.95
+    },
+    {
+        "word": "max.mustermann@mustertech.de",
+        "confidence": 0.95
+    },
+    {
+        "word": "VIELEN",
+        "confidence": 0.95
+    },
+    {
+        "word": "DANK",
+        "confidence": 0.95
+    },
+    {
+        "word": "FÜR",
+        "confidence": 0.95
+    },
+    {
+        "word": "IHRE",
+        "confidence": 0.95
+    },
+    {
+        "word": "BESTELLUNG",
+        "confidence": 0.95
+    }
+]

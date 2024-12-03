@@ -1,0 +1,430 @@
+[
+    {
+        "word": "Formular",
+        "confidence": 0.95
+    },
+    {
+        "word": "mit",
+        "confidence": 0.98
+    },
+    {
+        "word": "Mitarbeiterinformationen",
+        "confidence": 0.97
+    },
+    {
+        "word": "für",
+        "confidence": 0.99
+    },
+    {
+        "word": "den",
+        "confidence": 0.99
+    },
+    {
+        "word": "Notfall",
+        "confidence": 0.96
+    },
+    {
+        "word": "Zuletzt",
+        "confidence": 0.97
+    },
+    {
+        "word": "aktualisiert:",
+        "confidence": 0.94
+    },
+    {
+        "word": "21.10.2024",
+        "confidence": 0.98
+    },
+    {
+        "word": "Persönliche",
+        "confidence": 0.96
+    },
+    {
+        "word": "Informationen",
+        "confidence": 0.97
+    },
+    {
+        "word": "Mitarbeiternummer",
+        "confidence": 0.95
+    },
+    {
+        "word": "389475",
+        "confidence": 0.94
+    },
+    {
+        "word": "Vorname",
+        "confidence": 0.99
+    },
+    {
+        "word": "Anna",
+        "confidence": 0.93
+    },
+    {
+        "word": "Zweiter",
+        "confidence": 0.96
+    },
+    {
+        "word": "Vorname",
+        "confidence": 0.96
+    },
+    {
+        "word": "Maria",
+        "confidence": 0.92
+    },
+    {
+        "word": "Nachname",
+        "confidence": 0.97
+    },
+    {
+        "word": "Koch",
+        "confidence": 0.92
+    },
+    {
+        "word": "Rufname",
+        "confidence": 0.97
+    },
+    {
+        "word": "Anna",
+        "confidence": 0.93
+    },
+    {
+        "word": "Geschlecht",
+        "confidence": 0.97
+    },
+    {
+        "word": "F",
+        "confidence": 0.92
+    },
+    {
+        "word": "Nationalität",
+        "confidence": 0.96
+    },
+    {
+        "word": "Deutsch",
+        "confidence": 0.92
+    },
+    {
+        "word": "Geburtsort",
+        "confidence": 0.96
+    },
+    {
+        "word": "(Land)",
+        "confidence": 0.98
+    },
+    {
+        "word": "Düsseldorf",
+        "confidence": 0.93
+    },
+    {
+        "word": "Anschrift",
+        "confidence": 0.98
+    },
+    {
+        "word": "privat",
+        "confidence": 0.98
+    },
+    {
+        "word": "Am",
+        "confidence": 0.95
+    },
+    {
+        "word": "Park",
+        "confidence": 0.93
+    },
+    {
+        "word": "30",
+        "confidence": 0.92
+    },
+    {
+        "word": "40210",
+        "confidence": 0.95
+    },
+    {
+        "word": "Düsseldorf",
+        "confidence": 0.93
+    },
+    {
+        "word": "Bundesland/Kanton",
+        "confidence": 0.94
+    },
+    {
+        "word": "Nordrhein-Westfalen",
+        "confidence": 0.92
+    },
+    {
+        "word": "Telefon",
+        "confidence": 0.97
+    },
+    {
+        "word": "privat",
+        "confidence": 0.98
+    },
+    {
+        "word": "+492123456789",
+        "confidence": 0.91
+    },
+    {
+        "word": "Handy",
+        "confidence": 0.96
+    },
+    {
+        "word": "+497123456789",
+        "confidence": 0.91
+    },
+    {
+        "word": "Fax",
+        "confidence": 0.96
+    },
+    {
+        "word": "privat",
+        "confidence": 0.98
+    },
+    {
+        "word": "+492123456783",
+        "confidence": 0.91
+    },
+    {
+        "word": "E-Mail-Adresse",
+        "confidence": 0.94
+    },
+    {
+        "word": "privat",
+        "confidence": 0.98
+    },
+    {
+        "word": "anna.koch@beispiel.com",
+        "confidence": 0.89
+    },
+    {
+        "word": "Geburtstag",
+        "confidence": 0.96
+    },
+    {
+        "word": "(TT/MM/JJJJ)",
+        "confidence": 0.94
+    },
+    {
+        "word": "1986-05-22",
+        "confidence": 0.93
+    },
+    {
+        "word": "Sozialversicherungsnummer",
+        "confidence": 0.92
+    },
+    {
+        "word": "345679342",
+        "confidence": 0.91
+    },
+    {
+        "word": "Ausweisnummer",
+        "confidence": 0.95
+    },
+    {
+        "word": "H3456785A",
+        "confidence": 0.91
+    },
+    {
+        "word": "Führerscheinnummer",
+        "confidence": 0.92
+    },
+    {
+        "word": "K3456785A",
+        "confidence": 0.91
+    },
+    {
+        "word": "Medizinische",
+        "confidence": 0.97
+    },
+    {
+        "word": "Informationen",
+        "confidence": 0.97
+    },
+    {
+        "word": "Name",
+        "confidence": 0.98
+    },
+    {
+        "word": "des",
+        "confidence": 0.99
+    },
+    {
+        "word": "Arztes",
+        "confidence": 0.96
+    },
+    {
+        "word": "Dr.",
+        "confidence": 0.92
+    },
+    {
+        "word": "Johannes",
+        "confidence": 0.92
+    },
+    {
+        "word": "Becker",
+        "confidence": 0.92
+    },
+    {
+        "word": "Adresse",
+        "confidence": 0.98
+    },
+    {
+        "word": "Am",
+        "confidence": 0.95
+    },
+    {
+        "word": "Park",
+        "confidence": 0.93
+    },
+    {
+        "word": "47",
+        "confidence": 0.92
+    },
+    {
+        "word": "40210",
+        "confidence": 0.95
+    },
+    {
+        "word": "Düsseldorf",
+        "confidence": 0.93
+    },
+    {
+        "word": "Rufnummer",
+        "confidence": 0.94
+    },
+    {
+        "word": "+49219865432",
+        "confidence": 0.91
+    },
+    {
+        "word": "Blutgruppe",
+        "confidence": 0.96
+    },
+    {
+        "word": "A+",
+        "confidence": 0.92
+    },
+    {
+        "word": "Gesundheitliche",
+        "confidence": 0.92
+    },
+    {
+        "word": "Probleme",
+        "confidence": 0.91
+    },
+    {
+        "word": "Asthma",
+        "confidence": 0.92
+    },
+    {
+        "word": "Allergien",
+        "confidence": 0.93
+    },
+    {
+        "word": "Keine",
+        "confidence": 0.92
+    },
+    {
+        "word": "Regelmäßig",
+        "confidence": 0.91
+    },
+    {
+        "word": "eingenommene",
+        "confidence": 0.89
+    },
+    {
+        "word": "Medikamente",
+        "confidence": 0.92
+    },
+    {
+        "word": "Schlafmittel",
+        "confidence": 0.9
+    },
+    {
+        "word": "Informationen",
+        "confidence": 0.97
+    },
+    {
+        "word": "für",
+        "confidence": 0.99
+    },
+    {
+        "word": "den",
+        "confidence": 0.99
+    },
+    {
+        "word": "Notfall",
+        "confidence": 0.96
+    },
+    {
+        "word": "Name",
+        "confidence": 0.98
+    },
+    {
+        "word": "der",
+        "confidence": 0.99
+    },
+    {
+        "word": "Kontaktperson",
+        "confidence": 0.94
+    },
+    {
+        "word": "für",
+        "confidence": 0.99
+    },
+    {
+        "word": "den",
+        "confidence": 0.99
+    },
+    {
+        "word": "Notfall",
+        "confidence": 0.96
+    },
+    {
+        "word": "Rolf",
+        "confidence": 0.92
+    },
+    {
+        "word": "Koch",
+        "confidence": 0.92
+    },
+    {
+        "word": "Beziehung",
+        "confidence": 0.95
+    },
+    {
+        "word": "Ehemann",
+        "confidence": 0.92
+    },
+    {
+        "word": "Adresse",
+        "confidence": 0.98
+    },
+    {
+        "word": "Am",
+        "confidence": 0.95
+    },
+    {
+        "word": "Park",
+        "confidence": 0.93
+    },
+    {
+        "word": "30",
+        "confidence": 0.92
+    },
+    {
+        "word": "40210",
+        "confidence": 0.95
+    },
+    {
+        "word": "Düsseldorf",
+        "confidence": 0.93
+    },
+    {
+        "word": "Rufnummer(n)",
+        "confidence": 0.94
+    },
+    {
+        "word": "+492123456789",
+        "confidence": 0.91
+    }
+]

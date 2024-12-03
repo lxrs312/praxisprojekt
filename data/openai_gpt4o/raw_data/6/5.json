@@ -1,0 +1,422 @@
+[
+    {
+        "word": "Formular",
+        "confidence": 0.98
+    },
+    {
+        "word": "mit",
+        "confidence": 0.96
+    },
+    {
+        "word": "Mitarbeiterinformationen",
+        "confidence": 0.97
+    },
+    {
+        "word": "für",
+        "confidence": 0.96
+    },
+    {
+        "word": "den",
+        "confidence": 0.96
+    },
+    {
+        "word": "Notfall",
+        "confidence": 0.97
+    },
+    {
+        "word": "Zuletzt",
+        "confidence": 0.95
+    },
+    {
+        "word": "aktualisiert:",
+        "confidence": 0.95
+    },
+    {
+        "word": "21.10.2024",
+        "confidence": 0.97
+    },
+    {
+        "word": "Persönliche",
+        "confidence": 0.98
+    },
+    {
+        "word": "Informationen",
+        "confidence": 0.97
+    },
+    {
+        "word": "Mitarbeiternummer",
+        "confidence": 0.96
+    },
+    {
+        "word": "86720",
+        "confidence": 0.97
+    },
+    {
+        "word": "Vorname",
+        "confidence": 0.98
+    },
+    {
+        "word": "Sophia",
+        "confidence": 0.97
+    },
+    {
+        "word": "Zweiter",
+        "confidence": 0.96
+    },
+    {
+        "word": "Vorname",
+        "confidence": 0.95
+    },
+    {
+        "word": "Elena",
+        "confidence": 0.97
+    },
+    {
+        "word": "Nachname",
+        "confidence": 0.96
+    },
+    {
+        "word": "Wagner",
+        "confidence": 0.97
+    },
+    {
+        "word": "Rufname",
+        "confidence": 0.96
+    },
+    {
+        "word": "Sophia",
+        "confidence": 0.97
+    },
+    {
+        "word": "Geschlecht",
+        "confidence": 0.96
+    },
+    {
+        "word": "F",
+        "confidence": 0.97
+    },
+    {
+        "word": "Nationalität",
+        "confidence": 0.96
+    },
+    {
+        "word": "Deutsch",
+        "confidence": 0.97
+    },
+    {
+        "word": "Geburtsort",
+        "confidence": 0.96
+    },
+    {
+        "word": "(Land)",
+        "confidence": 0.95
+    },
+    {
+        "word": "Dresden",
+        "confidence": 0.97
+    },
+    {
+        "word": "Anschrift",
+        "confidence": 0.96
+    },
+    {
+        "word": "privat",
+        "confidence": 0.96
+    },
+    {
+        "word": "Breitwiesenweg",
+        "confidence": 0.95
+    },
+    {
+        "word": "7",
+        "confidence": 0.97
+    },
+    {
+        "word": "01067",
+        "confidence": 0.96
+    },
+    {
+        "word": "Dresden,",
+        "confidence": 0.95
+    },
+    {
+        "word": "Sachsen",
+        "confidence": 0.97
+    },
+    {
+        "word": "Bundesland/Kanton",
+        "confidence": 0.96
+    },
+    {
+        "word": "Sachsen",
+        "confidence": 0.97
+    },
+    {
+        "word": "Telefon",
+        "confidence": 0.96
+    },
+    {
+        "word": "privat",
+        "confidence": 0.96
+    },
+    {
+        "word": "+493514987234",
+        "confidence": 0.97
+    },
+    {
+        "word": "Handy",
+        "confidence": 0.96
+    },
+    {
+        "word": "+491781987234",
+        "confidence": 0.97
+    },
+    {
+        "word": "Fax",
+        "confidence": 0.96
+    },
+    {
+        "word": "privat",
+        "confidence": 0.96
+    },
+    {
+        "word": "+4935149871235",
+        "confidence": 0.97
+    },
+    {
+        "word": "E-Mail-Adresse",
+        "confidence": 0.95
+    },
+    {
+        "word": "privat",
+        "confidence": 0.96
+    },
+    {
+        "word": "sophia.wagner@example.com",
+        "confidence": 0.97
+    },
+    {
+        "word": "Geburtstag",
+        "confidence": 0.96
+    },
+    {
+        "word": "(TT/MM/JJJJ)",
+        "confidence": 0.95
+    },
+    {
+        "word": "1982-04-08",
+        "confidence": 0.97
+    },
+    {
+        "word": "Sozialversicherungsnummer",
+        "confidence": 0.95
+    },
+    {
+        "word": "890123456",
+        "confidence": 0.97
+    },
+    {
+        "word": "Ausweisnummer",
+        "confidence": 0.96
+    },
+    {
+        "word": "7890123456",
+        "confidence": 0.97
+    },
+    {
+        "word": "Führerscheinnummer",
+        "confidence": 0.96
+    },
+    {
+        "word": "189012345",
+        "confidence": 0.97
+    },
+    {
+        "word": "Medizinische",
+        "confidence": 0.96
+    },
+    {
+        "word": "Informationen",
+        "confidence": 0.97
+    },
+    {
+        "word": "Name",
+        "confidence": 0.96
+    },
+    {
+        "word": "des",
+        "confidence": 0.96
+    },
+    {
+        "word": "Arztes",
+        "confidence": 0.96
+    },
+    {
+        "word": "Dr.",
+        "confidence": 0.97
+    },
+    {
+        "word": "Markus",
+        "confidence": 0.97
+    },
+    {
+        "word": "Schmid",
+        "confidence": 0.97
+    },
+    {
+        "word": "Adresse",
+        "confidence": 0.96
+    },
+    {
+        "word": "Hauptmarkt",
+        "confidence": 0.95
+    },
+    {
+        "word": "8",
+        "confidence": 0.97
+    },
+    {
+        "word": "01067",
+        "confidence": 0.96
+    },
+    {
+        "word": "Dresden",
+        "confidence": 0.97
+    },
+    {
+        "word": "Rufnummer",
+        "confidence": 0.96
+    },
+    {
+        "word": "+49351498765432",
+        "confidence": 0.97
+    },
+    {
+        "word": "Blutgruppe",
+        "confidence": 0.96
+    },
+    {
+        "word": "B+",
+        "confidence": 0.97
+    },
+    {
+        "word": "Gesundheitliche",
+        "confidence": 0.96
+    },
+    {
+        "word": "Probleme",
+        "confidence": 0.96
+    },
+    {
+        "word": "Keine",
+        "confidence": 0.97
+    },
+    {
+        "word": "Allergien",
+        "confidence": 0.96
+    },
+    {
+        "word": "Tierhaare",
+        "confidence": 0.97
+    },
+    {
+        "word": "Regelmäßig",
+        "confidence": 0.96
+    },
+    {
+        "word": "eingenommene",
+        "confidence": 0.95
+    },
+    {
+        "word": "Medikamente",
+        "confidence": 0.96
+    },
+    {
+        "word": "Cefazolin",
+        "confidence": 0.97
+    },
+    {
+        "word": "Informationen",
+        "confidence": 0.96
+    },
+    {
+        "word": "für",
+        "confidence": 0.96
+    },
+    {
+        "word": "den",
+        "confidence": 0.96
+    },
+    {
+        "word": "Notfall",
+        "confidence": 0.97
+    },
+    {
+        "word": "Name",
+        "confidence": 0.96
+    },
+    {
+        "word": "der",
+        "confidence": 0.96
+    },
+    {
+        "word": "Kontaktperson",
+        "confidence": 0.96
+    },
+    {
+        "word": "für",
+        "confidence": 0.96
+    },
+    {
+        "word": "den",
+        "confidence": 0.96
+    },
+    {
+        "word": "Notfall",
+        "confidence": 0.97
+    },
+    {
+        "word": "Lisa",
+        "confidence": 0.97
+    },
+    {
+        "word": "Wagner",
+        "confidence": 0.97
+    },
+    {
+        "word": "Beziehung",
+        "confidence": 0.96
+    },
+    {
+        "word": "Schwester",
+        "confidence": 0.97
+    },
+    {
+        "word": "Adresse",
+        "confidence": 0.96
+    },
+    {
+        "word": "Gohlisstraße",
+        "confidence": 0.95
+    },
+    {
+        "word": "10",
+        "confidence": 0.97
+    },
+    {
+        "word": "01067",
+        "confidence": 0.96
+    },
+    {
+        "word": "Dresden",
+        "confidence": 0.97
+    },
+    {
+        "word": "Rufnummer(n)",
+        "confidence": 0.96
+    },
+    {
+        "word": "+493516543210",
+        "confidence": 0.97
+    }
+]

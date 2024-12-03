@@ -1,0 +1,386 @@
+[
+    {
+        "word": "Mitgliedsantrag",
+        "confidence": 0.98
+    },
+    {
+        "word": "Angelverein",
+        "confidence": 0.97
+    },
+    {
+        "word": "Bitte",
+        "confidence": 0.96
+    },
+    {
+        "word": "füllen",
+        "confidence": 0.96
+    },
+    {
+        "word": "Sie",
+        "confidence": 0.96
+    },
+    {
+        "word": "das",
+        "confidence": 0.96
+    },
+    {
+        "word": "Formular",
+        "confidence": 0.96
+    },
+    {
+        "word": "vollständig",
+        "confidence": 0.95
+    },
+    {
+        "word": "und",
+        "confidence": 0.96
+    },
+    {
+        "word": "leserlich",
+        "confidence": 0.96
+    },
+    {
+        "word": "aus.",
+        "confidence": 0.95
+    },
+    {
+        "word": "Persönliche",
+        "confidence": 0.96
+    },
+    {
+        "word": "Angaben:",
+        "confidence": 0.95
+    },
+    {
+        "word": "Name:",
+        "confidence": 0.96
+    },
+    {
+        "word": "Daniel",
+        "confidence": 0.99
+    },
+    {
+        "word": "Koch",
+        "confidence": 0.99
+    },
+    {
+        "word": "Adresse:",
+        "confidence": 0.95
+    },
+    {
+        "word": "Lindenstraße",
+        "confidence": 0.98
+    },
+    {
+        "word": "2",
+        "confidence": 0.98
+    },
+    {
+        "word": "Postleitzahl/Ort:",
+        "confidence": 0.95
+    },
+    {
+        "word": "04109,",
+        "confidence": 0.96
+    },
+    {
+        "word": "Leipzig",
+        "confidence": 0.98
+    },
+    {
+        "word": "Telefonnummer:",
+        "confidence": 0.95
+    },
+    {
+        "word": "+49",
+        "confidence": 0.98
+    },
+    {
+        "word": "151",
+        "confidence": 0.98
+    },
+    {
+        "word": "2345678",
+        "confidence": 0.98
+    },
+    {
+        "word": "E-Mail:",
+        "confidence": 0.96
+    },
+    {
+        "word": "daniel.koch@example.com",
+        "confidence": 0.99
+    },
+    {
+        "word": "Angelspezifische",
+        "confidence": 0.95
+    },
+    {
+        "word": "Angaben:",
+        "confidence": 0.95
+    },
+    {
+        "word": "Datum",
+        "confidence": 0.96
+    },
+    {
+        "word": "der",
+        "confidence": 0.96
+    },
+    {
+        "word": "abgelegten",
+        "confidence": 0.96
+    },
+    {
+        "word": "Angelprüfung:",
+        "confidence": 0.95
+    },
+    {
+        "word": "2024-11-01",
+        "confidence": 0.99
+    },
+    {
+        "word": "Nummer",
+        "confidence": 0.96
+    },
+    {
+        "word": "des",
+        "confidence": 0.96
+    },
+    {
+        "word": "Fischereischeins:",
+        "confidence": 0.95
+    },
+    {
+        "word": "008",
+        "confidence": 0.99
+    },
+    {
+        "word": "Bisheriger",
+        "confidence": 0.96
+    },
+    {
+        "word": "Angelverein",
+        "confidence": 0.96
+    },
+    {
+        "word": "(falls",
+        "confidence": 0.96
+    },
+    {
+        "word": "vorhanden):",
+        "confidence": 0.95
+    },
+    {
+        "word": "Fang",
+        "confidence": 0.98
+    },
+    {
+        "word": "die",
+        "confidence": 0.98
+    },
+    {
+        "word": "Fische",
+        "confidence": 0.98
+    },
+    {
+        "word": "Mitgliedschaftsinformationen:",
+        "confidence": 0.95
+    },
+    {
+        "word": "Gewünschter",
+        "confidence": 0.96
+    },
+    {
+        "word": "Eintrittstermin:",
+        "confidence": 0.95
+    },
+    {
+        "word": "2024-12-10",
+        "confidence": 0.99
+    },
+    {
+        "word": "Art",
+        "confidence": 0.96
+    },
+    {
+        "word": "der",
+        "confidence": 0.96
+    },
+    {
+        "word": "Mitgliedschaft",
+        "confidence": 0.95
+    },
+    {
+        "word": "(aktiv/passiv):",
+        "confidence": 0.95
+    },
+    {
+        "word": "Aktiv",
+        "confidence": 0.99
+    },
+    {
+        "word": "Einverständniserklärung:",
+        "confidence": 0.95
+    },
+    {
+        "word": "Mit",
+        "confidence": 0.96
+    },
+    {
+        "word": "meiner",
+        "confidence": 0.96
+    },
+    {
+        "word": "Unterschrift",
+        "confidence": 0.96
+    },
+    {
+        "word": "bestätige",
+        "confidence": 0.96
+    },
+    {
+        "word": "ich",
+        "confidence": 0.96
+    },
+    {
+        "word": "die",
+        "confidence": 0.96
+    },
+    {
+        "word": "Richtigkeit",
+        "confidence": 0.96
+    },
+    {
+        "word": "meiner",
+        "confidence": 0.96
+    },
+    {
+        "word": "Angaben",
+        "confidence": 0.96
+    },
+    {
+        "word": "und",
+        "confidence": 0.96
+    },
+    {
+        "word": "erkläre",
+        "confidence": 0.96
+    },
+    {
+        "word": "mich",
+        "confidence": 0.96
+    },
+    {
+        "word": "mit",
+        "confidence": 0.96
+    },
+    {
+        "word": "den",
+        "confidence": 0.96
+    },
+    {
+        "word": "Regeln",
+        "confidence": 0.96
+    },
+    {
+        "word": "und",
+        "confidence": 0.96
+    },
+    {
+        "word": "Vorschriften",
+        "confidence": 0.96
+    },
+    {
+        "word": "des",
+        "confidence": 0.96
+    },
+    {
+        "word": "Angelvereins",
+        "confidence": 0.96
+    },
+    {
+        "word": "einverstanden.",
+        "confidence": 0.95
+    },
+    {
+        "word": "Ich",
+        "confidence": 0.96
+    },
+    {
+        "word": "bin",
+        "confidence": 0.96
+    },
+    {
+        "word": "mir",
+        "confidence": 0.96
+    },
+    {
+        "word": "bewusst,",
+        "confidence": 0.95
+    },
+    {
+        "word": "dass",
+        "confidence": 0.96
+    },
+    {
+        "word": "falsche",
+        "confidence": 0.96
+    },
+    {
+        "word": "Angaben",
+        "confidence": 0.96
+    },
+    {
+        "word": "zum",
+        "confidence": 0.96
+    },
+    {
+        "word": "Ausschluss",
+        "confidence": 0.95
+    },
+    {
+        "word": "aus",
+        "confidence": 0.96
+    },
+    {
+        "word": "dem",
+        "confidence": 0.96
+    },
+    {
+        "word": "Verein",
+        "confidence": 0.96
+    },
+    {
+        "word": "führen",
+        "confidence": 0.96
+    },
+    {
+        "word": "können.",
+        "confidence": 0.95
+    },
+    {
+        "word": "Ort/Datum:",
+        "confidence": 0.95
+    },
+    {
+        "word": "Leipzig,",
+        "confidence": 0.98
+    },
+    {
+        "word": "2024-11-01",
+        "confidence": 0.99
+    },
+    {
+        "word": "Unterschrift:",
+        "confidence": 0.95
+    },
+    {
+        "word": "Daniel",
+        "confidence": 0.99
+    },
+    {
+        "word": "Koch",
+        "confidence": 0.99
+    }
+]

@@ -1,0 +1,378 @@
+[
+    {
+        "word": "Mitgliedsantrag",
+        "confidence": 95
+    },
+    {
+        "word": "Angelverein",
+        "confidence": 95
+    },
+    {
+        "word": "Bitte",
+        "confidence": 90
+    },
+    {
+        "word": "füllen",
+        "confidence": 92
+    },
+    {
+        "word": "Sie",
+        "confidence": 93
+    },
+    {
+        "word": "das",
+        "confidence": 93
+    },
+    {
+        "word": "Formular",
+        "confidence": 91
+    },
+    {
+        "word": "vollständig",
+        "confidence": 88
+    },
+    {
+        "word": "und",
+        "confidence": 95
+    },
+    {
+        "word": "leserlich",
+        "confidence": 90
+    },
+    {
+        "word": "aus.",
+        "confidence": 89
+    },
+    {
+        "word": "Persönliche",
+        "confidence": 94
+    },
+    {
+        "word": "Angaben:",
+        "confidence": 92
+    },
+    {
+        "word": "Name:",
+        "confidence": 95
+    },
+    {
+        "word": "Sebastian",
+        "confidence": 90
+    },
+    {
+        "word": "Wagner",
+        "confidence": 90
+    },
+    {
+        "word": "Adresse:",
+        "confidence": 95
+    },
+    {
+        "word": "Fischerstraße",
+        "confidence": 88
+    },
+    {
+        "word": "3",
+        "confidence": 95
+    },
+    {
+        "word": "Postleitzahl/Ort:",
+        "confidence": 92
+    },
+    {
+        "word": "70173",
+        "confidence": 93
+    },
+    {
+        "word": "Stuttgart",
+        "confidence": 89
+    },
+    {
+        "word": "Telefonnummer:",
+        "confidence": 93
+    },
+    {
+        "word": "+49",
+        "confidence": 92
+    },
+    {
+        "word": "15234567895",
+        "confidence": 90
+    },
+    {
+        "word": "E-Mail:",
+        "confidence": 95
+    },
+    {
+        "word": "sebastian.wagner@example.com",
+        "confidence": 85
+    },
+    {
+        "word": "Angelspezifische",
+        "confidence": 90
+    },
+    {
+        "word": "Angaben:",
+        "confidence": 92
+    },
+    {
+        "word": "Datum",
+        "confidence": 94
+    },
+    {
+        "word": "der",
+        "confidence": 93
+    },
+    {
+        "word": "abgelegten",
+        "confidence": 90
+    },
+    {
+        "word": "Angelprüfung:",
+        "confidence": 88
+    },
+    {
+        "word": "2024-10-29",
+        "confidence": 92
+    },
+    {
+        "word": "Nummer",
+        "confidence": 90
+    },
+    {
+        "word": "des",
+        "confidence": 93
+    },
+    {
+        "word": "Fischereischeins:",
+        "confidence": 88
+    },
+    {
+        "word": "005",
+        "confidence": 95
+    },
+    {
+        "word": "Bisheriger",
+        "confidence": 90
+    },
+    {
+        "word": "Angelverein",
+        "confidence": 92
+    },
+    {
+        "word": "(falls",
+        "confidence": 85
+    },
+    {
+        "word": "vorhanden):",
+        "confidence": 85
+    },
+    {
+        "word": "Die",
+        "confidence": 92
+    },
+    {
+        "word": "Schwimmenden",
+        "confidence": 85
+    },
+    {
+        "word": "Saufis",
+        "confidence": 85
+    },
+    {
+        "word": "Mitgliedschaftsinformationen:",
+        "confidence": 88
+    },
+    {
+        "word": "Gewünschter",
+        "confidence": 90
+    },
+    {
+        "word": "Eintrittstermin:",
+        "confidence": 92
+    },
+    {
+        "word": "2024-12-15",
+        "confidence": 92
+    },
+    {
+        "word": "Art",
+        "confidence": 93
+    },
+    {
+        "word": "der",
+        "confidence": 93
+    },
+    {
+        "word": "Mitgliedschaft",
+        "confidence": 90
+    },
+    {
+        "word": "(aktiv/passiv):",
+        "confidence": 90
+    },
+    {
+        "word": "Aktiv",
+        "confidence": 92
+    },
+    {
+        "word": "Einverständniserklärung:",
+        "confidence": 88
+    },
+    {
+        "word": "Mit",
+        "confidence": 91
+    },
+    {
+        "word": "meiner",
+        "confidence": 90
+    },
+    {
+        "word": "Unterschrift",
+        "confidence": 90
+    },
+    {
+        "word": "bestätige",
+        "confidence": 91
+    },
+    {
+        "word": "ich",
+        "confidence": 93
+    },
+    {
+        "word": "die",
+        "confidence": 93
+    },
+    {
+        "word": "Richtigkeit",
+        "confidence": 88
+    },
+    {
+        "word": "meiner",
+        "confidence": 90
+    },
+    {
+        "word": "Angaben",
+        "confidence": 90
+    },
+    {
+        "word": "und",
+        "confidence": 95
+    },
+    {
+        "word": "erkläre",
+        "confidence": 90
+    },
+    {
+        "word": "mich",
+        "confidence": 93
+    },
+    {
+        "word": "mit",
+        "confidence": 93
+    },
+    {
+        "word": "den",
+        "confidence": 93
+    },
+    {
+        "word": "Regeln",
+        "confidence": 92
+    },
+    {
+        "word": "und",
+        "confidence": 95
+    },
+    {
+        "word": "Vorschriften",
+        "confidence": 88
+    },
+    {
+        "word": "des",
+        "confidence": 93
+    },
+    {
+        "word": "Angelvereins",
+        "confidence": 88
+    },
+    {
+        "word": "einverstanden.",
+        "confidence": 85
+    },
+    {
+        "word": "Ich",
+        "confidence": 93
+    },
+    {
+        "word": "bin",
+        "confidence": 93
+    },
+    {
+        "word": "mir",
+        "confidence": 93
+    },
+    {
+        "word": "bewusst,",
+        "confidence": 85
+    },
+    {
+        "word": "dass",
+        "confidence": 93
+    },
+    {
+        "word": "falsche",
+        "confidence": 88
+    },
+    {
+        "word": "Angaben",
+        "confidence": 90
+    },
+    {
+        "word": "zum",
+        "confidence": 93
+    },
+    {
+        "word": "Ausschluss",
+        "confidence": 88
+    },
+    {
+        "word": "aus",
+        "confidence": 93
+    },
+    {
+        "word": "dem",
+        "confidence": 93
+    },
+    {
+        "word": "Verein",
+        "confidence": 90
+    },
+    {
+        "word": "führen",
+        "confidence": 93
+    },
+    {
+        "word": "können.",
+        "confidence": 85
+    },
+    {
+        "word": "Ort/Datum:",
+        "confidence": 90
+    },
+    {
+        "word": "Stuttgart",
+        "confidence": 89
+    },
+    {
+        "word": "2024-10-29",
+        "confidence": 92
+    },
+    {
+        "word": "Unterschrift:",
+        "confidence": 92
+    },
+    {
+        "word": "Wagner",
+        "confidence": 90
+    }
+]
