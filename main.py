@@ -1,13 +1,13 @@
-import os, logging, asyncio
+import os, logging, asyncio, time
 
 from dotenv import load_dotenv
 
-# from azure_document_intelligence import DocumentIntelligenceHandler
-# from aws_textract import TextractHandler
-# from google_cloud_document_ai import GoogleCloudDocumentAI
+from azure_document_intelligence import DocumentIntelligenceHandler
+from aws_textract import TextractHandler
+from google_cloud_document_ai import GoogleCloudDocumentAI
 from timehandler import TimeHandler
 from misc.normalizer import OCRTextNormalizer
-from gpt4o import GPT4oHandler
+# from gpt4o import GPT4oHandler
 
 load_dotenv()
 
@@ -45,44 +45,57 @@ def create_data_directory_structure():
             if not os.path.exists(raw_data_document_path):
                 os.mkdir(raw_data_document_path)
 
-
-# Beispielablauf
+# Beispielablauf Azure, aus irgendeinem Grund nicht in der main ausführbar -> runtime differences?!
 def azure():
-    client = DocumentIntelligenceHandler('https://endpoint/', 'key')
+    data_path = os.path.join('data', 'azure_document_intelligence')
+    client = DocumentIntelligenceHandler(os.environ.get('AZURE_ENDPOINT'), os.environ.get('AZURE_KEY'), data_path, None)
     time_handler = TimeHandler()
 
-    pingBefore = time_handler.pingServer('endpoint')
-    time_handler.startTimer()
-    client.analyzeDocument(os.path.join('pdfs', 'test.pdf'))
-    processingTime = time_handler.stopTimer()
-    pingAfter = time_handler.pingServer('endpoint')
+    for document in range(1, 11):
+        print(f"Processing document {document}")
+        for exemplar in range(1, 11):
+            print(f"Processing exemplar {document}-{exemplar}")
+            exemplar_name = f"0{exemplar}" if exemplar < 10 else exemplar
+            pdf_path = os.path.join('pdfs', 'scans', str(document), f'{exemplar_name}.pdf')
+            time_handler.startTimer()
+            client.analyze_document(pdf_path)
+            processingTime = time_handler.stopTimer()
+            client.save_data(document, exemplar, processingTime, 0, 0)
+            time.sleep(5)
 
-    client.saveData(1, 1, processingTime, pingBefore, pingAfter)
-
-
+# Beispielablauf AWS
 def aws():
-    client = TextractHandler("key-1", "key-2")
+    data_path = os.path.join('data', 'aws_textract')
+    client = TextractHandler(os.environ.get('AWS_ACCESS_KEY'), os.environ.get('AWS_SECRET_ACCESS_KEY'), data_path, logger)
     time_handler = TimeHandler()
 
-    pingBefore = time_handler.pingServer('ec2.eu-central-1.amazonaws.com')
-    time_handler.startTimer()
-    client.analyzeDocument(os.path.join('pdfs', 'test.pdf'))
-    processingTime = time_handler.stopTimer()
-    pingAfter = time_handler.pingServer('ec2.eu-central-1.amazonaws.com')
-
-    client.saveData(1, 1, processingTime, pingBefore, pingAfter)
-
+    for document in range(1, 11):
+        print(f"Processing document {document}")
+        for exemplar in range(1, 11):
+            print(f"Processing exemplar {document}-{exemplar}")
+            exemplar_name = f"0{exemplar}" if exemplar < 10 else exemplar
+            time_handler.startTimer()
+            client.analyze_document(os.path.join('pdfs', 'scans', str(document), f'{exemplar_name}.pdf'))
+            processingTime = time_handler.stopTimer()
+            client.save_data(document, exemplar, processingTime, 0, 0)
+            time.sleep(5)
+            
+# Beispielablauf Document AI
 def google():
-    client = GoogleCloudDocumentAI('googleauth.json', project_id, processor_id) 
+    client = GoogleCloudDocumentAI('googleauth.json', os.environ.get('project_id'), os.environ.get('processor_id')) 
+    data_path = os.path.join('data', 'google_cloud_document_ai')
     time_handler = TimeHandler()
-    
-    pingBefore = time_handler.pingServer('eu-documentai.googleapis.com')
-    time_handler.startTimer()
-    client.analyze_document(os.path.join('pdfs', 'test.pdf'))
-    processingTime = time_handler.stopTimer()
-    pingAfter = time_handler.pingServer('eu-documentai.googleapis.com')
 
-    client.save_data(1, 1, processingTime, pingBefore, pingAfter)
+    for document in range(1, 11):
+        print(f"Processing document {document}")
+        for exemplar in range(1, 11):
+            print(f"Processing exemplar {document}-{exemplar}")
+            exemplar_name = f"0{exemplar}" if exemplar < 10 else exemplar
+            time_handler.startTimer()
+            client.analyze_document(os.path.join('pdfs', 'scans', str(document), f'{exemplar_name}.pdf'))
+            processingTime = time_handler.stopTimer()
+            client.save_data(document, exemplar, processingTime, 0, 0)
+            time.sleep(5)
 
 def gpt4o():
     data_path = os.path.join('data', 'openai_gpt4o')
@@ -102,5 +115,6 @@ def gpt4o():
 
     asyncio.run(process_documents())
 
-#create_data_directory_structure()
-gpt4o()
+# gpt4o()
+# aws()
+# azure() 

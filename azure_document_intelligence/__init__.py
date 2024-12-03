@@ -1,4 +1,4 @@
-import os, json, sys
+import os, json, sys, time
 
 from azure.core.credentials import AzureKeyCredential
 from azure.ai.documentintelligence import DocumentIntelligenceClient
@@ -8,6 +8,10 @@ sys.path.append('../praxisprojekt')
 
 from misc.normalizer import OCRTextNormalizer
 from misc.filehandler import FileHandler
+from timehandler import TimeHandler
+from dotenv import load_dotenv
+
+load_dotenv()
 
 class DocumentIntelligenceHandler(FileHandler):
     def __init__(self, endpoint, key, data_path: str, logger):
@@ -54,3 +58,20 @@ class DocumentIntelligenceHandler(FileHandler):
             pingBefore=pingBefore,
             pingAfter=pingAfter
         )
+        
+if __name__ == '__main__':
+    data_path = os.path.join('data', 'azure_document_intelligence')
+    client = DocumentIntelligenceHandler(os.environ.get('AZURE_ENDPOINT'), os.environ.get('AZURE_KEY'), data_path, None)
+    time_handler = TimeHandler()
+
+    for document in range(1, 11):
+        print(f"Processing document {document}")
+        for exemplar in range(1, 11):
+            print(f"Processing exemplar {document}-{exemplar}")
+            exemplar_name = f"0{exemplar}" if exemplar < 10 else exemplar
+            pdf_path = os.path.join('pdfs', 'scans', str(document), f'{exemplar_name}.pdf')
+            time_handler.startTimer()
+            client.analyze_document(pdf_path)
+            processingTime = time_handler.stopTimer()
+            client.save_data(document, exemplar, processingTime, 0, 0)
+            time.sleep(5)
