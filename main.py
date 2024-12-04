@@ -2,12 +2,13 @@ import os, logging, asyncio, time
 
 from dotenv import load_dotenv
 
-# from azure_document_intelligence import DocumentIntelligenceHandler
-# from aws_textract import TextractHandler
-# from google_cloud_document_ai import GoogleCloudDocumentAI
+from azure_document_intelligence import DocumentIntelligenceHandler
+from aws_textract import TextractHandler
+from google_cloud_document_ai import GoogleCloudDocumentAI
 from timehandler import TimeHandler
+from tesseract import TesseractHandler
 from misc.normalizer import OCRTextNormalizer
-from gpt4o import GPT4oHandler
+# from gpt4o import GPT4oHandler
 
 load_dotenv()
 
@@ -82,8 +83,8 @@ def aws():
             
 # Beispielablauf Document AI
 def google():
-    client = GoogleCloudDocumentAI('googleauth.json', os.environ.get('project_id'), os.environ.get('processor_id')) 
     data_path = os.path.join('data', 'google_cloud_document_ai')
+    client = GoogleCloudDocumentAI('googleauth.json', os.environ.get('project_id'), os.environ.get('processor_id'), data_path, logger) 
     time_handler = TimeHandler()
 
     for document in range(1, 11):
@@ -115,6 +116,23 @@ def gpt4o():
 
     asyncio.run(process_documents())
 
-gpt4o()
+def tesseract():
+    data_path = os.path.join('data', 'tesseract')
+    client = TesseractHandler(data_path, logger) 
+    time_handler = TimeHandler()
+
+    for document in range(1, 11):
+        print(f"Processing document {document}")
+        for exemplar in range(1, 11):
+            print(f"Processing exemplar {document}-{exemplar}")
+            exemplar_name = f"0{exemplar}" if exemplar < 10 else exemplar
+            time_handler.startTimer()
+            client.analyze_document(os.path.join('pdfs', 'scans', str(document), f'{exemplar_name}.pdf'))
+            processingTime = time_handler.stopTimer()
+            client.save_data(document, exemplar, processingTime, 0, 0)
+            time.sleep(5)
+# gpt4o()
 # aws()
 # azure() 
+# google()
+tesseract()

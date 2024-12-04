@@ -61,10 +61,12 @@ class GoogleCloudDocumentAI(FileHandler):
         # overwrite potential image key to avoid pushing too much data to github
         data_dict['pages'][0]['image'] = "saving-data.."
 
+        self._data = data_dict
+
         wordData = []
 
         # extract only relevant words for words.json
-        for page in data_dict.get("pages", []):
+        for page in self._data.get("pages", []):
             for token in page.get("tokens", []):
                 layout = token.get("layout", {})
                 confidence = layout.get("confidence", None)
