@@ -126,10 +126,12 @@ class Evaluator:
                 if matched_snippet not in word_splitting or marker:
                     # Wort rekonstruieren und Confidence zusammenrechnen
                     matched_snippet = ""
+                    matched_snippet_list = []
                     confidence = 0
                     for k in range(start_idx, end_idx + 1):
                         # Schnipsel zusammensetzen, Confidence addieren, und Wörter-Count vom OCR hochzählen
                         matched_snippet += recognized_words[k]['word']
+                        matched_snippet_list.append(recognized_words[k]['word'])
                         confidence += recognized_words[k]['confidence']
                         word_count_ocr+=1
                     
@@ -138,9 +140,9 @@ class Evaluator:
                         
                     # Zusammensetzung speichern, falls schon vorhanden als liste
                     if target_list[i] in word_rebuilding:
-                        word_rebuilding[target_list[i]].append(matched_snippet)
+                        word_rebuilding[target_list[i]].append(matched_snippet_list)
                     else:
-                        word_rebuilding[target_list[i]] = [matched_snippet]
+                        word_rebuilding[target_list[i]] = [matched_snippet_list]
                     
                     # Buchstaben addieren
                     letter_matches += len(target_list[i]) - distance

@@ -3,7 +3,7 @@ import os, json
 from src.misc.normalizer import OCRTextNormalizer
 from src.misc.evaluator import Evaluator
 
-ocr_tools = ['aws_textract', 'azure_document_intelligence', 'google_cloud_document_ai', 'openai_gpt4o']
+ocr_tools = ['aws_textract', 'azure_document_intelligence', 'google_cloud_document_ai', 'openai_gpt4o', 'tesseract']
 
 normalizer = OCRTextNormalizer()
 
