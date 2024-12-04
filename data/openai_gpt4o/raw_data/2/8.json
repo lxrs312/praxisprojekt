@@ -1,0 +1,806 @@
+[
+    {
+        "word": "Grundstückseigentümer-",
+        "confidence": 95
+    },
+    {
+        "word": "erklärung",
+        "confidence": 96
+    },
+    {
+        "word": "(GEE)",
+        "confidence": 94
+    },
+    {
+        "word": "des",
+        "confidence": 95
+    },
+    {
+        "word": "Eigentümers/",
+        "confidence": 90
+    },
+    {
+        "word": "der",
+        "confidence": 95
+    },
+    {
+        "word": "Eigentümerin",
+        "confidence": 95
+    },
+    {
+        "word": "Frau",
+        "confidence": 93
+    },
+    {
+        "word": "Herr",
+        "confidence": 95
+    },
+    {
+        "word": "Name,",
+        "confidence": 95
+    },
+    {
+        "word": "Vorname",
+        "confidence": 95
+    },
+    {
+        "word": "König,",
+        "confidence": 93
+    },
+    {
+        "word": "Johannes",
+        "confidence": 92
+    },
+    {
+        "word": "gegenüber",
+        "confidence": 90
+    },
+    {
+        "word": "dem",
+        "confidence": 95
+    },
+    {
+        "word": "Netzbetreiber",
+        "confidence": 95
+    },
+    {
+        "word": "Terrasignal",
+        "confidence": 95
+    },
+    {
+        "word": "GmbH",
+        "confidence": 95
+    },
+    {
+        "word": "vertreten",
+        "confidence": 90
+    },
+    {
+        "word": "durch",
+        "confidence": 90
+    },
+    {
+        "word": "Tina",
+        "confidence": 93
+    },
+    {
+        "word": "Cern",
+        "confidence": 93
+    },
+    {
+        "word": "GmbH",
+        "confidence": 95
+    },
+    {
+        "word": "Postleitzahl,",
+        "confidence": 93
+    },
+    {
+        "word": "Ort",
+        "confidence": 95
+    },
+    {
+        "word": "28355,",
+        "confidence": 95
+    },
+    {
+        "word": "Bremen",
+        "confidence": 95
+    },
+    {
+        "word": "Der",
+        "confidence": 95
+    },
+    {
+        "word": "Eigentümer/",
+        "confidence": 90
+    },
+    {
+        "word": "die",
+        "confidence": 95
+    },
+    {
+        "word": "Eigentümerin",
+        "confidence": 95
+    },
+    {
+        "word": "ist",
+        "confidence": 95
+    },
+    {
+        "word": "damit",
+        "confidence": 95
+    },
+    {
+        "word": "einverstanden,",
+        "confidence": 92
+    },
+    {
+        "word": "dass",
+        "confidence": 95
+    },
+    {
+        "word": "der",
+        "confidence": 95
+    },
+    {
+        "word": "Netzbetreiber",
+        "confidence": 95
+    },
+    {
+        "word": "Terrasignal",
+        "confidence": 95
+    },
+    {
+        "word": "GmbH",
+        "confidence": 95
+    },
+    {
+        "word": "auf",
+        "confidence": 95
+    },
+    {
+        "word": "seinem/ihrem",
+        "confidence": 90
+    },
+    {
+        "word": "Grundstück",
+        "confidence": 95
+    },
+    {
+        "word": "Straße,",
+        "confidence": 93
+    },
+    {
+        "word": "Hausnummer",
+        "confidence": 90
+    },
+    {
+        "word": "Fischerstraße",
+        "confidence": 92
+    },
+    {
+        "word": "6",
+        "confidence": 95
+    },
+    {
+        "word": "Postleitzahl,",
+        "confidence": 93
+    },
+    {
+        "word": "Ort",
+        "confidence": 95
+    },
+    {
+        "word": "28355,",
+        "confidence": 95
+    },
+    {
+        "word": "Bremen",
+        "confidence": 95
+    },
+    {
+        "word": "Erklärung",
+        "confidence": 95
+    },
+    {
+        "word": "des/der",
+        "confidence": 90
+    },
+    {
+        "word": "Eigentümer/",
+        "confidence": 90
+    },
+    {
+        "word": "n",
+        "confidence": 95
+    },
+    {
+        "word": "Vertragstext",
+        "confidence": 95
+    },
+    {
+        "word": "Der",
+        "confidence": 95
+    },
+    {
+        "word": "Eigentümer",
+        "confidence": 95
+    },
+    {
+        "word": "ist",
+        "confidence": 95
+    },
+    {
+        "word": "damit",
+        "confidence": 95
+    },
+    {
+        "word": "einverstanden,",
+        "confidence": 92
+    },
+    {
+        "word": "dass",
+        "confidence": 95
+    },
+    {
+        "word": "der",
+        "confidence": 95
+    },
+    {
+        "word": "Netzbetreiber",
+        "confidence": 95
+    },
+    {
+        "word": "auf",
+        "confidence": 95
+    },
+    {
+        "word": "seinem",
+        "confidence": 95
+    },
+    {
+        "word": "Grundstück",
+        "confidence": 95
+    },
+    {
+        "word": "die",
+        "confidence": 95
+    },
+    {
+        "word": "erforderlichen",
+        "confidence": 90
+    },
+    {
+        "word": "Tiefbauarbeiten",
+        "confidence": 90
+    },
+    {
+        "word": "sowie",
+        "confidence": 95
+    },
+    {
+        "word": "die",
+        "confidence": 95
+    },
+    {
+        "word": "Verlegung,",
+        "confidence": 92
+    },
+    {
+        "word": "Wartung",
+        "confidence": 95
+    },
+    {
+        "word": "und",
+        "confidence": 95
+    },
+    {
+        "word": "Erneuerung",
+        "confidence": 95
+    },
+    {
+        "word": "von",
+        "confidence": 95
+    },
+    {
+        "word": "Telekommunikationskabeln,",
+        "confidence": 90
+    },
+    {
+        "word": "Leitungen",
+        "confidence": 90
+    },
+    {
+        "word": "und",
+        "confidence": 95
+    },
+    {
+        "word": "zugehörigen",
+        "confidence": 92
+    },
+    {
+        "word": "Anlagen",
+        "confidence": 92
+    },
+    {
+        "word": "einzusetzen.",
+        "confidence": 92
+    },
+    {
+        "word": "Nach",
+        "confidence": 95
+    },
+    {
+        "word": "Abschluss",
+        "confidence": 90
+    },
+    {
+        "word": "der",
+        "confidence": 95
+    },
+    {
+        "word": "Arbeiten",
+        "confidence": 90
+    },
+    {
+        "word": "verpflichtet",
+        "confidence": 90
+    },
+    {
+        "word": "sich",
+        "confidence": 95
+    },
+    {
+        "word": "der",
+        "confidence": 95
+    },
+    {
+        "word": "Netzbetreiber,",
+        "confidence": 92
+    },
+    {
+        "word": "die",
+        "confidence": 95
+    },
+    {
+        "word": "betroffenen",
+        "confidence": 90
+    },
+    {
+        "word": "Flächen",
+        "confidence": 90
+    },
+    {
+        "word": "des",
+        "confidence": 95
+    },
+    {
+        "word": "Grundstücks,",
+        "confidence": 92
+    },
+    {
+        "word": "soweit",
+        "confidence": 95
+    },
+    {
+        "word": "technisch",
+        "confidence": 90
+    },
+    {
+        "word": "möglich,",
+        "confidence": 92
+    },
+    {
+        "word": "in",
+        "confidence": 95
+    },
+    {
+        "word": "einem",
+        "confidence": 95
+    },
+    {
+        "word": "ursprünglichen",
+        "confidence": 90
+    },
+    {
+        "word": "Zustand",
+        "confidence": 90
+    },
+    {
+        "word": "gleichwertigen",
+        "confidence": 90
+    },
+    {
+        "word": "Zustand",
+        "confidence": 90
+    },
+    {
+        "word": "wiederherzustellen.",
+        "confidence": 92
+    },
+    {
+        "word": "Name",
+        "confidence": 95
+    },
+    {
+        "word": "und",
+        "confidence": 95
+    },
+    {
+        "word": "Anschrift",
+        "confidence": 90
+    },
+    {
+        "word": "des",
+        "confidence": 95
+    },
+    {
+        "word": "Eigentümers/",
+        "confidence": 90
+    },
+    {
+        "word": "der",
+        "confidence": 95
+    },
+    {
+        "word": "Eigentümerin",
+        "confidence": 95
+    },
+    {
+        "word": "Name,",
+        "confidence": 95
+    },
+    {
+        "word": "Vorname",
+        "confidence": 95
+    },
+    {
+        "word": "König,",
+        "confidence": 93
+    },
+    {
+        "word": "Johannes",
+        "confidence": 92
+    },
+    {
+        "word": "Straße,",
+        "confidence": 93
+    },
+    {
+        "word": "Hausnummer",
+        "confidence": 90
+    },
+    {
+        "word": "Birkenweg",
+        "confidence": 90
+    },
+    {
+        "word": "2",
+        "confidence": 95
+    },
+    {
+        "word": "Postleitzahl,",
+        "confidence": 93
+    },
+    {
+        "word": "Ort",
+        "confidence": 95
+    },
+    {
+        "word": "28355,",
+        "confidence": 95
+    },
+    {
+        "word": "Bremen",
+        "confidence": 95
+    },
+    {
+        "word": "Bremen",
+        "confidence": 95
+    },
+    {
+        "word": "20.05.2024",
+        "confidence": 95
+    },
+    {
+        "word": "Unterschrift",
+        "confidence": 90
+    },
+    {
+        "word": "-Ort,",
+        "confidence": 92
+    },
+    {
+        "word": "Datum",
+        "confidence": 95
+    },
+    {
+        "word": "Erklärung",
+        "confidence": 95
+    },
+    {
+        "word": "des",
+        "confidence": 95
+    },
+    {
+        "word": "Netz-",
+        "confidence": 95
+    },
+    {
+        "word": "betreibers",
+        "confidence": 95
+    },
+    {
+        "word": "Vertragstext",
+        "confidence": 95
+    },
+    {
+        "word": "Der",
+        "confidence": 95
+    },
+    {
+        "word": "Netzbetreiber",
+        "confidence": 95
+    },
+    {
+        "word": "verpflichtet",
+        "confidence": 90
+    },
+    {
+        "word": "sich",
+        "confidence": 95
+    },
+    {
+        "word": "ferner,",
+        "confidence": 92
+    },
+    {
+        "word": "die",
+        "confidence": 95
+    },
+    {
+        "word": "Bauarbeiten",
+        "confidence": 90
+    },
+    {
+        "word": "so",
+        "confidence": 95
+    },
+    {
+        "word": "durchzuführen,",
+        "confidence": 92
+    },
+    {
+        "word": "dass",
+        "confidence": 95
+    },
+    {
+        "word": "der",
+        "confidence": 95
+    },
+    {
+        "word": "Eigentümer",
+        "confidence": 95
+    },
+    {
+        "word": "nur",
+        "confidence": 95
+    },
+    {
+        "word": "in",
+        "confidence": 95
+    },
+    {
+        "word": "notwendigem",
+        "confidence": 90
+    },
+    {
+        "word": "Mindestmaß",
+        "confidence": 90
+    },
+    {
+        "word": "beeinträchtigt",
+        "confidence": 90
+    },
+    {
+        "word": "wird,",
+        "confidence": 95
+    },
+    {
+        "word": "soweit",
+        "confidence": 95
+    },
+    {
+        "word": "eine",
+        "confidence": 95
+    },
+    {
+        "word": "ununterbrochene",
+        "confidence": 90
+    },
+    {
+        "word": "Nutzung",
+        "confidence": 90
+    },
+    {
+        "word": "des",
+        "confidence": 95
+    },
+    {
+        "word": "Grundstücks",
+        "confidence": 95
+    },
+    {
+        "word": "sichergestellt",
+        "confidence": 90
+    },
+    {
+        "word": "werden",
+        "confidence": 95
+    },
+    {
+        "word": "kann.",
+        "confidence": 95
+    },
+    {
+        "word": "Sollten",
+        "confidence": 90
+    },
+    {
+        "word": "durch",
+        "confidence": 95
+    },
+    {
+        "word": "die",
+        "confidence": 95
+    },
+    {
+        "word": "Bauarbeiten",
+        "confidence": 90
+    },
+    {
+        "word": "Schäden",
+        "confidence": 90
+    },
+    {
+        "word": "am",
+        "confidence": 95
+    },
+    {
+        "word": "Grundstück",
+        "confidence": 95
+    },
+    {
+        "word": "entstehen,",
+        "confidence": 92
+    },
+    {
+        "word": "werden",
+        "confidence": 95
+    },
+    {
+        "word": "diese",
+        "confidence": 95
+    },
+    {
+        "word": "auf",
+        "confidence": 95
+    },
+    {
+        "word": "eigene",
+        "confidence": 95
+    },
+    {
+        "word": "Kosten",
+        "confidence": 90
+    },
+    {
+        "word": "behoben.",
+        "confidence": 92
+    },
+    {
+        "word": "Nach",
+        "confidence": 95
+    },
+    {
+        "word": "Beendigung",
+        "confidence": 90
+    },
+    {
+        "word": "des",
+        "confidence": 95
+    },
+    {
+        "word": "Telekommunikationsnetz",
+        "confidence": 90
+    },
+    {
+        "word": "zur",
+        "confidence": 95
+    },
+    {
+        "word": "dauernden",
+        "confidence": 90
+    },
+    {
+        "word": "Versorgung",
+        "confidence": 90
+    },
+    {
+        "word": "des",
+        "confidence": 95
+    },
+    {
+        "word": "Grundstücks.",
+        "confidence": 92
+    },
+    {
+        "word": "Unterschrift",
+        "confidence": 90
+    },
+    {
+        "word": "Terrasignal",
+        "confidence": 95
+    },
+    {
+        "word": "GmbH",
+        "confidence": 95
+    },
+    {
+        "word": "vertreten",
+        "confidence": 90
+    },
+    {
+        "word": "durch",
+        "confidence": 90
+    },
+    {
+        "word": "Name,",
+        "confidence": 95
+    },
+    {
+        "word": "Vorname",
+        "confidence": 95
+    },
+    {
+        "word": "Klein,",
+        "confidence": 93
+    },
+    {
+        "word": "Sabine",
+        "confidence": 92
+    },
+    {
+        "word": "Terrasignal",
+        "confidence": 95
+    },
+    {
+        "word": "GmbH",
+        "confidence": 95
+    },
+    {
+        "word": "Projektkoordinatorin",
+        "confidence": 90
+    },
+    {
+        "word": "Bremen,",
+        "confidence": 95
+    },
+    {
+        "word": "20.05.2024",
+        "confidence": 95
+    },
+    {
+        "word": "Unterschrift",
+        "confidence": 90
+    },
+    {
+        "word": "-Ort,",
+        "confidence": 92
+    },
+    {
+        "word": "Datum",
+        "confidence": 95
+    }
+]

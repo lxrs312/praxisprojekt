@@ -2,12 +2,12 @@ import os, logging, asyncio, time
 
 from dotenv import load_dotenv
 
-from azure_document_intelligence import DocumentIntelligenceHandler
-from aws_textract import TextractHandler
-from google_cloud_document_ai import GoogleCloudDocumentAI
+# from azure_document_intelligence import DocumentIntelligenceHandler
+# from aws_textract import TextractHandler
+# from google_cloud_document_ai import GoogleCloudDocumentAI
 from timehandler import TimeHandler
 from misc.normalizer import OCRTextNormalizer
-# from gpt4o import GPT4oHandler
+from gpt4o import GPT4oHandler
 
 load_dotenv()
 
@@ -115,6 +115,6 @@ def gpt4o():
 
     asyncio.run(process_documents())
 
-# gpt4o()
+gpt4o()
 # aws()
 # azure() 
