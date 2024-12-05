@@ -43,6 +43,10 @@ for tool in ocr_tools:
             result = evaluator.run(recognized_words, processing_time)
             
             evaluatedData[tool][str(document)][str(exemplar)] = result.as_dict()
+            
+            evaluatedData[tool][str(document)][str(exemplar)]['schriftfarbe'] = input_data[str(document)]['exemplare'][str(exemplar)]['schriftfarbe']
+
+            evaluatedData[tool][str(document)][str(exemplar)]['autor'] = input_data[str(document)]['exemplare'][str(exemplar)]['autor']
 
 with open(os.path.join('data', 'evaluatedData.json'), "w", encoding="utf8") as f:
     json.dump(evaluatedData, f, ensure_ascii=False, indent=4)

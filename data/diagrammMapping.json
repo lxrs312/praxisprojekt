@@ -1,0 +1,57 @@
+{
+    "f1_handwritten": {
+        "title": "F1 Score (Handwritten)",
+        "y": "F1 Score",
+        "x": ""
+    },
+    "f1_machine": {
+        "title": "F1 Score (Machine)",
+        "y": "F1 Score",
+        "x": ""
+    },
+    "letter_correct_handwritten": {
+        "title": "Letter Accuracy (Handwritten)",
+        "y": "Accuracy",
+        "x": ""
+    },
+    "letter_correct_machine": {
+        "title": "Letter Accuracy (Machine)",
+        "y": "Accuracy",
+        "x": ""
+    },
+    "precision_handwritten": {
+        "title": "Precision (Handwritten)",
+        "y": "Precision",
+        "x": ""
+    },
+    "precision_machine": {
+        "title": "Precision (Machine)",
+        "y": "Precision",
+        "x": ""
+    },
+    "recall_handwritten": {
+        "title": "Recall (Handwritten)",
+        "y": "Recall",
+        "x": ""
+    },
+    "recall_machine": {
+        "title": "Recall (Machine)",
+        "y": "Recall",
+        "x": ""
+    },
+    "word_correct_handwritten": {
+        "title": "Word Accuracy (Handwritten)",
+        "y": "Accuracy",
+        "x": ""
+    },
+    "word_correct_machine": {
+        "title": "Word Accuracy (Machine)",
+        "y": "Accuracy",
+        "x": ""
+    },
+    "processing_time": {
+        "title": "Average Processing Time",
+        "y": "Processing Time (s)",
+        "x": ""
+    }
+}
