@@ -2,6 +2,7 @@ import json
 import os
 import matplotlib.pyplot as plt
 import itertools
+from sklearn.metrics import precision_recall_curve, PrecisionRecallDisplay
 
 plt.rcParams['font.family'] = 'CMU Serif'
 
@@ -62,7 +63,11 @@ class Visualiser:
 
         # Sort tools and values
         sorted_data = sorted(zip(avg_values, names, colors), reverse=True)
-        avg_values, names, colors = zip(*sorted_data)
+        
+        if key == 'processing_time':
+            avg_values, names, colors = zip(*sorted_data[::-1])
+        else:
+            avg_values, names, colors = zip(*sorted_data)
 
         # Plot
         fig, ax = plt.subplots(figsize=(15, 9), facecolor='black')
@@ -89,7 +94,56 @@ class Visualiser:
         if save:
             plt.savefig(f'{save_dir}/{key}.png', dpi=1200)
 
+        # plt.show()
+    
+    def plot_precision_recall_curve(self, key, save=False):
+        # Initialize the plot
+        fig, ax = plt.subplots(figsize=(15, 9), facecolor='black')
+
+        for tool_name in self._data['data']:
+            
+            # skip weil werte ausgedacht
+            if tool_name == 'openai_gpt4o':
+                continue
+    
+            flat_list = [item for sublist in self._data['data'][tool_name]['confidences'][key] for item in sublist]
+            
+            labels = [row[0] for row in flat_list]
+            scores = [row[1] for row in flat_list]
+
+            precision, recall, _ = precision_recall_curve(labels, scores)
+            
+            # Plot the precision-recall curve for this tool
+            ax.plot(
+                recall, precision,
+                label=self.mapping.get(tool_name, tool_name),
+                color=self.tool_colors.get(tool_name, '#000000'),
+                linewidth=2
+            )
+        
+        # Styling
+        ax.set_facecolor('#111111')
+        ax.set_title(f'Precision-Recall Curve ({key.capitalize()})', fontsize=22, color='white')
+        ax.set_xlabel('Recall', fontsize=20, color='white', labelpad=20)
+        ax.set_ylabel('Precision', fontsize=20, color='white', labelpad=20)
+        ax.tick_params(axis='x', labelsize=16, colors='white')
+        ax.tick_params(axis='y', colors='white', labelsize=16)
+        ax.grid(color='gray', linestyle='--', linewidth=0.5, alpha=0.7, zorder=2)
+
+        # Legend
+        legend = ax.legend(fontsize=18, loc='lower right', frameon=False)
+        plt.setp(legend.get_texts(), color='white')
+        legend.set_zorder(3)
+
+        # Save and show
+        plt.tight_layout()
+        os.makedirs('images', exist_ok=True)
+
+        if save:
+            plt.savefig(f'images/{key}_precision_recall.png', dpi=1200)
+
         plt.show()
+        pass
 
     def plot_probabilities(self, key, save):
         self._plot_bar_chart(
@@ -134,7 +188,16 @@ if __name__ == '__main__':
     path = os.path.join('data', 'summarizedData.json')
     mapping_path = os.path.join('data', 'diagrammMapping.json')
     visualizer = Visualiser(path, mapping_path)
-    #visualizer.plot_font_colors('word_correct_handwritten', False)
-    #visualizer.plot_autor('precision_handwritten', False)
-    # visualizer.plot_times('processing_time', False)
-    visualizer.plot_probabilities('word_correct_handwritten', True)
+    
+    metrics = [
+        "word_correct_machine", "letter_correct_machine", "word_correct_handwritten",
+        "letter_correct_handwritten", "precision_machine", "recall_machine", "f1_machine", 
+        "precision_handwritten", "recall_handwritten", "f1_handwritten", "processing_time", 
+    ]
+    
+    # for metric in metrics:
+    #     visualizer.plot_probabilities(metric, True)
+    #     visualizer.plot_autor(metric, True)
+    
+    visualizer.plot_precision_recall_curve('handwritten', True)
+    visualizer.plot_precision_recall_curve('machine', True)
