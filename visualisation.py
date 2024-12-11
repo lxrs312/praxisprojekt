@@ -62,7 +62,7 @@ class Visualiser:
 
         # Sort tools and values
         sorted_data = sorted(zip(avg_values, names, colors), reverse=True)
-        avg_values, names, colors = zip(*sorted_data)
+        avg_values, names, colors = zip(*sorted_data) if key != 'processing_time' else zip(*sorted_data[::-1])
 
         # Plot
         fig, ax = plt.subplots(figsize=(15, 9), facecolor='black')
@@ -107,7 +107,6 @@ class Visualiser:
             color_mapping=self.autor_colors,
             save_dir='images/autor',
             save=save,
-            value_offset=0.02
         )
 
     def plot_times(self, key, save):
@@ -127,7 +126,6 @@ class Visualiser:
             color_mapping=self.font_colors,
             save_dir='images/font_colors',
             save=save,
-            value_offset=0.02
         )
             
 if __name__ == '__main__':
@@ -136,5 +134,5 @@ if __name__ == '__main__':
     visualizer = Visualiser(path, mapping_path)
     #visualizer.plot_font_colors('word_correct_handwritten', False)
     #visualizer.plot_autor('precision_handwritten', False)
-    # visualizer.plot_times('processing_time', False)
-    visualizer.plot_probabilities('word_correct_handwritten', True)
+    visualizer.plot_times('processing_time', False)
+    # visualizer.plot_probabilities('word_correct_handwritten', True)
