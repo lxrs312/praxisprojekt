@@ -118,7 +118,8 @@ def gpt4o():
 
 def tesseract():
     data_path = os.path.join('data', 'tesseract')
-    client = TesseractHandler(data_path, logger) 
+    tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+    client = TesseractHandler(tesseract_cmd, data_path, logger) 
     time_handler = TimeHandler()
 
     for document in range(1, 11):

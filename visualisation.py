@@ -11,10 +11,10 @@ class Visualiser:
         self._data = self._load_data(path_summarized_data)
         
         self.mapping = {
-            'aws_textract': 'AWS Textract',
-            'azure_document_intelligence': 'Azure Document Intelligence',
-            'google_cloud_document_ai': 'Google Cloud Document AI',
-            'openai_gpt4o': 'OpenAI GPT-4o',
+            'aws_textract': 'Textract',
+            'azure_document_intelligence': 'Document Intelligence',
+            'google_cloud_document_ai': 'Document AI',
+            'openai_gpt4o': 'GPT-4o',
             'tesseract': 'Tesseract',
         }
         
@@ -70,35 +70,35 @@ class Visualiser:
             avg_values, names, colors = zip(*sorted_data)
 
         # Plot
-        fig, ax = plt.subplots(figsize=(15, 9), facecolor='black')
+        fig, ax = plt.subplots(figsize=(10, 10), facecolor='#F2F2F2')
         ax.bar(names, avg_values, color=colors, zorder=3)
 
         # Styling
-        ax.set_facecolor('#111111')
-        ax.set_title(self.diagramm_mapping[key]['title'], fontsize=22, color='white')
-        ax.set_ylabel(self.diagramm_mapping[key]['y'], fontsize=20, color='white', labelpad=20)
-        ax.tick_params(axis='x', labelsize=16, colors='white')
-        ax.tick_params(axis='y', colors='white', labelsize=16)
+        ax.set_facecolor('#F2F2F2')
+        ax.set_title(self.diagramm_mapping[key]['title'], fontsize=22, color='black')
+        ax.set_ylabel(self.diagramm_mapping[key]['y'], fontsize=20, color='black', labelpad=20)
+        ax.tick_params(axis='x', labelsize=16, colors='black')
+        ax.tick_params(axis='y', colors='black', labelsize=16)
 
         # Add values on top of bars
         for i, value in enumerate(avg_values):
-            ax.text(i, value + value_offset, f'{value:.3f}', ha='center', fontsize=16, color='white')
+            ax.text(i, value + value_offset, f'{value:.3f}', ha='center', fontsize=16, color='black')
 
         # Grid
-        ax.grid(color='gray', linestyle='--', linewidth=0.5, alpha=0.7, zorder=2)
+        ax.grid(color='black', linestyle='--', linewidth=0.5, alpha=0.7, zorder=2)
 
         # Save and show
         plt.tight_layout()
         os.makedirs(save_dir, exist_ok=True)
 
         if save:
-            plt.savefig(f'{save_dir}/{key}.png', dpi=1200)
+            plt.savefig(f'{save_dir}/{key}.svg', dpi=1200)
 
         # plt.show()
     
     def plot_precision_recall_curve(self, key, save=False):
         # Initialize the plot
-        fig, ax = plt.subplots(figsize=(15, 9), facecolor='black')
+        fig, ax = plt.subplots(figsize=(15, 9), facecolor='#F2F2F2')
 
         for tool_name in self._data['data']:
             
@@ -122,17 +122,17 @@ class Visualiser:
             )
         
         # Styling
-        ax.set_facecolor('#111111')
-        ax.set_title(f'Precision-Recall Curve ({key.capitalize()})', fontsize=22, color='white')
-        ax.set_xlabel('Recall', fontsize=20, color='white', labelpad=20)
-        ax.set_ylabel('Precision', fontsize=20, color='white', labelpad=20)
-        ax.tick_params(axis='x', labelsize=16, colors='white')
-        ax.tick_params(axis='y', colors='white', labelsize=16)
-        ax.grid(color='gray', linestyle='--', linewidth=0.5, alpha=0.7, zorder=2)
+        ax.set_facecolor('#F2F2F2')
+        ax.set_title(f'Precision-Recall Curve ({key.capitalize()})', fontsize=22, color='black')
+        ax.set_xlabel('Recall', fontsize=20, color='black', labelpad=20)
+        ax.set_ylabel('Precision', fontsize=20, color='black', labelpad=20)
+        ax.tick_params(axis='x', labelsize=16, colors='black')
+        ax.tick_params(axis='y', colors='black', labelsize=16)
+        ax.grid(color='black', linestyle='--', linewidth=0.5, alpha=0.7, zorder=2)
 
         # Legend
         legend = ax.legend(fontsize=18, loc='lower right', frameon=False)
-        plt.setp(legend.get_texts(), color='white')
+        plt.setp(legend.get_texts(), color='black')
         legend.set_zorder(3)
 
         # Save and show
@@ -140,7 +140,7 @@ class Visualiser:
         os.makedirs('images', exist_ok=True)
 
         if save:
-            plt.savefig(f'images/{key}_precision_recall.png', dpi=1200)
+            plt.savefig(f'images/{key}_precision_recall.svg', dpi=1200)
 
         plt.show()
         pass
@@ -190,12 +190,16 @@ if __name__ == '__main__':
     metrics = [
         "word_correct_machine", "letter_correct_machine", "word_correct_handwritten",
         "letter_correct_handwritten", "precision_machine", "recall_machine", "f1_machine", 
-        "precision_handwritten", "recall_handwritten", "f1_handwritten", "processing_time", 
+        "precision_handwritten", "recall_handwritten", "f1_handwritten", 
     ]
     
-    # for metric in metrics:
-    #     visualizer.plot_probabilities(metric, True)
-    #     visualizer.plot_autor(metric, True)
-    
+    for metric in metrics:
+        visualizer.plot_probabilities(metric, True)
+        visualizer.plot_autor(metric, True)
+        visualizer.plot_font_colors(metric, True)
+        
+    visualizer.plot_times('processing_time', True)
     visualizer.plot_precision_recall_curve('handwritten', True)
     visualizer.plot_precision_recall_curve('machine', True)
+
+

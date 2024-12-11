@@ -10,9 +10,9 @@ from misc.normalizer import OCRTextNormalizer
 from misc.filehandler import FileHandler
 
 class TesseractHandler(FileHandler):
-    def __init__(self, data_path: str, logger):
+    def __init__(self, tesseract_cmd: str, data_path: str, logger):
         super().__init__(logger, data_path)
-        pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+        pytesseract.pytesseract.tesseract_cmd = tesseract_cmd
         self.__normalizer = OCRTextNormalizer()
 
     def analyze_document(self, path_to_pdf: str):
