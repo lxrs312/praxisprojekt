@@ -84,7 +84,7 @@ def aws():
 # Beispielablauf Document AI
 def google():
     data_path = os.path.join('data', 'google_cloud_document_ai')
-    client = GoogleCloudDocumentAI('googleauth.json', os.environ.get('project_id'), os.environ.get('processor_id'), data_path, logger) 
+    client = GoogleCloudDocumentAI('googleauth.json', os.environ.get('PROJECT_ID'), os.environ.get('PROCESSOR_ID'), data_path, logger) 
     time_handler = TimeHandler()
 
     for document in range(1, 11):
