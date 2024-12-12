@@ -6,9 +6,9 @@ from azure.ai.documentintelligence.models import DocumentAnalysisFeature, Analyz
 
 sys.path.append('../praxisprojekt')
 
-from misc.normalizer import OCRTextNormalizer
-from misc.filehandler import FileHandler
-from misc.timehandler import TimeHandler
+from src.misc.normalizer import OCRTextNormalizer
+from src.misc.filehandler import FileHandler
+from src.misc.timehandler import TimeHandler
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -30,7 +30,7 @@ class DocumentIntelligenceHandler(FileHandler):
         """
         with open(pathToPdf, "rb") as f:
             poller = self.__client.begin_analyze_document(
-                "prebuilt-layout",
+                "prebuilt-read",
                 analyze_request=f,
                 content_type="application/octet-stream",
             )
@@ -74,4 +74,4 @@ if __name__ == '__main__':
             client.analyze_document(pdf_path)
             processingTime = time_handler.stopTimer()
             client.save_data(document, exemplar, processingTime, 0, 0)
-            time.sleep(5)
+            time.sleep(2)

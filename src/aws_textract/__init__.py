@@ -4,8 +4,8 @@ import boto3
 
 sys.path.append('../praxisprojekt')
 
-from misc.normalizer import OCRTextNormalizer
-from misc.filehandler import FileHandler
+from src.misc.normalizer import OCRTextNormalizer
+from src.misc.filehandler import FileHandler
 
 REGION = "eu-central-1"
 

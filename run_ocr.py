@@ -8,7 +8,7 @@ from src.google_cloud_document_ai import GoogleCloudDocumentAI
 from src.misc.timehandler import TimeHandler
 from src.tesseract import TesseractHandler
 from src.misc.normalizer import OCRTextNormalizer
-from src.gpt4o import GPT4oHandler
+# from src.gpt4o import GPT4oHandler
 
 load_dotenv()
 
@@ -62,7 +62,7 @@ def azure():
             client.analyze_document(pdf_path)
             processingTime = time_handler.stopTimer()
             client.save_data(document, exemplar, processingTime, 0, 0)
-            time.sleep(5)
+            time.sleep(2)
 
 # Beispielablauf AWS
 def aws():
@@ -135,6 +135,6 @@ def tesseract():
 
 # gpt4o()
 # aws()
-# azure() 
+azure() 
 # google()
 # tesseract()

@@ -11,8 +11,8 @@ PROCESSOR_VERSION = "rc"
 
 sys.path.append('../praxisprojekt')
 
-from misc.normalizer import OCRTextNormalizer
-from misc.filehandler import FileHandler
+from src.misc.normalizer import OCRTextNormalizer
+from src.misc.filehandler import FileHandler
 
 class GoogleCloudDocumentAI(FileHandler):
     def __init__(self, auth_file_path: str, project_id: str, processor_id: str, data_path: str, logger):

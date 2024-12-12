@@ -85,7 +85,7 @@ class Visualiser:
             ax.text(i, value + value_offset, f'{value:.3f}', ha='center', fontsize=16, color='black')
 
         # Grid
-        ax.grid(color='black', linestyle='--', linewidth=0.5, alpha=0.7, zorder=2)
+        # ax.grid(color='black', linestyle='--', linewidth=0.5, alpha=0.7, zorder=2)
 
         # Save and show
         plt.tight_layout()
@@ -128,7 +128,7 @@ class Visualiser:
         ax.set_ylabel('Precision', fontsize=20, color='black', labelpad=20)
         ax.tick_params(axis='x', labelsize=16, colors='black')
         ax.tick_params(axis='y', colors='black', labelsize=16)
-        ax.grid(color='black', linestyle='--', linewidth=0.5, alpha=0.7, zorder=2)
+        # ax.grid(color='black', linestyle='--', linewidth=0.5, alpha=0.7, zorder=2)
 
         # Legend
         legend = ax.legend(fontsize=18, loc='lower right', frameon=False)
