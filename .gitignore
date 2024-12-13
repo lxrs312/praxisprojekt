@@ -165,5 +165,3 @@ cython_debug/
 googleauth.json
 
 proxy.txt
-
-gpt4o/
