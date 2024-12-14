@@ -18,7 +18,7 @@ class Visualiser:
             'tesseract': 'Tesseract',
         }
         
-        self.autor_list = ['lars', 'sarah', 'robin', 'tim', 'pascal']
+        self.autor_list = ['autor1', 'autor2', 'autor3', 'autor4', 'autor5']
         self.font_color_list = ['blau', 'schwarz']
         
         self.tool_colors = self._generate_colors('tools')
@@ -194,12 +194,12 @@ if __name__ == '__main__':
     ]
     
     for metric in metrics:
-        visualizer.plot_probabilities(metric, True)
+        #visualizer.plot_probabilities(metric, True)
         visualizer.plot_autor(metric, True)
-        visualizer.plot_font_colors(metric, True)
+        #visualizer.plot_font_colors(metric, True)
         
-    visualizer.plot_times('processing_time', True)
-    visualizer.plot_precision_recall_curve('handwritten', True)
-    visualizer.plot_precision_recall_curve('machine', True)
+    # visualizer.plot_times('processing_time', True)
+    # visualizer.plot_precision_recall_curve('handwritten', True)
+    # visualizer.plot_precision_recall_curve('machine', True)
 
 

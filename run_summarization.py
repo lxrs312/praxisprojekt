@@ -8,7 +8,7 @@ def summarize_metrics(data, data_keys_per_document, data_keys_overall, blacklist
     summarized_data = {}
     blanko_data = {}
 
-    autoren_data = {autor: {} for autor in ['lars', 'sarah', 'robin', 'tim', 'pascal']}
+    autoren_data = {autor: {} for autor in ['autor1', 'autor2', 'autor3', 'autor4', 'autor5']}
     schriftfarben_data = {farbe: {} for farbe in ['blau', 'schwarz']}
     
     for key, value in data.items():
