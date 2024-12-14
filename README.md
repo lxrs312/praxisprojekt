@@ -1,6 +1,6 @@
 # Vergleich von Optical-Character-Recognition-Services
 
-Dieses Repository wurde im Rahmen meines Praxisprojekts im letzten Semester erstellt und beschäftigt sich mit dem Vergleich verschiedener Optical-Character-Recognition (OCR)-Services. Der Schwerpunkt liegt auf der handschriftlichen Texterkennung in Dokumenten.
+Dieses Repository wurde im Rahmen meines Praxisprojekts im siebtem Semester erstellt und beschäftigt sich mit dem Vergleich verschiedener Optical-Character-Recognition (OCR)-Services. Der Schwerpunkt liegt auf der handschriftlichen Texterkennung in Dokumenten.
 
 ## Projektübersicht
 
@@ -57,8 +57,11 @@ Im scans-Ordner befindet sich eine .zip, welche alle befüllten und eingescannte
 Folgende Ressourcen wurden für das Setup der einzelnen Services genutzt:
 
 https://azure.microsoft.com/en-us/products/aiservices/ai-document-intelligence
+
 https://aws.amazon.com/de/textract/
+
 https://cloud.google.com/document-ai/
+
 https://github.com/tesseract-ocr/tesseract
 
 ## Kontakt
